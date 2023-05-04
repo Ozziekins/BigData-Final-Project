@@ -10,7 +10,7 @@ reviews = pd.read_csv("./data/review.csv")
 persons = pd.read_csv("./data/person.csv")
 q1 = pd.read_csv("./output/q1.csv")
 q2 = pd.read_csv("./output/q2.csv")
-# q3 = pd.read_csv("./output/q3.csv")
+q3 = pd.read_csv("./output/q3.csv")
 q4 = pd.read_csv("./output/q4.csv")
 q5 = pd.read_csv("./output/q5.csv")
 q6 = pd.read_csv("./output/q6.csv")
@@ -19,10 +19,10 @@ q8 = pd.read_csv("./output/q8.csv")
 q9 = pd.read_csv("./output/q9.csv")
 q10 = pd.read_csv("./output/q10.csv")
 q11 = pd.read_csv("./output/q11.csv")
-# q12 = pd.read_csv("./o    utput/q12.csv")
-# q13 = pd.read_csv("./output/q13.csv")
+q12 = pd.read_csv("./output/q12.csv")
+q13 = pd.read_csv("./output/q13.csv")
 q14 = pd.read_csv("./output/q14.csv")
-# q15 = pd.read_csv("./output/q15.csv")
+q15 = pd.read_csv("./output/q15.csv")
 
 if 'toView' not in st.session_state:
     st.session_state.toView = ''
@@ -144,6 +144,8 @@ def showMain():
         st.markdown('---')
         st.header('Descriptive Data Analysis')
         st.subheader('Data Characteristics')
+        with st.spinner("Fetching Data"):
+            time.sleep(10)
         dda = pd.DataFrame(data = [["Beers", beers.shape[0]-1, beers.shape[1]], ["Brewers", brewers.shape[0], brewers.shape[1]],  
                                          ["Reviews", reviews.shape[0], reviews.shape[1]],  ["Persons", persons.shape[0], persons.shape[1]]], 
                                          columns = ["Tables", "Features", "Instances"])
@@ -161,21 +163,29 @@ def showMain():
     elif st.session_state.toView == "Beers":
         st.markdown('---')
         st.header('Some samples from the data')
+        with st.spinner("Fetching Data"):
+            time.sleep(10)
         st.subheader('`beers` table')
         st.write(beers.head(st.session_state.headNum))
     elif st.session_state.toView == "Brewers":
         st.markdown('---')
         st.header('Some samples from the data')
+        with st.spinner("Fetching Data"):
+            time.sleep(10)
         st.subheader('`brewers` table')
         st.write(brewers.head(st.session_state.headNum))
     elif st.session_state.toView == "Reviews":
         st.markdown('---')
         st.header('Some samples from the data')
+        with st.spinner("Fetching Data"):
+            time.sleep(10)
         st.subheader('`reviews` table')
         st.write(reviews.head(st.session_state.headNum))
     elif st.session_state.toView == "Persons":
         st.markdown('---')
         st.header('Some samples from the data')
+        with st.spinner("Fetching Data"):
+            time.sleep(10)
         st.subheader('`persons` table')
         st.write(persons.head(st.session_state.headNum))
 
@@ -183,21 +193,44 @@ def showMain():
         st.markdown('---')
         st.header("Exploratory Data Analysis")
         st.subheader('Q1')
+        with st.spinner("Fetching Data"):
+            time.sleep(10)
         st.text('The number of beers for top 10 brewers')
         st.bar_chart(data=q1, x=' Brewery name')
         st.write(q1)
     elif st.session_state.toView == "Query 2":
+        st.markdown('---')
+        st.header("Exploratory Data Analysis")
         st.subheader('Q2')
+        with st.spinner("Fetching Data"):
+            time.sleep(10)
         st.text('The number of brewers that produced only 1 beer')
         st.table(q2)
         st.bar_chart(q2)
+    elif st.session_state.toView == "Query 3":
+        st.markdown('---')
+        st.header("Exploratory Data Analysis")
+        st.subheader('Q3')
+        with st.spinner("Fetching Data"):
+            time.sleep(10)
+        st.text('The beers that have above average overall review')
+        st.line_chart(data=q3, x=' Beer name', y=' Average review')
+        st.write(q3)
     elif st.session_state.toView == "Query 4":
+        st.markdown('---')
+        st.header("Exploratory Data Analysis")
         st.subheader('Q4')
+        with st.spinner("Fetching Data"):
+            time.sleep(10)
         st.text('The beers that have the least abv')
         st.bar_chart(data=q4, x=' Beer name', y=' Beer abv')
         st.write(q4)
     elif st.session_state.toView == "Query 5":
-        st.subheader('Q4')
+        st.markdown('---')
+        st.header("Exploratory Data Analysis")
+        st.subheader('Q5')
+        with st.spinner("Fetching Data"):
+            time.sleep(10)
         st.text('The beers that have the highest abv')
         st.bar_chart(data=q5, x=' Beer name', y=' Beer abv')
         st.write(q5)

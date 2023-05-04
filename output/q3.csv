@@ -254,7 +254,7 @@ Beer id, Beer name, Average review
 296,Jinx,4.177725118483412
 297,Heart Of Darkness,4.22
 298,Blind Faith,4.1872727272727275
-299,#9,4.218500797448166
+299,"#9",4.218500797448166
 300,Miss Bliss,4.5
 301,Black Pearl Cream Ale,4.25
 303,King's Honey Amber Ale,4.0
@@ -311,7 +311,7 @@ Beer id, Beer name, Average review
 364,Half-E-Weizen,4.2368421052631575
 365,Honey Cream Ale,4.169811320754717
 366,Rockies Fall Fest Amber Ale,4.068181818181818
-367,Boulder, Extra Pale Ale,4.2
+367,"Boulder, Extra Pale Ale",4.2
 368,Nor'easter Stout,4.125
 369,Schooner Point Lager,4.0
 370,Tucher Dunkles Hefe Weizen,4.17
@@ -396,7 +396,7 @@ Beer id, Beer name, Average review
 457,Sunday River Alt Beer,4.166666666666667
 458,Veltins Pilsner,4.1461538461538465
 459,Fred,4.2353515625
-460,#29 Spawn Of Adam Bier,4.0
+460,"#29 Spawn Of Adam Bier",4.0
 461,MacTarnahan's Amber Ale,4.114864864864865
 462,Summer Pale Ale,4.0
 463,Oregon Honey Beer,4.181818181818182
@@ -479,7 +479,7 @@ Beer id, Beer name, Average review
 569,Würzburger Oktoberfest,4.384615384615385
 570,Brooklyn Oktoberfest Beer,4.193181818181818
 571,Samuel Smith's Oatmeal Stout,4.400284090909091
-572,Samuel Smith's, The Famous Taddy Porter,4.371676891615542
+572,"Samuel Smith's, The Famous Taddy Porter",4.371676891615542
 573,Samuel Smith's India Ale,4.2234251968503935
 574,Samuel Smith's Pure Brewed Lager Beer,4.282296650717703
 575,Samuel Smith's Old Brewery Pale Ale,4.239039665970773
@@ -639,7 +639,7 @@ Beer id, Beer name, Average review
 751,Sweetwater 420 Extra Pale Ale,4.19533527696793
 752,Guinness Foreign Extra Stout,4.260989010989011
 754,Guinness Draught,4.326359832635983
-755,Carnegie Porter 5,5%,4.3538461538461535
+755,"Carnegie Porter 5,5%",4.3538461538461535
 756,Rollstone Red Ale,4.222222222222222
 757,Patriot Pilsner,4.125
 758,Boston Victory Bock,4.0
@@ -1889,7 +1889,7 @@ Beer id, Beer name, Average review
 2364,Leinenkugel's Bock,4.166666666666667
 2367,Troutbrook Nut Brown Ale,4.0
 2368,Smuttynose Scotch Style Ale (Big Beer Series),4.236024844720497
-2369,"Shabadoo" Black & Tan Ale,4.206896551724138
+2369,"""Shabadoo"" Black & Tan Ale",4.206896551724138
 2370,River Ale,4.1838235294117645
 2374,Single Chair Ale,4.181818181818182
 2375,Mardi Gras,4.125
@@ -2020,7 +2020,7 @@ Beer id, Beer name, Average review
 2540,Bombay Bomber India Pale Ale,4.214285714285714
 2541,Steelhead Brewing Amber Ale,4.166666666666667
 2542,Pampanito Porter,4.0
-2543,"Old Yeltsin" Imperial Stout,4.216216216216216
+2543,"""Old Yeltsin"" Imperial Stout",4.216216216216216
 2544,ZiegenBock Amber,4.083333333333333
 2546,Saxer JackFrost Winter Doppelbock,4.1
 2547,Northampton Pale Ale,4.0
@@ -2454,7 +2454,7 @@ Beer id, Beer name, Average review
 3102,Panama Limited Red Ale,4.26
 3104,Iron Horse Stout,4.142857142857143
 3108,Honey Act Your Sage Triple,4.5
-3109,Belgian White "Le Chien Blanc",4.5
+3109,"Belgian White ""Le Chien Blanc""",4.5
 3110,Imperial Eclipse Stout,4.6
 3111,Kilt Kicker Wee Heavy,4.0
 3114,Todd & Jeff's Excellent IPA,4.5
@@ -2631,7 +2631,7 @@ Beer id, Beer name, Average review
 3370,Tennent's Velvet,4.071428571428571
 3371,Utica Club Light,4.0
 3372,LaCrosse Light,4.214285714285714
-3373,5,000 Year Ale,4.25
+3373,"5,000 Year Ale",4.25
 3375,Chief BlackHawk Porter,4.237288135593221
 3377,Troutbrook IPA,4.25
 3378,Brador,4.25
@@ -3403,7 +3403,7 @@ Beer id, Beer name, Average review
 4531,St. Martin Dunkler Doppelbock,4.3
 4533,Monkey Face Porter,4.066666666666666
 4534,Rooster Tail Ale,4.214285714285714
-4536,20" Brown,4.15
+4536,"20"" Brown",4.15
 4538,Cascade Lakes IPA,4.166666666666667
 4539,Grizzly Mountain Stout,5.0
 4541,Kick-Ass Brown,4.467741935483871
@@ -3428,7 +3428,7 @@ Beer id, Beer name, Average review
 4567,80 Shilling Scottish Ale,4.125
 4568,Southampton West Coast Steam Beer,4.375
 4569,Brakspear Vintage Ale 1999,4.5
-4570,CBC E.S.B. "dank Nugs",4.166666666666667
+4570,"CBC E.S.B. ""dank Nugs""",4.166666666666667
 4571,Hoppy Hour IPA,4.343373493975903
 4572,Sara's Ruby Mild,4.285714285714286
 4573,Prescription Pale,4.25
@@ -4278,7 +4278,7 @@ Beer id, Beer name, Average review
 5718,Jack Stout,4.159090909090909
 5719,Old Milwaukee Non Alcoholic,4.214285714285714
 5720,Millstream Pilsner Beer,4.266666666666667
-5721,Hefe "R" Weissen,4.111111111111111
+5721,"Hefe ""R"" Weissen",4.111111111111111
 5722,New World Porter,4.2105263157894735
 5723,Maifest,4.229166666666667
 5724,Gulpener Gladiator Robuust Bier,4.0
@@ -4310,7 +4310,7 @@ Beer id, Beer name, Average review
 5753,Fire Rock Pale Ale,4.144329896907217
 5754,SummerBright Ale,4.104651162790698
 5755,Dr. Hops Pale Ale,4.0
-5756,"The Wind Cried Mari..." Scottish Heather Ale,4.205882352941177
+5756,"""The Wind Cried Mari..."" Scottish Heather Ale",4.205882352941177
 5757,Leinenkugel's Oktoberfest,4.096385542168675
 5758,Oktoberfest Lager Beer,4.104651162790698
 5759,Wild Turkey Barrel Conditioned Stout,4.2
@@ -5084,7 +5084,7 @@ Beer id, Beer name, Average review
 6836,Hefe Doppelweizen,4.071428571428571
 6837,Albion Amber,4.25
 6838,New Holland Cherry Ale,4.25
-6839,"The Mountain" Ale,4.5
+6839,"""The Mountain"" Ale",4.5
 6840,India Pale Ale,4.0
 6841,St-Ambroise Scotch Ale,4.1875
 6842,Belgian Dubbel,4.0
@@ -5581,7 +5581,7 @@ Beer id, Beer name, Average review
 7575,White Christmas White Ale,4.333333333333333
 7576,Tsar's Imperial Stout,4.25
 7577,Hoppy Holidays,4.269230769230769
-7578,Carolus, Der Starke,4.416666666666667
+7578,"Carolus, Der Starke",4.416666666666667
 7579,Kurli Blond Ale,4.0
 7581,Hurricane Hefe Weizen,4.0
 7582,Durham Signature Ale,4.15625
@@ -5603,7 +5603,7 @@ Beer id, Beer name, Average review
 7605,McIlhenney's Irish Red,4.24
 7606,Arbor Brewing Phat Abbot Belgian Dubbel,4.1
 7607,Arbor Brewing Triple Stone Extra Special Bitter,4.1
-7608,"Marnie" Gras Carnival Ale,4.0
+7608,"""Marnie"" Gras Carnival Ale",4.0
 7609,Chang Beer (Domestic),4.222222222222222
 7610,Wild West Hefeweizen Wheat Beer,4.0
 7611,Alt Bier,4.0
@@ -5655,7 +5655,7 @@ Beer id, Beer name, Average review
 7682,Primus,4.5
 7684,Williamsburg Wheat Ale,4.0
 7685,Kirin Ichiban Maribana,4.5
-7686,Kirin Kobe Beer, Bock Type Beer,4.0
+7686,"Kirin Kobe Beer, Bock Type Beer",4.0
 7687,Hopgarden Pale Ale,4.409090909090909
 7690,Zebulon's Peated Porter,4.2727272727272725
 7692,Dom Kölsch,4.3
@@ -5755,7 +5755,7 @@ Beer id, Beer name, Average review
 7816,Lahko Lasko,4.0
 7817,Wilkenburger Royal,4.5
 7818,German Alt,4.0
-7819,The Rod "winter" Stout,4.5
+7819,"The Rod ""winter"" Stout",4.5
 7820,Ichtegems Ale (Oud Bruin),4.233333333333333
 7821,Pumpviken Påsköl,4.055555555555555
 7822,Winter Keller,4.0
@@ -5846,7 +5846,7 @@ Beer id, Beer name, Average review
 7953,Trail Ridge Red,4.25
 7954,Teikoku IPA,4.222222222222222
 7955,Kurofune Porter,4.105263157894737
-7958,Heritage, West County Ale,4.0
+7958,"Heritage, West County Ale",4.0
 7959,Big Horn Texas Blonde,4.0
 7960,Electra Lite,4.5
 7961,Breckenridge Mountain Wheat,4.0
@@ -5979,7 +5979,7 @@ Beer id, Beer name, Average review
 8160,Sergeant's IPA,4.352941176470588
 8161,Horseshoe Ale,4.0
 8165,Braggot,4.5
-8166,"The Bridge" Nut-Brown Ale,4.0
+8166,"""The Bridge"" Nut-Brown Ale",4.0
 8167,Belgian Whitecap,4.125
 8168,Scottish Ale,4.5
 8169,Sierra Nevada Best Bitter Ale,4.411764705882353
@@ -6148,7 +6148,7 @@ Beer id, Beer name, Average review
 8393,Monte Carlo Scotch Ale,4.0
 8397,Mid-Winter Ale,4.0
 8398,Blueberry Lager,4.0
-8400,#1073 Prairie Stout,4.0
+8400,"#1073 Prairie Stout",4.0
 8401,Premium,4.5
 8402,Spinnakers Nut Brown Ale,4.166666666666667
 8403,Schlafly India Pale Ale,4.142857142857143
@@ -6239,7 +6239,7 @@ Beer id, Beer name, Average review
 8546,Ceremony Tatanka IPA,4.357142857142857
 8547,Golden Ale,5.0
 8548,Sunday River Lager,4.333333333333333
-8550,7 "C's" American Pale Ale,4.2
+8550,"7 ""C's"" American Pale Ale",4.2
 8551,Cascade Mountain Porter,4.428571428571429
 8552,Belgian Tripel,4.214285714285714
 8553,Fliegerweisse,5.0
@@ -6288,7 +6288,7 @@ Beer id, Beer name, Average review
 8617,Carling Black Label,4.3
 8618,Hellas Pils,4.0
 8619,Southampton Nut Brown Ale,4.5
-8620,Ramée Blonde (for Bibco, Ternat),4.115384615384615
+8620,"Ramée Blonde (for Bibco, Ternat)",4.115384615384615
 8621,The Siberian Express,4.285714285714286
 8622,Franklinstein Barleywine,4.0
 8624,Old Godfather Barley Wine-Style Ale,4.171052631578948
@@ -6361,14 +6361,14 @@ Beer id, Beer name, Average review
 8722,Kolsch,4.0
 8723,Strong Ale,4.0
 8724,Prohibition Porter,4.0
-8725,Johnny "Blood" McNally Red Ale,4.388888888888889
+8725,"Johnny ""Blood"" McNally Red Ale",4.388888888888889
 8726,400 Honey Ale,4.0
 8727,Unertl Weissbier,4.2272727272727275
 8728,Wells Premium Lager,4.0
 8729,Éphémère (Peach),4.076923076923077
 8730,Éphémère (Cranberry),4.214285714285714
 8731,Texas Crude Bock,4.5
-8732,"Naughty Scot" Scotch Ale,4.0
+8732,"""Naughty Scot"" Scotch Ale",4.0
 8734,Cheat Mountain Gold,4.0
 8736,Eisbock,4.8
 8738,Shoshone Stout,4.25
@@ -6413,7 +6413,7 @@ Beer id, Beer name, Average review
 8790,Tavern Ale,4.130434782608695
 8791,Heaven,4.1
 8792,Julöl,4.25
-8793,Påsköl (-2007, 2010-),4.0
+8793,"Påsköl (-2007, 2010-)",4.0
 8794,Pilgrim,4.0625
 8795,Mt Macedon Ale,4.0
 8796,Holgate Brewhouse White Ale,4.2
@@ -6497,7 +6497,7 @@ Beer id, Beer name, Average review
 8923,Barking Fish Porter,4.0
 8924,E.S.B.,4.0
 8925,Färsköl,4.5
-8926,Spendrups Old Gold 5,0,4.0
+8926,"Spendrups Old Gold 5,0",4.0
 8928,Berliner Bürgerbräu Helles Bock,4.0
 8929,Abbey Roade,4.125
 8931,Procrastinator,4.0
@@ -6646,8 +6646,8 @@ Beer id, Beer name, Average review
 9142,Serafijn Tripel,4.166666666666667
 9146,Landsort Lager,4.1
 9147,Aneytown Pale Ale,4.0
-9148,Åbro Bryggmästarens Bästa Pilsner 5,0%,4.0
-9149,Åbro Original Starköl 5,2%,4.0
+9148,"Åbro Bryggmästarens Bästa Pilsner 5,0%",4.0
+9149,"Åbro Original Starköl 5,2%",4.0
 9150,Blonde,4.0
 9151,Brown,4.0
 9154,Mom's Raspberry,4.25
@@ -6760,7 +6760,7 @@ Beer id, Beer name, Average review
 9337,Marzen,4.25
 9339,Ol' Dread,4.0
 9340,Red Sock Bock,4.0
-9341,Ramée Ambrée (for Bibco, Ternat),4.0
+9341,"Ramée Ambrée (for Bibco, Ternat)",4.0
 9342,Brunehaut Blanche,4.125
 9344,Brunehaut Tradition Ambrée,4.0
 9345,Brunehaut Blonde,4.0
@@ -7099,7 +7099,7 @@ Beer id, Beer name, Average review
 9853,Nut Brown,4.0
 9854,Blonde Biologique,4.0
 9855,Pale Ale,4.5
-9856,Auerhahn-Bräu Urhahn, Helles Alt,4.5
+9856,"Auerhahn-Bräu Urhahn, Helles Alt",4.5
 9858,City Steam Innocence Ale (IPA),4.25
 9860,Löwen Weisse,4.111111111111111
 9861,Unertl Ursud,4.375
@@ -7191,7 +7191,7 @@ Beer id, Beer name, Average review
 10001,Benevolence,4.333333333333333
 10002,Harpoon Oatmeal Stout (100 Barrel Series #01),4.322222222222222
 10003,North By Northwest Bock,4.25
-10005,Belgian-Style "White" Beer,4.333333333333333
+10005,"Belgian-Style ""White"" Beer",4.333333333333333
 10006,North By Northwest Northern Light,4.5
 10007,North By Northwest Okanogan Black Ale,4.2
 10008,Ball Park Maibock,4.0
@@ -7934,7 +7934,7 @@ Beer id, Beer name, Average review
 11426,Certified Organic Porter,4.166666666666667
 11428,Barnstormer Pale Ale,4.045454545454546
 11429,Piet Van Dyck White,4.5
-11430,Patch Porter, The,4.0
+11430,"Patch Porter, The",4.0
 11431,Sweet Magnolia American Brown Ale,4.125
 11432,Iron Horse Stout,4.166666666666667
 11433,Schroeder Weiss,4.0
@@ -7979,7 +7979,7 @@ Beer id, Beer name, Average review
 11496,Emerald Bay Pale Ale,4.5
 11498,BJ's Brewhouse Blonde,4.0
 11500,Mandarin Hefeweizen,4.125
-11502,Big, But Blond Ale,5.0
+11502,"Big, But Blond Ale",5.0
 11505,Hofbräu Delikator,4.5
 11511,Queen Victoria's Secret IPA,4.0
 11513,Black Rabbit Porter,4.214285714285714
@@ -8013,7 +8013,7 @@ Beer id, Beer name, Average review
 11564,Amber Ale,4.0
 11565,IPA,4.218181818181818
 11566,Stout,4.333333333333333
-11567,Falcon Julbrygd 5,2%,4.0
+11567,"Falcon Julbrygd 5,2%",4.0
 11568,Jameson's Scottish Ale,4.333333333333333
 11569,Pilsener,4.214285714285714
 11571,Weihenstephaner Hefeweissbier Leicht,4.0
@@ -8129,7 +8129,7 @@ Beer id, Beer name, Average review
 11833,Prairie Berry Ale,4.0
 11836,India Pale Ale,4.0
 11837,O'Leary's Irish Red,4.0
-11838,Burghead "Pict" Heather Ale,4.0
+11838,"Burghead ""Pict"" Heather Ale",4.0
 11839,Thermidor,4.5
 11840,Stiegl Gaudi Radler Shandy (Lemon),4.265625
 11841,Knuckleball Bock,4.130434782608695
@@ -8565,7 +8565,7 @@ Beer id, Beer name, Average review
 12599,Weihenstephaner Pilsner,4.25
 12601,Pocono Pale Ale,4.125
 12602,Trappist Pale Ale,4.454545454545454
-12606,Select "69" Lager,4.5
+12606,"Select ""69"" Lager",4.5
 12607,Moore's Select Oktoberfest,4.0
 12608,Abbaye De Floreffe Prima Melior,4.125
 12609,Schans Winterbier,4.0
@@ -8608,8 +8608,8 @@ Beer id, Beer name, Average review
 12677,Uber Dunkelweisse,4.25
 12678,Gösser,4.166666666666667
 12679,Trumer Pils,4.378612716763006
-12680,Krauterbier, Lemongrass,4.0
-12681,Krauterbier, Nettle,4.0
+12680,"Krauterbier, Lemongrass",4.0
+12681,"Krauterbier, Nettle",4.0
 12683,Amarillo Pale Ale,4.5
 12685,Kommodori,4.0
 12686,Laivuri,4.0
@@ -8730,7 +8730,7 @@ Beer id, Beer name, Average review
 12879,River Driver Ale,4.5
 12880,Peanut Butter Porter,4.0
 12881,Eskes Taos Green Chile Beer,4.125
-12882,Hops Haven Triple "H" Hefeweizen,4.25
+12882,"Hops Haven Triple ""H"" Hefeweizen",4.25
 12883,Hops Haven Black Cherry Porter,4.0
 12884,Edgar Lager,4.4
 12887,Belgian Trippel,4.5
@@ -8878,7 +8878,7 @@ Beer id, Beer name, Average review
 13145,Gilden Kölsch,4.5
 13146,Chocolate Porter,4.3
 13150,Northern Mild Brown Ale,5.0
-13151,La Vieille Salme (for Detrembleur, Grand Halleux),4.25
+13151,"La Vieille Salme (for Detrembleur, Grand Halleux)",4.25
 13152,La Binchoise Bière Des Ours (Berenbier),4.25
 13153,La Binchoise Flora  Bière De Printemps,4.0
 13154,Kastaar,4.178571428571429
@@ -9197,7 +9197,7 @@ Beer id, Beer name, Average review
 13668,Cabernet Stout,4.75
 13669,Schwartzwalder Pils,4.25
 13670,Old Yale Pale Ale,4.166666666666667
-13671,Zeppelin (for Den Ouden Advokaat, St.Pauwels),4.2
+13671,"Zeppelin (for Den Ouden Advokaat, St.Pauwels)",4.2
 13673,Smoked Lager,4.0
 13674,Black Forest Weizen Bock,4.0
 13675,April Showers Spring Wheat,4.0
@@ -9841,7 +9841,7 @@ Beer id, Beer name, Average review
 14778,Wonkey Donkey,4.0
 14779,S.B.C. Winter Special (Xmas Ale),4.0
 14780,Centennial Pale Ale,4.533333333333333
-14781,Holiday "Cheery" Stout,4.4
+14781,"Holiday ""Cheery"" Stout",4.4
 14783,Dick's IPA,4.235294117647059
 14784,Black Forest Altbier,4.5
 14785,Anniversary Cherry Ale,4.5
@@ -10136,7 +10136,7 @@ Beer id, Beer name, Average review
 15307,Mariken,4.25
 15314,Belgian Grand Reserve,4.375
 15315,Spiney Norman IPA,4.0
-15317,Ya Ya Bayou, Bourbon Street Brown,4.5
+15317,"Ya Ya Bayou, Bourbon Street Brown",4.5
 15318,Wassail Ale,4.0
 15319,Cerveza De Santa Rosa Chile Ale,4.0
 15320,Munich Dunkel,4.5
@@ -10530,7 +10530,7 @@ Beer id, Beer name, Average review
 15979,Cascade Special Stout,4.0
 15981,Leavenworth Ingalls Extra Special Bitter,4.5
 15983,Imperial Stout,4.083333333333333
-15989,Heavy Seas - Winter Storm ("Category 5" Ale),4.178343949044586
+15989,"Heavy Seas - Winter Storm (""Category 5"" Ale)",4.178343949044586
 15990,Holsten Black Knight,4.0
 15991,Rosengasse Bier Olten Dinkel,4.0
 15992,Feldschlosschen Dunkel Perle,4.75
@@ -10574,7 +10574,7 @@ Beer id, Beer name, Average review
 16044,Coal Porter,4.5
 16045,Irvington Juniper Porter,4.0
 16046,Black Bear XX Stout,4.254716981132075
-16047,"Old School" Craft Cream Ale,4.0
+16047,"""Old School"" Craft Cream Ale",4.0
 16048,Wasco Indian Summer Ale (ISA),4.0
 16049,Aspen Edge,4.25
 16050,Anniversary Ale,4.25
@@ -10760,7 +10760,7 @@ Beer id, Beer name, Average review
 16400,AleSmith Wee Heavy,4.277586206896552
 16401,Runnings Bitter,4.25
 16402,Rebecca's Revenge,4.333333333333333
-16403,Smuttynose IPA "Finest Kind",4.3386568386568385
+16403,"Smuttynose IPA ""Finest Kind""",4.3386568386568385
 16404,Kuhnhenn Bourbon Barrel Russian Imperial Stout,4.25
 16405,Sac-Squatch Scotch Ale,4.0
 16406,Grolsch Herfstbok,4.083333333333333
@@ -10864,7 +10864,7 @@ Beer id, Beer name, Average review
 16569,Doppel Jabi,4.0
 16570,Scotch Ale,4.0
 16572,Hawkshead Bitter,4.0
-16575,"Great Satchmo" Stout,4.0
+16575,"""Great Satchmo"" Stout",4.0
 16576,Pilsener,4.166666666666667
 16577,Marzen,4.5
 16578,Funky Monk Ale,4.2
@@ -11296,7 +11296,7 @@ Beer id, Beer name, Average review
 17251,Black Cherry Stout,4.1875
 17252,April Fuel,4.0
 17253,Kamukamu Pilsener,4.5
-17258,El "Jefe" Hefeweizen,4.0
+17258,"El ""Jefe"" Hefeweizen",4.0
 17260,Walking Stick Stout,4.384615384615385
 17261,Ramblin' Raspberry,4.625
 17262,Mary Jane Strong Ale,4.166666666666667
@@ -11331,7 +11331,7 @@ Beer id, Beer name, Average review
 17292,India Pale Ale,4.1875
 17293,Industrial Park Ale,4.194444444444445
 17294,Paradise Pale Ale,4.0
-17295,La Malagne (for Archaeopark, Rochefort),4.5
+17295,"La Malagne (for Archaeopark, Rochefort)",4.5
 17296,Gylltur,4.0
 17298,Redor Pils,4.0
 17299,Nitro Porter,4.416666666666667
@@ -11592,8 +11592,8 @@ Beer id, Beer name, Average review
 17688,The Brewery's #10 Ale,4.0
 17689,Tilt Pale Ale,4.0
 17691,Dikke Mathile,4.1
-17692,Pee Klak Moorsels Bier (for Pee Klak, Gijzejem),4.0
-17693,Hoeve Bier (for Pee Klak, Gijzejem),4.0
+17692,"Pee Klak Moorsels Bier (for Pee Klak, Gijzejem)",4.0
+17693,"Hoeve Bier (for Pee Klak, Gijzejem)",4.0
 17696,Maybock,4.0
 17697,Dusseldorf Altbier,4.2
 17698,Lake Crystal Hefe Weizen,4.5
@@ -11791,7 +11791,7 @@ Beer id, Beer name, Average review
 18008,Sir Walter Raleigh,4.25
 18010,Murauer Märzen,4.0
 18014,Hop Juice Double IPA,4.26
-18015,"Double Wrecked Wreck" IPA,4.5
+18015,"""Double Wrecked Wreck"" IPA",4.5
 18016,Prodigy Porter,4.25
 18018,Champignon Ale,4.0
 18019,Mugibiori,4.0
@@ -12281,7 +12281,7 @@ Beer id, Beer name, Average review
 18901,Keyte Ostêns Belegeringsbier,4.0
 18903,Ferdinand Tmavy Lezak,4.0
 18904,Farmhouse Special Reserve,4.166666666666667
-18905,De Dolle "21",4.0
+18905,"De Dolle ""21""",4.0
 18906,De Dolle Zannekin,4.0
 18907,Sirius Summer Wheat Ale,4.0
 18909,Samuel Adams Dark Wheat,4.25
@@ -12682,7 +12682,7 @@ Beer id, Beer name, Average review
 19645,John Q. Porter,4.0
 19650,Little Creatures Pilsener,4.0
 19651,Dogtoberfest,4.132882882882883
-19652,Falcon Ale 3,5%,4.0
+19652,"Falcon Ale 3,5%",4.0
 19653,City Of Stirling Ale 80 Shilling,4.0
 19654,Oatmeal Stout,4.0
 19655,Zlatopramen Extra Premium,4.0
@@ -12719,7 +12719,7 @@ Beer id, Beer name, Average review
 19729,Big Rock Norm's Raggedy Ass Pale Ale,4.5
 19730,Big Rock Norm's Flying Buffalo Stout,4.0
 19734,Bastone Wit,4.25
-19735,Åbro Bryggmästarens Veteöl 3,5%,4.0
+19735,"Åbro Bryggmästarens Veteöl 3,5%",4.0
 19736,Duck-Rabbit Porter,4.1635071090047395
 19737,Cherry Stout,4.5
 19739,Kuhnhenn Stout,4.0
@@ -13048,7 +13048,7 @@ Beer id, Beer name, Average review
 20288,Bond Street Brown,4.277777777777778
 20289,Oktoberfest,4.0
 20290,Bitter,4.5
-20291,Kick'n Chick'n Oatmeal Stout, Bourbon Barrel Aged,5.0
+20291,"Kick'n Chick'n Oatmeal Stout, Bourbon Barrel Aged",5.0
 20298,Witte Trappist,4.214285714285714
 20299,La Trappe Bockbier,4.184210526315789
 20301,Brown's Pumpkin Ale,4.0
@@ -13064,7 +13064,7 @@ Beer id, Beer name, Average review
 20315,Left Coast Hoppinfresh Harvest Ale,4.0
 20316,Barley's Pint O' Joe Porter,4.375
 20317,Snowplow Milk Stout,4.1875
-20318,"O!" Gold,4.0
+20318,"""O!"" Gold",4.0
 20321,Java Triple,4.0
 20323,Train Ryed,4.5
 20326,Pilsen,5.0
@@ -13189,7 +13189,7 @@ Beer id, Beer name, Average review
 20521,Blarney Sisters Dry Irish Stout,4.6875
 20522,Cancun,4.0
 20523,Oktoberfest Marzen,4.5
-20524,Luciérnaga, The Firefly,4.257201646090535
+20524,"Luciérnaga, The Firefly",4.257201646090535
 20525,Ballot Brown Ale,4.5
 20526,Oatmeal Stout,4.1
 20527,El Toro Peach Flavored Ale,4.0
@@ -13226,7 +13226,7 @@ Beer id, Beer name, Average review
 20578,Czar Jack Imperial Stout,4.478070175438597
 20579,Altbier,4.4
 20580,Unser Bier Weizen,4.0
-20581,Seven, The ESB,4.5
+20581,"Seven, The ESB",4.5
 20582,Budels Honey,4.0
 20584,Oktoberfest,5.0
 20585,BruRm Empress 1868 Porter,4.333333333333333
@@ -13338,7 +13338,7 @@ Beer id, Beer name, Average review
 20733,Omaha Best Pilsner,4.0
 20734,Wet Sand (aka Harvest),4.0
 20735,Bulldog Blonde,4.333333333333333
-20736,Harpoon 3B (Barrel-Aged, Belgian, Bitter),4.0
+20736,"Harpoon 3B (Barrel-Aged, Belgian, Bitter)",4.0
 20737,Imperial IPA,4.0
 20738,American Pale Ale,4.2
 20739,Three Sheets,4.0
@@ -13406,7 +13406,7 @@ Beer id, Beer name, Average review
 20815,Winter Warmer,4.119047619047619
 20817,Lawnmower Lager,4.357142857142857
 20818,Old Growth Imperial Stout,4.3
-20819,"50" Golden Anniversary Lager,4.0
+20819,"""50"" Golden Anniversary Lager",4.0
 20823,Big Al,4.125
 20824,Saison Del Sol,4.25
 20825,Pshenichnye Etalon,4.166666666666667
@@ -13476,7 +13476,7 @@ Beer id, Beer name, Average review
 20919,Tatra,4.181818181818182
 20921,Kuhnhenn American Imperial Stout,4.375
 20923,Arcobräu Urfass Premium Hell,4.125
-20925,Spendrups Julbrygd 5,3,4.0
+20925,"Spendrups Julbrygd 5,3",4.0
 20927,Barley's Christmas Ale,4.4
 20928,Newport Storm - Alyssa (Cyclone Series),4.111111111111111
 20929,Twist Of Fate Bitter Ale,4.407894736842105
@@ -13753,7 +13753,7 @@ Beer id, Beer name, Average review
 21341,Festival Vienna,4.0
 21342,Anniversary IPA 2004,4.0
 21343,Sled Wrecker,4.125
-21345,Stockholm Fine Festival Beer 7,2%,4.0
+21345,"Stockholm Fine Festival Beer 7,2%",4.0
 21347,VS-55,4.0
 21348,Angel Inn Bitter,4.0
 21349,Grindstone Gold,4.0
@@ -14127,9 +14127,9 @@ Beer id, Beer name, Average review
 21929,Hofbräu Kristall Weisse,4.5
 21930,Narren,4.166666666666667
 21931,Mora Blond Ale,4.0
-21933,Spendrups Old Gold Pils 3,5,4.0
-21939,Åbro Kung 5,2%,5.0
-21944,Åbro Småland 5,2%,4.0
+21933,"Spendrups Old Gold Pils 3,5",4.0
+21939,"Åbro Kung 5,2%",5.0
+21944,"Åbro Småland 5,2%",4.0
 21950,Terrapin Coffee Oatmeal Imperial Stout,4.313137755102041
 21954,Swiss Mountain,4.0
 21955,Loon Golden Ale,4.108695652173913
@@ -14154,7 +14154,7 @@ Beer id, Beer name, Average review
 22001,Mom's Elderberry Stout,4.166666666666667
 22002,Winter Warmer,4.0
 22003,Arthur's Best Bitter,4.4
-22012,Spendrups Mariestads 7,2,4.0
+22012,"Spendrups Mariestads 7,2",4.0
 22015,Crazy Ivans Imperial Stout,4.0
 22016,A Over T (Aromas Over Tongham),4.333333333333333
 22017,Dopplebock,4.1
@@ -14185,7 +14185,7 @@ Beer id, Beer name, Average review
 22057,Jasper Murdock's Private Stock '02,4.5
 22063,Falcon Export,4.25
 22070,Pripps Blå Export,4.5
-22071,Pripps Blå 3,5%,4.5
+22071,"Pripps Blå 3,5%",4.5
 22072,Pripps Blå Extra Stark,5.0
 22076,Gordon Biersch Dunkels,4.138888888888889
 22077,Wisby Hansapils,4.25
@@ -14340,7 +14340,7 @@ Beer id, Beer name, Average review
 22356,Altenburger Premium,4.25
 22357,Smuttynose Summer Weizen,4.153225806451613
 22358,Xan Hefe Weissbier,4.0
-22359,DAB 3,5%,4.75
+22359,"DAB 3,5%",4.75
 22360,Cask Conditioned Milk Stout,4.0
 22361,Christian Moerlein Doppelbock,4.166666666666667
 22363,XB Bluebird Bitter,4.204545454545454
@@ -15426,7 +15426,7 @@ Beer id, Beer name, Average review
 24247,Ettaler Weißbier Dunkel,4.0
 24248,Shylock Maibock,4.0
 24249,Special Dark,4.0
-24250,Dark Beer "Mart" (Maptobckoe),4.5
+24250,"Dark Beer ""Mart"" (Maptobckoe)",4.5
 24252,Noble Experiment (Part 2),4.333333333333333
 24253,Sticke Alt,4.333333333333333
 24254,Debowe Mocne,4.0
@@ -15708,7 +15708,7 @@ Beer id, Beer name, Average review
 24692,Firehouse Red,4.5
 24693,Bush De Noël Premium,4.366666666666666
 24695,Rathaus Weizen,4.0
-24699,Olvi Sandels 4,7%,4.0
+24699,"Olvi Sandels 4,7%",4.0
 24711,Hartwall Suklaa Porter,4.0
 24718,Rebellion,4.166666666666667
 24720,Blue Label Ale,4.333333333333333
@@ -15718,7 +15718,7 @@ Beer id, Beer name, Average review
 24724,Dr Tim's Traditional Ale,5.0
 24727,Dačický (Kutnohorský Světlý Leák),4.0
 24729,Schwarzbier,4.5
-24730,Åbro Original Mellanöl 4,3%,4.0
+24730,"Åbro Original Mellanöl 4,3%",4.0
 24732,Yorkshire Brown Ale,4.5
 24733,Something Steamy Red Lager,5.0
 24736,Legacy IPA,4.285714285714286
@@ -15942,7 +15942,7 @@ Beer id, Beer name, Average review
 25101,Farmer Ted's Cream Ale,4.0
 25103,Imperial Brown Ale,4.333333333333333
 25105,Ballingarry Stout,4.25
-25108,"Cellar Reserve" Triple Gold,4.0
+25108,"""Cellar Reserve"" Triple Gold",4.0
 25109,Piglet Purgatory,4.25
 25111,Harpoon Saison,4.5
 25112,Harpoon Framboise (100 Barrel Series #11),4.095238095238095
@@ -16168,7 +16168,7 @@ Beer id, Beer name, Average review
 25477,Patio Lager,4.0
 25479,Blanca Lager,4.0
 25485,Frydenlund Bokkøl,4.0
-25489,# 100,4.195783132530121
+25489,"# 100",4.195783132530121
 25492,Rauchbier,4.333333333333333
 25493,Dunkelweizen,4.5
 25494,Brown Dog Ale,4.0
@@ -16213,7 +16213,7 @@ Beer id, Beer name, Average review
 25564,Weizen Porter,4.0
 25567,Friar's Fancy,4.5
 25569,Charlie's Porter,4.25
-25570,"4" Horse Oatmeal Stout,4.0
+25570,"""4"" Horse Oatmeal Stout",4.0
 25573,Edwin Tuckers Choice Old Walnut Brown,4.0
 25575,Sweetwater Vienna,4.5
 25578,Cherry Imperial Stout,4.5
@@ -16387,7 +16387,7 @@ Beer id, Beer name, Average review
 25887,Irish Red Ale,4.0
 25888,Heartland Brewery Empire Premium Beer,5.0
 25891,Grand Union Special,4.5
-25892,Falcon Stout 3,5%,4.0
+25892,"Falcon Stout 3,5%",4.0
 25896,Virgin Islands Pale Ale,4.5625
 25897,Schlafly Hop 'n Rye,4.0
 25900,Punt Gun,4.5
@@ -16434,7 +16434,7 @@ Beer id, Beer name, Average review
 25969,Dortmunder Export,4.0
 25970,Sweet Potato Ale,4.0
 25971,Jalapeño Pepper Ale,4.0
-25972,Honey, Where The Helles Maibock,4.5
+25972,"Honey, Where The Helles Maibock",4.5
 25973,Angry Mike's Stoudt Creek,4.25
 25974,Equinox,4.5
 25975,5 De Mayo,4.25
@@ -16632,7 +16632,7 @@ Beer id, Beer name, Average review
 26252,Oppigårds Bergsmansöl,4.2727272727272725
 26255,Vintersemester,4.0
 26256,London Fog,4.25
-26257,London 3,5,4.5
+26257,"London 3,5",4.5
 26258,Baronen,4.125
 26259,Appel Weissen,4.0
 26260,John Bull Original Ale,4.0
@@ -16707,7 +16707,7 @@ Beer id, Beer name, Average review
 26368,New Grist Sorghum Beer,4.107142857142857
 26369,Crackenback,4.25
 26370,Bavaria Gold,4.0
-26371,Max's Old, Oak-aged IPA,4.0
+26371,"Max's Old, Oak-aged IPA",4.0
 26372,Bavaria Light,4.5
 26374,Olinalá,4.5
 26375,Las Cumbres,4.25
@@ -17433,7 +17433,7 @@ Beer id, Beer name, Average review
 27542,King's Cherry Ale,4.0
 27543,Oasthouse IPA (Farmhouse Brewing),4.225
 27544,Old Bad Cat Barleywine 2005,4.214285714285714
-27545,Fuego Del Otono, Autumn Fire,4.2637795275590555
+27545,"Fuego Del Otono, Autumn Fire",4.2637795275590555
 27548,Red Duck Porter,4.125
 27549,Thunder Canyon Ornament Ale,4.5
 27550,Hearth Warmer,4.0
@@ -17597,7 +17597,7 @@ Beer id, Beer name, Average review
 27784,Imperial Stout,4.5
 27787,Last Drop Bitter,4.0
 27792,Ettaler Curator Doppelbock (US Import Version),4.2
-27794,Nimbus "Wee Heavy" Scotch Ale,4.0
+27794,"Nimbus ""Wee Heavy"" Scotch Ale",4.0
 27795,Visions Of Sugarplums,4.0
 27796,Imperial Stout,4.0
 27797,Initiation,4.0
@@ -17918,7 +17918,7 @@ Beer id, Beer name, Average review
 28306,Fireweed Blonde Ale,4.0
 28307,Barleywine '05,4.0
 28308,Portsmouth Imperial IPA,4.3059701492537314
-28309,Madrugada Obscura, Dark Dawn Stout,4.201438848920863
+28309,"Madrugada Obscura, Dark Dawn Stout",4.201438848920863
 28312,AleSmith My Bloody Valentine,4.368421052631579
 28313,Castle Rock Irish Red Ale,4.0
 28314,Honey Wheat,4.0
@@ -17934,7 +17934,7 @@ Beer id, Beer name, Average review
 28329,Asahi Fujisan Beer,4.125
 28331,Kirin Enjuku,4.2
 28333,Olde Forster's Scotch Ale,4.5
-28335,Luciérnaga, The Firefly - Grand Reserve,4.318181818181818
+28335,"Luciérnaga, The Firefly - Grand Reserve",4.318181818181818
 28336,Kirin Ichiban Shibori Muroka (Unfiltered),4.333333333333333
 28337,Sapporo Hatakegamieru Beer,4.5
 28343,Gannet Mild,4.0
@@ -18014,7 +18014,7 @@ Beer id, Beer name, Average review
 28493,Thunderhop Double IPA,4.166666666666667
 28494,Unplugged Cherry Stout,4.290780141843972
 28495,Millenium Tripel,4.1875
-28496,The "Herc" C-130 Strong Ale,4.136363636363637
+28496,"The ""Herc"" C-130 Strong Ale",4.136363636363637
 28497,Old Gubbillygotch,4.0
 28498,Fall Bock,4.083333333333333
 28504,Kinshachi Blue Label,4.0
@@ -18073,7 +18073,7 @@ Beer id, Beer name, Average review
 28593,Pilsener,4.0
 28594,Eichbaum Hefeweizen Dunkel,4.0
 28595,Mystery Pils Batch #2,4.5
-28596,Scotch Ale "Wee Heavy",4.2
+28596,"Scotch Ale ""Wee Heavy""",4.2
 28601,Brooklyn Smoked Porter,4.0
 28603,La Reyne D'escosse,5.0
 28604,Weizenbock,4.0
@@ -18158,7 +18158,7 @@ Beer id, Beer name, Average review
 28731,No. 9 Barleywine,4.1
 28732,Icicle,4.0
 28733,Chouffe Biere Du Soleil,4.0
-28734,Åbro Arton56 3,5%,4.0
+28734,"Åbro Arton56 3,5%",4.0
 28735,Sun Up Horizon Hefe Weizen,4.0
 28736,Sun Up Armadillo Red Ale,4.0
 28737,Sun Up Amber Ale,4.166666666666667
@@ -18302,7 +18302,7 @@ Beer id, Beer name, Average review
 28998,Polygamy Pale Ale,4.0
 28999,Steam Beer,4.0
 29000,Red Duck Golden Dragon,4.0
-29001,Suntory Malts, Tennensui Nama Beer,4.0
+29001,"Suntory Malts, Tennensui Nama Beer",4.0
 29002,Light,4.5
 29003,Annihilator Double Bock,4.0
 29004,Cambridge House Scanlon's Red,4.5
@@ -18844,7 +18844,7 @@ Beer id, Beer name, Average review
 30158,Nickel Brook Premium Lager,4.0
 30159,2x Ultra IPA,4.25
 30160,Dragon's Tale,4.5
-30161,29,035-Ft. Double IPA,4.375
+30161,"29,035-Ft. Double IPA",4.375
 30162,Captain Smith's Rye Ale,4.0
 30163,Alchemy,4.166666666666667
 30164,Real Deal ESB,4.0
@@ -18967,7 +18967,7 @@ Beer id, Beer name, Average review
 30366,Grotten Flemish Ale,4.309523809523809
 30368,Taps Charleston Lager,4.0
 30369,Innstadt Neues Helles,4.444444444444445
-30370,St. Bernardus Abt 12 (60th Anniversary "Special Edition"),4.427601809954751
+30370,"St. Bernardus Abt 12 (60th Anniversary ""Special Edition"")",4.427601809954751
 30371,Taps Premium Lager,4.136363636363637
 30372,Taps Red Cream Ale,4.0
 30373,One & Done 2003,4.5
@@ -19058,7 +19058,7 @@ Beer id, Beer name, Average review
 30515,J.R. Brickman Honey Red,4.0
 30516,Nugget IPA,4.25
 30517,Drie Fonteinen Oude Geuze Vintage,4.534722222222222
-30518,"True Blue" Blueberry Ale,4.166666666666667
+30518,"""True Blue"" Blueberry Ale",4.166666666666667
 30519,Vanilla Milk Stout,4.0
 30520,J.R. Brickman Amber,4.0
 30521,Duck-Rabbit Wee Heavy Scotch Style Ale,4.14935064935065
@@ -19096,7 +19096,7 @@ Beer id, Beer name, Average review
 30574,Black Forest ESB,4.0
 30575,Curious Brew Admiral Porter,4.0
 30576,Hayloft Pils (Farmhouse Brewing),4.125
-30577,Brunnenbier "naturtrüb",4.5
+30577,"Brunnenbier ""naturtrüb""",4.5
 30579,Maibock,4.5
 30580,Buzzsaw,4.5
 30582,Bastone Double IPA,4.5
@@ -19293,7 +19293,7 @@ Beer id, Beer name, Average review
 30923,Dragonfly,4.0
 30928,Stone 06.06.06 Vertical Epic Ale,4.221393034825871
 30929,Kylee's Smokin' Wheat,4.0
-30930,"Little John's Myth" Robust Porter,4.25
+30930,"""Little John's Myth"" Robust Porter",4.25
 30931,Spring Zing,4.333333333333333
 30932,Dunkel Weizen,4.0
 30934,Chaos Dry Stout,4.25
@@ -19332,7 +19332,7 @@ Beer id, Beer name, Average review
 30992,Blackberry Wheat,4.0
 30994,Honest Lawyer IPA,4.1
 30995,Summer Ale,4.5
-30996,Shakespeare's "Plonk",5.0
+30996,"Shakespeare's ""Plonk""",5.0
 30997,Želiv Castulus,4.0
 31002,Honey Hemp Ale (New Version),4.0
 31007,Pomegranate Stout,4.5
@@ -19450,7 +19450,7 @@ Beer id, Beer name, Average review
 31235,Australian Mountain Pepper Berry,4.3
 31236,Nagahama Kurokabe Stout,4.0
 31237,The Drafting Room 12th Anniversary Ale,4.166666666666667
-31238,"They Made Me Do It" Blueberry Ale,4.25
+31238,"""They Made Me Do It"" Blueberry Ale",4.25
 31241,Newport Storm - Derek (Cyclone Series),4.068181818181818
 31242,Bière De Mars - Grand Reserve,4.3734177215189876
 31245,Las Cumbres,4.0
@@ -20171,7 +20171,7 @@ Beer id, Beer name, Average review
 32459,Oud Beersel Flat Green Lambic,4.0
 32460,Imperial Belgian Stout,4.25
 32462,American Wheat,5.0
-32463,Mikey T's "Black Helmet" Schwartz Bier,4.5
+32463,"Mikey T's ""Black Helmet"" Schwartz Bier",4.5
 32464,English Real Ale,4.0
 32466,Schwartz Brewery Pale Ale,4.0
 32470,Double Plow,4.083333333333333
@@ -20373,7 +20373,7 @@ Beer id, Beer name, Average review
 32832,Rock N' Wheat Ale,4.0
 32834,Pale Beauty,4.5
 32837,Low Tide Fresh Hop Pale Ale,4.428571428571429
-32842,The "CAZ" Scotch Export Style Ale,5.0
+32842,"The ""CAZ"" Scotch Export Style Ale",5.0
 32843,Switzer Pale Ale,4.3
 32844,Weltenburger Kloster Oktober-Festbier,4.0
 32846,Taras Boulba,4.341121495327103
@@ -21116,7 +21116,7 @@ Beer id, Beer name, Average review
 34006,Screamin' Steam,4.0
 34010,Big Buck Honey Rye,4.0
 34011,Beer Esteam,4.1875
-34012,HUGE Large "Sound Czech" Pilsner,4.2
+34012,"HUGE Large ""Sound Czech"" Pilsner",4.2
 34014,Cherry Edmund Stout (Oak Aged),4.0
 34016,Christmas Ale 2006,4.0
 34017,Dunkel Lager,4.155172413793103
@@ -21336,7 +21336,7 @@ Beer id, Beer name, Average review
 34378,Kuhnhenn Extraneous Ale (Cassis),4.3076923076923075
 34379,Mogiana Malt,4.0
 34381,Spruce Juice,4.333333333333333
-34382,Bridal Ale, 2005,4.357142857142857
+34382,"Bridal Ale, 2005",4.357142857142857
 34383,Dastardly Dark Lager,4.0
 34384,Hog's Breath Beer,4.0
 34385,Festivus 2006,4.5
@@ -21705,7 +21705,7 @@ Beer id, Beer name, Average review
 34968,Snapperhead IPA,4.196428571428571
 34969,Merlin IPA,4.0
 34970,Mecklenburger Pilsener,4.75
-34971,Special "B",4.0
+34971,"Special ""B""",4.0
 34972,Blue Point No Apologies Imperial IPA,4.136363636363637
 34974,HIgh-BU-tifull,4.0
 34975,Motor City Mocha,4.0
@@ -21797,7 +21797,7 @@ Beer id, Beer name, Average review
 35113,Belgian-style Abbey Dubbel,4.0
 35114,Fire And Ice,5.0
 35115,Schneeflocke Vienna,4.5
-35118,Cask Aged "Oaked" Imperial Stout,4.0
+35118,"Cask Aged ""Oaked"" Imperial Stout",4.0
 35119,New Holland Czarist,4.25
 35123,Mother Tucker's Milk Stout,4.75
 35124,Montecito Street Wheat,4.5
@@ -21973,7 +21973,7 @@ Beer id, Beer name, Average review
 35392,Export Stout,4.5
 35393,Saint Arnold Divine Reserve #4,4.234375
 35395,Chair City Pale Ale,4.333333333333333
-35396,Killer "Kapowski" Kowalski,4.25
+35396,"Killer ""Kapowski"" Kowalski",4.25
 35397,Lagunitas Lucky 13 Mondo Large Red Ale,4.2375215146299485
 35398,Uberhoppy IPA,4.235294117647059
 35399,Drake's Barrel Aged Olde Ale,4.09375
@@ -21981,7 +21981,7 @@ Beer id, Beer name, Average review
 35401,7 Stern Chilli,4.0
 35402,7 Stern Bamberger Rauchbier,4.0
 35403,Kuhnhenn Nine Syrah Cask Aged,4.416666666666667
-35404,Rogue Ten Thousand Brew Ale (Brew 10,000),4.268421052631579
+35404,"Rogue Ten Thousand Brew Ale (Brew 10,000)",4.268421052631579
 35405,Victor's MemoriAle Altbier,4.303030303030303
 35407,Laughing Dog CSB,4.109375
 35409,Rickard's White,4.041666666666667
@@ -22011,7 +22011,7 @@ Beer id, Beer name, Average review
 35460,Harvard Pale Ale,4.0
 35461,Shipwrecker Red Ale,4.166666666666667
 35463,Raspberry Porter,4.5
-35464,Big "O" Strong Ale,4.25
+35464,"Big ""O"" Strong Ale",4.25
 35465,Club Premium,4.0
 35466,Mandarin Hefeweizen,4.125
 35469,Ginger Bee Beer,4.333333333333333
@@ -22161,7 +22161,7 @@ Beer id, Beer name, Average review
 35769,Clinton Street IPA,4.0
 35770,Old Tavern Mouse,4.0
 35772,Pisgah Stout,4.166666666666667
-35773,"See No Evil" American Pale Ale,4.25
+35773,"""See No Evil"" American Pale Ale",4.25
 35774,Blasphemy,4.19172932330827
 35776,Conundrum Quad,4.333333333333333
 35777,London Ale,4.0
@@ -22265,7 +22265,7 @@ Beer id, Beer name, Average review
 35929,Tip Up E.S.B. II,4.0
 35930,Brewhouse Coffee Stout,4.367857142857143
 35931,Brewer's Choice Special Ale 2007 (Honey Porter),4.076923076923077
-35932,#10,4.0
+35932,"#10",4.0
 35933,Steamboat Pale Ale,4.0
 35935,Grand Cru De Pelican,4.369565217391305
 35936,Devil's Stump,4.0
@@ -22427,7 +22427,7 @@ Beer id, Beer name, Average review
 36181,Barbeerian Amber Wit,4.0
 36183,Pisgah Cosmos,4.197368421052632
 36185,Backburner (Imperial Barley Wine Style Ale),4.217868338557993
-36186,Grand Marsh "Ale",5.0
+36186,"Grand Marsh ""Ale""",5.0
 36187,Slave Princess,4.409090909090909
 36188,LTD Series - 02,4.1722222222222225
 36190,Lord Admiral Nelson,4.327102803738318
@@ -22459,7 +22459,7 @@ Beer id, Beer name, Average review
 36221,Chocolate Stout,4.0
 36224,Nickel Brook Special Edition Spring Bock,4.25
 36225,Nickel Brook Scottish Ale,4.0
-36226,Bourbon Barrel Aged "Old Man Winter",4.25
+36226,"Bourbon Barrel Aged ""Old Man Winter""",4.25
 36227,IPA,4.25
 36229,Yebisu The Hop,4.111111111111111
 36231,Gordon Biersch Alt,4.0
@@ -22469,7 +22469,7 @@ Beer id, Beer name, Average review
 36237,Lucky Beer,4.3
 36240,Provbrygd 3-2007 (High Five),4.25
 36241,Forza Azzurri,5.0
-36243,Gentleman, The Queen!,4.0
+36243,"Gentleman, The Queen!",4.0
 36245,Conspiracy,4.130434782608695
 36248,Nolls Porter,4.0
 36251,Weizenbock,4.147058823529412
@@ -22614,7 +22614,7 @@ Beer id, Beer name, Average review
 36463,Helderbräu Pilsner,4.0
 36464,Helderbräu Dunkel,4.0
 36465,Helderbräu Lager,4.0
-36467,Midlands Mild "A Spoonful Weighs A Ton",5.0
+36467,"Midlands Mild ""A Spoonful Weighs A Ton""",5.0
 36468,Cold Hop British-Style Ale,4.200440528634362
 36472,Hirsch Pils,4.0
 36473,Barley's Rising Sun JPA,4.5
@@ -22630,7 +22630,7 @@ Beer id, Beer name, Average review
 36491,Raasted Barleywine,4.0
 36492,Raasted Høstbryg,4.0
 36493,Saison,5.0
-36494,Vit 3,5,4.0
+36494,"Vit 3,5",4.0
 36495,Greenmantle Ale,4.0
 36496,Porter,4.25
 36497,La Belle Brune,4.0
@@ -22691,7 +22691,7 @@ Beer id, Beer name, Average review
 36585,SNAFU IPA,4.423076923076923
 36586,The Softest Bullet Ever Shot,4.5
 36589,Flat Iron Stout,4.0
-36590,Wien 3,5,4.0
+36590,"Wien 3,5",4.0
 36591,Imperial IPA (Wonder Beer Series),4.25
 36593,Milky Way Stout,4.2727272727272725
 36594,Wailua Wheat,4.153543307086614
@@ -22735,7 +22735,7 @@ Beer id, Beer name, Average review
 36658,Swan Song Saison,4.5
 36660,Atwater Dunkel Weizen,4.166666666666667
 36661,Tigh Dearg Ale,4.5
-36662,Uppsala 3,5,4.0
+36662,"Uppsala 3,5",4.0
 36663,Cambridge House Frühling Ale,4.166666666666667
 36666,Double Paw (Imperial IPA),4.333333333333333
 36668,Brandy Cask Aged Cherry Jubilee,4.25
@@ -22877,7 +22877,7 @@ Beer id, Beer name, Average review
 36900,Springbok,4.0
 36901,2 Caps Blonde,4.0
 36903,El Guapo,4.0
-36909,"400" Ale,4.25
+36909,"""400"" Ale",4.25
 36911,Hop Head Heaven,4.0
 36912,Carolina Strawberry Ale,4.3
 36913,Big Rack Brown,4.0
@@ -23137,7 +23137,7 @@ Beer id, Beer name, Average review
 37329,Houdini ESP,4.166666666666667
 37330,Imperial Stout,4.0
 37331,Bengal Gold India Pale Ale,4.0
-37332,Cask Aged "Oaked"  Schwarzbier,4.5
+37332,"Cask Aged ""Oaked""  Schwarzbier",4.5
 37333,Scratch Beer 2 - 2007,4.145161290322581
 37335,Northern Waters Smoked Lager,4.0
 37336,Champagne Of The North,4.5
@@ -23548,7 +23548,7 @@ Beer id, Beer name, Average review
 38003,Ushers Founders,4.0
 38004,Dominion Summer Wheat 2007,4.375
 38005,Moh Gwai,4.0
-38007,5,0 Original Pils,4.0
+38007,"5,0 Original Pils",4.0
 38008,Old Ellicott City Ale,4.0
 38009,Special Amber Ale - 2007,4.166666666666667
 38012,Git-R-Done,4.0
@@ -23845,7 +23845,7 @@ Beer id, Beer name, Average review
 38457,English Pale Ale,4.0
 38458,Bia Ha Noi,4.0
 38459,Bam Noire,4.191860465116279
-38461,The Knights Who Say "Nee" ESB,4.25
+38461,"The Knights Who Say ""Nee"" ESB",4.25
 38462,Janet Weiss Dunkel Wit,4.25
 38464,Island Cask,4.0
 38465,Arbor Brewing Espresso Love,4.25
@@ -24208,7 +24208,7 @@ Beer id, Beer name, Average review
 38997,It's A Boy! Oatmeal Porter,4.0
 38998,Fat Boy Porter,4.5
 38999,American Stout,4.0
-39001,Mike's Rye Not, Aka: Bosco's Roggenbier,4.0
+39001,"Mike's Rye Not, Aka: Bosco's Roggenbier",4.0
 39003,The Thunder,4.5
 39004,Brewmasters Private Reserve 2007,4.204545454545454
 39005,Michelob Celebrate Cherry Lager,4.0
@@ -24453,7 +24453,7 @@ Beer id, Beer name, Average review
 39404,Tamarack Amber Ale,4.25
 39405,I.P.A.,4.0
 39407,Flensburg Unser Norden Landbier Pilsener,4.5
-39408,#'s Ale,4.217391304347826
+39408,"#'s Ale",4.217391304347826
 39409,Double Porter,4.5
 39410,Barley's Oktoberfest,4.0
 39411,Octoberfest,4.5
@@ -24784,7 +24784,7 @@ Beer id, Beer name, Average review
 39915,Runkle Red,4.0
 39917,Smoke,4.307894736842106
 39921,Kris Kringle,4.5
-39922,Rat City "Abyss" Makers Mark Barrel Aged IPA,4.5
+39922,"Rat City ""Abyss"" Makers Mark Barrel Aged IPA",4.5
 39923,Sandy Paws (2007),4.0
 39924,Josephs Brau Dunkelweizen,4.174242424242424
 39925,Antares Barleywine,4.0
@@ -25163,7 +25163,7 @@ Beer id, Beer name, Average review
 40523,Hodgepodge,4.5
 40524,The Love,4.169491525423729
 40525,De-Railed IPA,4.333333333333333
-40526,Three Hearts Julöl 3,5,4.0
+40526,"Three Hearts Julöl 3,5",4.0
 40527,Silver Mullet Oatmeal IPA,4.166666666666667
 40528,Rising Moon Spring Ale,4.15
 40529,India Pale Ale,4.0
@@ -25261,7 +25261,7 @@ Beer id, Beer name, Average review
 40665,Avondrood,4.0
 40667,Amarillo's Winterwarmer (for PINT),4.0
 40668,BrewMan's Barleywine,4.0
-40669,"Trouble",4.5
+40669,"""Trouble""",4.5
 40670,Belgian Gold,4.0
 40671,New Holland Night Tripper,4.226130653266332
 40674,Smuttynose Baltic Porter (Big Beer Series),4.281869688385269
@@ -25609,7 +25609,7 @@ Beer id, Beer name, Average review
 41154,Ola Dubh Special Reserve 30,4.335195530726257
 41155,Gray's Light Beer,4.0
 41157,Honeysuckle Wheat,4.0
-41158,Czarny Boss Porter 18,1% Wag.,4.333333333333333
+41158,"Czarny Boss Porter 18,1% Wag.",4.333333333333333
 41159,Bier De Bleu,4.166666666666667
 41160,Smoke Dark,4.25
 41161,IPA,4.5
@@ -25910,7 +25910,7 @@ Beer id, Beer name, Average review
 41609,Midnight Expression,4.245283018867925
 41611,Pimp My Rye,4.0
 41612,Irish Dry Stout,4.0
-41613,Zhiguly Grande 9,5,4.333333333333333
+41613,"Zhiguly Grande 9,5",4.333333333333333
 41615,Mountain Goat Double India Pale Ale,4.5
 41616,Holgate Dunkel Weizen,4.0
 41620,HELLRAZER,4.038461538461538
@@ -25930,7 +25930,7 @@ Beer id, Beer name, Average review
 41646,Eichbaum Winterbier,4.0
 41647,SPA,4.0
 41649,Eichbaum Rotes Räuberbier,4.75
-41650,"Hop Obama" Ale,4.230769230769231
+41650,"""Hop Obama"" Ale",4.230769230769231
 41652,Barrel Aged Belgian Amber,4.0
 41653,Kuhnhenn Aldebaran,4.235294117647059
 41654,Wheat Wine,4.0
@@ -26016,7 +26016,7 @@ Beer id, Beer name, Average review
 41757,Two Patrick Stout,4.25
 41759,Famous Sidekick,4.375
 41761,River Piraat (a.k.a. River Rat Triple),4.2
-41762,High Country Pilsner ("Golden Trout Pilsner"),4.125
+41762,"High Country Pilsner (""Golden Trout Pilsner"")",4.125
 41763,Mandrin Bière Blanche,4.5
 41764,Giant,4.0
 41765,Truly Scrumptious,4.0
@@ -26065,7 +26065,7 @@ Beer id, Beer name, Average review
 41833,Fritzkrieg Hop IPA,5.0
 41834,Solstice,5.0
 41835,Winter Weizenbock,4.0
-41836,The Mere Mortal, English Style IPA,4.5
+41836,"The Mere Mortal, English Style IPA",4.5
 41837,Firecracker Pale Ale,4.0
 41838,Triple Threat IPA,4.75
 41839,Mayflower Porter,4.317880794701987
@@ -26110,7 +26110,7 @@ Beer id, Beer name, Average review
 41892,Buffalo Gold,4.0
 41893,Buffalo Drool,4.25
 41894,Hefeweizen,4.0
-41895,2  Penny Ale, Bourbon Barrel Aged,4.0
+41895,"2  Penny Ale, Bourbon Barrel Aged",4.0
 41896,IPA,4.5
 41899,No.926,4.125
 41900,Country Gold Saison,4.5
@@ -26701,7 +26701,7 @@ Beer id, Beer name, Average review
 42790,Jeff's Pale Ale,4.0
 42791,Dos Equis Dark Lager,4.0
 42792,Batch 1092,5.0
-42793,Chelsea Bourbon Barrel Aged 1,000 Gyle Imperial Mild Barleywine,4.0
+42793,"Chelsea Bourbon Barrel Aged 1,000 Gyle Imperial Mild Barleywine",4.0
 42796,Vogelbräu Pils,4.5
 42797,Hop Crisis Extra Pale Ale,4.0
 42799,Spruce Tip Ale,4.0
@@ -26909,7 +26909,7 @@ Beer id, Beer name, Average review
 43083,Ring Of Fire Porter,4.352941176470588
 43084,Railway City Ironspike Blond Ale,4.0
 43085,Railway City Ironspike Copper Ale,4.5
-43087,Survival "7-Grain" Stout,4.277027027027027
+43087,"Survival ""7-Grain"" Stout",4.277027027027027
 43088,Bourbon Barrel Blackwater Stout,4.0
 43089,Cambridge House 4 Slackers EPA,4.25
 43090,Cascade Blackberry Ale,4.104166666666667
@@ -27276,7 +27276,7 @@ Beer id, Beer name, Average review
 43601,Zwickel-Bier Naturtrüb Hell,4.0
 43605,Bikini Blonde Lager,4.183333333333334
 43606,Greene King Sun Dance,4.5
-43607,#13,4.25
+43607,"#13",4.25
 43611,2X India Brown,4.0
 43612,Bärni Dunkel,4.0
 43614,Gruut Belgian Wit Bier,4.205882352941177
@@ -27786,7 +27786,7 @@ Beer id, Beer name, Average review
 44348,Cobra Kai Rice Beer,4.0
 44351,Elora Special Bitter,4.142857142857143
 44352,Boiler Room IPA,4.0
-44353,"12"  Belgian Golden Strong Ale,4.0
+44353,"""12""  Belgian Golden Strong Ale",4.0
 44354,Lemke Pils,4.5
 44355,Summer Haze Pale Weizenbock,4.5
 44356,Cisk XS Extra Lager,4.0
@@ -28062,7 +28062,7 @@ Beer id, Beer name, Average review
 44747,Melange No. 1,4.351351351351352
 44748,Fortuna Komes Porter,4.0
 44749,Sierra Nevada Chico Estate Harvest Wet Hop Ale (2008),4.355263157894737
-44750,Full Sail "21" - Anniversary Doppelbock,4.213333333333333
+44750,"Full Sail ""21"" - Anniversary Doppelbock",4.213333333333333
 44752,Blackwood Lager,4.0
 44753,T&#275;rvetes Ori&#291;in&#257;lais Alus,4.5
 44754,Roche Noire,4.0
@@ -28476,7 +28476,7 @@ Beer id, Beer name, Average review
 45341,Chocolate Cherry Mild,4.0
 45343,Lupulin Fresh Hop Ale,4.083333333333333
 45345,Terra-Rye'ZD Black Rye Lager,4.111111111111111
-45346,Roggen Bock 3,000,4.0
+45346,"Roggen Bock 3,000",4.0
 45349,Rock Hopera Imperial IPA,4.25
 45350,Brewer's Assoc Of Maryland Festbier,4.75
 45351,Hop Operative,4.25
@@ -28697,7 +28697,7 @@ Beer id, Beer name, Average review
 45666,Hard-Headed Queen,4.0
 45667,Winter Brew 2008,4.125
 45668,Harpoon Rauchfetzen (100 Barrel Series #25),4.197916666666667
-45671,Eriksberg Julöl 3,5 %,4.0
+45671,"Eriksberg Julöl 3,5 %",4.0
 45672,Twain's Aged Trippel,4.5
 45673,Flaming Damsel,4.230769230769231
 45674,C. Brown's Pumpkin Ale,5.0
@@ -29065,7 +29065,7 @@ Beer id, Beer name, Average review
 46194,Black Forest Smoked Porter,4.3
 46196,Black Forest Dunkelweizen,4.0
 46199,Red Santa,4.0
-46201,Brandmästare Andréns Törstsläckare (2,8% Version),4.25
+46201,"Brandmästare Andréns Törstsläckare (2,8% Version)",4.25
 46203,3 Sheets Barleywine,4.333333333333333
 46204,Kolsch,4.75
 46205,X-114 IPA,4.088235294117647
@@ -29214,7 +29214,7 @@ Beer id, Beer name, Average review
 46422,Brians Saison,4.0
 46423,Session Saison - Clausenii,4.25
 46424,Sour Brown,4.25
-46426,Bloed, Zweet & Tranen,4.0
+46426,"Bloed, Zweet & Tranen",4.0
 46429,Hugo,4.1
 46434,J. Allyn's Robust Porter,4.5
 46435,Trois Brasseurs Noël,4.0
@@ -30404,7 +30404,7 @@ Beer id, Beer name, Average review
 48154,Farmhouse #34,4.5
 48157,Mile HI.P.A.,4.0
 48158,Sless' Oatmeal Stout,4.194444444444445
-48159,Blackbeerd Imperial Stout, Jack Daniels Barrel Aged,4.4523809523809526
+48159,"Blackbeerd Imperial Stout, Jack Daniels Barrel Aged",4.4523809523809526
 48160,Blackbeerd Experimental: Knob Creek Whiskey And Cocoa Nibs,4.0
 48162,Drake’s Black Robusto Porter,4.5
 48163,McHenry's Irish Ale,4.125
@@ -30483,7 +30483,7 @@ Beer id, Beer name, Average review
 48263,Strick's Dark Lager,4.0
 48264,Maroon Effect Ale,4.5
 48266,Hop Heads Dream IPA,4.0
-48267,1,000th Batch Strong IPA,4.0
+48267,"1,000th Batch Strong IPA",4.0
 48268,Raspberry Barleywine,4.0
 48272,Dawn Of Spring,4.5
 48273,Amarillo IPA,4.25
@@ -30506,7 +30506,7 @@ Beer id, Beer name, Average review
 48291,New Jersey Lager,4.0
 48292,Cuvee Jeune,4.357142857142857
 48293,Weizenheimer Weizenbock,4.0
-48294,Sweetwater Ron Burgundy Scotch Ale, Johnnie Walker Cask,4.166666666666667
+48294,"Sweetwater Ron Burgundy Scotch Ale, Johnnie Walker Cask",4.166666666666667
 48295,Saint Arnold Belgian Amber,4.0
 48296,Amber Ale,4.0
 48297,Old School Pale Ale,4.0
@@ -30727,7 +30727,7 @@ Beer id, Beer name, Average review
 48619,(512) Alt,4.222222222222222
 48621,Hop Project #12,4.2
 48622,Saison De La Terre,4.0
-48623,The Mild, Mild West,4.5
+48623,"The Mild, Mild West",4.5
 48624,Farewell Pale Ale,4.25
 48625,Bat Outta Helles,4.5
 48626,Tadarida IPA,4.1
@@ -30856,7 +30856,7 @@ Beer id, Beer name, Average review
 48815,Irish Red Ale,5.0
 48816,Splinter Red,4.293103448275862
 48818,One And All (for Carn Brea Brewing Co),4.0
-48822,Stop, Hop And Roll DIPA,4.0
+48822,"Stop, Hop And Roll DIPA",4.0
 48823,Railyard Raspberry Wheat,4.3
 48824,Sofie,4.344117647058823
 48825,Improv (Improvisación) Oatmeal Rye India-Style Brown Ale,4.180722891566265
@@ -30910,7 +30910,7 @@ Beer id, Beer name, Average review
 48899,BlackBall Port Wine,4.333333333333333
 48900,Taxi Pilsner,4.0
 48904,Maximus,4.0
-48906,Hardys&Hansons "Olde Trip" Premium Ale,4.0
+48906,"Hardys&Hansons ""Olde Trip"" Premium Ale",4.0
 48909,Stock Market Porter,4.5
 48910,Trainspotter Scottish Ale,4.0
 48911,Founders Cerise,4.163135593220339
@@ -30975,7 +30975,7 @@ Beer id, Beer name, Average review
 49007,White Crane Bitter,4.083333333333333
 49008,Barrel Licked Bock,4.181818181818182
 49010,Honey Weizen Bock,4.166666666666667
-49011,"Best Of Both Worlds" Stout,5.0
+49011,"""Best Of Both Worlds"" Stout",5.0
 49012,Highway To Helles,4.166666666666667
 49013,Magic Lagyr,4.0
 49014,Speciale 1900,4.0
@@ -30994,7 +30994,7 @@ Beer id, Beer name, Average review
 49033,Isle Of Skye Scottish Ale,4.125
 49034,City Steam Acapulco Gold,4.166666666666667
 49036,Nils Oscar Rökporter,4.326923076923077
-49037,"Not Your Bock" Maibock,4.5
+49037,"""Not Your Bock"" Maibock",4.5
 49038,Broad Ripple Evilsizors Russian Imperial Stout,4.25
 49039,Red Hop Love,4.5
 49042,Schooiersbier,5.0
@@ -31070,7 +31070,7 @@ Beer id, Beer name, Average review
 49145,Schlafly Summer Lager,4.2631578947368425
 49146,Otis Strong Ale,4.0
 49149,Primavera Prematura,4.0
-49150,Brewmaster's Reserve Double IPA "The Rock",4.25
+49150,"Brewmaster's Reserve Double IPA ""The Rock""",4.25
 49151,Boy King Double IPA,4.471830985915493
 49152,Faceplant,4.0
 49154,One Meatball,4.5
@@ -31078,7 +31078,7 @@ Beer id, Beer name, Average review
 49156,Toria,4.214285714285714
 49158,Ramstein Project Z,5.0
 49160,HOP-Tagon X-Series: Imperial IPA,4.0
-49163,Spendrups Old Gold 4,7,4.25
+49163,"Spendrups Old Gold 4,7",4.25
 49164,Stimulus IPA,4.0
 49166,Red Rye,4.0
 49168,Black Tail Stout,4.0
@@ -31113,7 +31113,7 @@ Beer id, Beer name, Average review
 49208,Rooster Cream Ale,4.0
 49209,Big Rig Bitter,4.0
 49213,Kamenitza Lev,4.0
-49214,"Not Guilty" 1924 Deer Brand,4.071428571428571
+49214,"""Not Guilty"" 1924 Deer Brand",4.071428571428571
 49215,Peak Organic IPA,4.098214285714286
 49218,Czech Pilz,4.0
 49220,Dunkel Weizen,4.5
@@ -31122,7 +31122,7 @@ Beer id, Beer name, Average review
 49231,30 E Lode,4.5
 49232,The Colonel's Barrel-aged Porter,4.0
 49235,Cassk-Kickin' IPA,4.0
-49236,"100",4.0
+49236,"""100""",4.0
 49237,Founders Barrel Aged Imperial Stout,4.293103448275862
 49238,Sherry Barrel Aged Black As Hell,4.0
 49240,Shimkos' Simcoes,4.446428571428571
@@ -31242,7 +31242,7 @@ Beer id, Beer name, Average review
 49403,Torker Double IPA,4.0
 49405,Geisha,4.5
 49406,Oaky Thumb Stout,4.0
-49408,5,0 Original,4.5
+49408,"5,0 Original",4.5
 49409,Otter's Bum,4.5
 49410,Schwarzbier,4.0
 49413,Adnams Gunhill,4.166666666666667
@@ -31382,7 +31382,7 @@ Beer id, Beer name, Average review
 49629,Dunkelweizen,4.5
 49631,Total Disorder Porter,4.0
 49632,Barrel Aged Black As Coal,4.25
-49633,186,000 MPS,4.166666666666667
+49633,"186,000 MPS",4.166666666666667
 49634,Five (#5),4.183673469387755
 49640,Hefeweizen,4.0
 49642,Rye Baby Ale,4.0
@@ -31416,7 +31416,7 @@ Beer id, Beer name, Average review
 49681,Black Prince,4.5
 49685,Van Der Bull Belge,4.375
 49687,Rhinoceros,4.142857142857143
-49688,Three Hearts Green EKO Lager 3,5%,4.0
+49688,"Three Hearts Green EKO Lager 3,5%",4.0
 49689,Paderborner Export,4.0
 49691,Allagash Burnham Road,4.2
 49692,Van Diemen Black Saison,4.5
@@ -31514,7 +31514,7 @@ Beer id, Beer name, Average review
 49827,Maple Smoked Porter,4.0
 49829,Noire A L'Avoine,4.25
 49830,Gypsy Tart,4.4
-49831,Saison De Lente, 100% Brett,4.2
+49831,"Saison De Lente, 100% Brett",4.2
 49832,Papier,4.206896551724138
 49833,Trade Winds Tripel (100% Brett),4.333333333333333
 49835,Dark Hops,4.274193548387097
@@ -31609,7 +31609,7 @@ Beer id, Beer name, Average review
 49982,Neustadt 300,4.5
 49983,Flying Monkeys Hoptical Illusion,4.150943396226415
 49984,Simcoe IPA,4.0
-49988,"Nein Toll Bier" German Alt,4.0
+49988,"""Nein Toll Bier"" German Alt",4.0
 49989,Anniversary IPA,4.0
 49992,Clem's Gold,4.0
 49993,844 Oatmeal Stout,4.0
@@ -31623,7 +31623,7 @@ Beer id, Beer name, Average review
 50006,Maibark,4.0
 50007,It's Maibock,4.5
 50009,Stimulus Package,4.0
-50010,Bengali Tiger Wet Hopped With A "Brooklyn Blend" Hops,4.0
+50010,"Bengali Tiger Wet Hopped With A ""Brooklyn Blend"" Hops",4.0
 50011,La Cuvée Des Artisans,4.5
 50012,Rochester Mills Brickshot ESB,4.0
 50013,Abbaye De Saint Bon-Chien Grand Cru (Aged In Vin Jaune Barrels),4.125
@@ -31688,7 +31688,7 @@ Beer id, Beer name, Average review
 50123,Rudder's Red,4.0
 50124,Yarmouth Town Brown,5.0
 50126,Raspberry Blonde,4.0
-50127,"Stout Stoat" Stout,4.25
+50127,"""Stout Stoat"" Stout",4.25
 50130,Conundrum,4.5
 50131,Loffelder-Dunkel,4.5
 50133,Goodes Highland Scotch Ale,5.0
@@ -32057,7 +32057,7 @@ Beer id, Beer name, Average review
 50666,Hop Project #15,4.0
 50667,Hindsight ESB,4.5
 50668,Papier (Rye Whiskey Barrel),4.4411764705882355
-50669,Sweetwater Double IPA, French Oaked (Bordeaux),4.75
+50669,"Sweetwater Double IPA, French Oaked (Bordeaux)",4.75
 50670,Newcastle Summer Ale,4.230769230769231
 50671,Sierra Nevada Vienna Style Lager,4.166666666666667
 50676,Snowdonia Ale,4.0
@@ -32075,7 +32075,7 @@ Beer id, Beer name, Average review
 50691,Rye'm & Reason,4.241379310344827
 50692,Fruhling Kolsch,4.333333333333333
 50693,Summer Rye,4.314814814814815
-50696,"100" Pale Ale,4.0
+50696,"""100"" Pale Ale",4.0
 50697,Double Jack,4.298878205128205
 50699,Embrasse,4.223684210526316
 50701,Portsmouth Coffee Milk Stout,4.5
@@ -32164,7 +32164,7 @@ Beer id, Beer name, Average review
 50817,Speedway IPA,4.5
 50818,THC IPA,4.0
 50821,Beesting Gone Wild,4.5
-50822,#14,4.0
+50822,"#14",4.0
 50823,Preston Babakan IIPA,5.0
 50824,Minamishinsyu Winter Ale,4.0
 50826,Davenports Englands Glory,4.0
@@ -32307,7 +32307,7 @@ Beer id, Beer name, Average review
 51024,Cherry Quad,4.166666666666667
 51025,Spruce Tip Baltic Porter,4.0
 51028,Kilt Burner Scotch Ale,4.0
-51029,"76" Anniversary Ale,4.0
+51029,"""76"" Anniversary Ale",4.0
 51030,La Trappe Isid'or,4.196296296296296
 51032,Belgian Wit,4.0
 51033,Diabolical Dr. Wit,4.25
@@ -32741,7 +32741,7 @@ Beer id, Beer name, Average review
 51663,Chocolate Orange Stout,4.0
 51664,Kölsch,4.5
 51665,Czar's Imperial Stout,4.0
-51666,Mariestads Höstbrygd 3,5,4.0
+51666,"Mariestads Höstbrygd 3,5",4.0
 51667,37hr Simcoe SMaSH,4.3
 51670,Blissfully Blonde,4.0
 51671,Ommegang IPA Triple,4.0
@@ -33435,7 +33435,7 @@ Beer id, Beer name, Average review
 52768,Valkyrie Black IPA,4.0
 52773,Belgian Light (LB No. 51),4.0
 52774,Liberty Stout (LB No. 50),4.375
-52775,"Six" Belgian Style Table Beer,4.0
+52775,"""Six"" Belgian Style Table Beer",4.0
 52776,Michelob Rye P.A.,4.068965517241379
 52778,Turn,4.0
 52779,Live Oak IPA,4.0
@@ -33519,7 +33519,7 @@ Beer id, Beer name, Average review
 52899,Duck-Rabbit Cherry Porter,4.5
 52900,Painted Ladies Pumpkin Spice Ale,4.174418604651163
 52901,Corduroy Lager,4.0
-52902,El "Hefe"Weizen,4.125
+52902,"El ""Hefe""Weizen",4.125
 52906,Hub City Pale Ale,4.0
 52908,Green Flash Belgian Stout,4.2
 52909,Black Elk Stout,4.0
@@ -33720,7 +33720,7 @@ Beer id, Beer name, Average review
 53272,Oatmeal Stout,4.5
 53273,Powerhouse IPA,4.0
 53274,Thorogood,4.0625
-53277,Foggy Loggy Lager, Barrel Aged,4.5
+53277,"Foggy Loggy Lager, Barrel Aged",4.5
 53279,Black Bier,4.0
 53281,Rhineland Roggen,4.0
 53283,Hopitoulas IPA,4.2
@@ -33732,7 +33732,7 @@ Beer id, Beer name, Average review
 53293,Mummy Train Pumpkin Ale,4.05
 53294,Fresh Hop Of Bel-Air,4.333333333333333
 53295,Five Barrel Thread,4.5
-53296,Schell's Anniversary Series #8, 1905 V.T. (Vacuum Tonic),4.166666666666667
+53296,"Schell's Anniversary Series #8, 1905 V.T. (Vacuum Tonic)",4.166666666666667
 53298,Calvinus Noire,4.0
 53299,Fat Monk,4.0
 53300,Collaborative Evil,4.0
@@ -33835,8 +33835,8 @@ Beer id, Beer name, Average review
 53436,Willimantic Three Cents,4.5
 53439,Zoe's Belgian Wit,4.0
 53442,Hop Switch Black IPA,4.0
-53444,2009 "Lupulin" Fresh Hop W/ Cascade Hops,4.0
-53445,2009 "Lupulin" Fresh Hop W/ Crystal Hops,4.0
+53444,"2009 ""Lupulin"" Fresh Hop W/ Cascade Hops",4.0
+53445,"2009 ""Lupulin"" Fresh Hop W/ Crystal Hops",4.0
 53446,Russell Märzen,4.5
 53447,Harvest,4.0
 53448,Tamerlane Brown Porter,4.214285714285714
@@ -34294,7 +34294,7 @@ Beer id, Beer name, Average review
 54158,Timmy's Tipple (Chocolate Cherry Stout),4.5
 54159,Piton Shandy (lemon),4.5
 54160,Hofbräu 1810 Prince Ludwig,4.0
-54161,BrewThru Big "D"s Awesome Ale,4.0
+54161,"BrewThru Big ""D""s Awesome Ale",4.0
 54173,India Ink,4.0
 54174,Streaking The Quad,4.5
 54175,California Stout,4.0
@@ -34335,7 +34335,7 @@ Beer id, Beer name, Average review
 54231,Sandy Paws (2009),4.4
 54233,Go Cart Racer,4.5
 54234,Mogul Madness Ale,4.1796875
-54235,Porter, Smoked,4.428571428571429
+54235,"Porter, Smoked",4.428571428571429
 54237,La Brune,4.0
 54239,La Blond,4.0
 54240,Percolator,4.5
@@ -34370,7 +34370,7 @@ Beer id, Beer name, Average review
 54284,Mocha Porter,4.25
 54285,Tempt,4.25
 54286,No. 125,4.0
-54287,Suntory Malt's, The Bitter,4.0
+54287,"Suntory Malt's, The Bitter",4.0
 54290,Suntory Seasonal Brew,4.0
 54291,Baeren Biscuit Ale,4.5
 54292,Asahi English Type Dark,4.5
@@ -34380,7 +34380,7 @@ Beer id, Beer name, Average review
 54299,Alpaïde,4.166666666666667
 54300,Chewbacca IPA,4.0
 54301,Ovation,4.277777777777778
-54302,"Fade To Black" Porter,4.0
+54302,"""Fade To Black"" Porter",4.0
 54303,Wine Barrel Sour Golden,4.25
 54304,Großer Kurfürst,4.166666666666667
 54305,El Gallo Negro,4.25
@@ -34659,7 +34659,7 @@ Beer id, Beer name, Average review
 54672,Oak Aged Framboise,4.0
 54673,Second Sight Strong Scotch Ale,4.0
 54674,Malaprop 8,4.0
-54675,Decade 2.1, 21st Anniversary IPA,4.5
+54675,"Decade 2.1, 21st Anniversary IPA",4.5
 54676,Hop Rush,4.5
 54677,To The 9's,4.2
 54678,Weissenoher Bonifatius Dunkel,4.0
@@ -35041,7 +35041,7 @@ Beer id, Beer name, Average review
 55238,Apico,4.25
 55240,Winter's Nip Bock,4.0
 55241,Mill Street Weizenbock,4.0
-55242,Oh, Peg!,4.0
+55242,"Oh, Peg!",4.0
 55243,Sierra Nevada Glissade Golden Bock,4.1971428571428575
 55245,Bourbon Barrel Aged Belgian Dark Ale,4.0
 55247,Chocolate Espresso Porter,4.5
@@ -35222,7 +35222,7 @@ Beer id, Beer name, Average review
 55506,Gunslinger IPA,4.0
 55507,Six String Strong Ale,4.0
 55508,Bourbon Stout,4.0
-55510,"76" Anniversary Ale With English Hops,4.0
+55510,"""76"" Anniversary Ale With English Hops",4.0
 55511,Shaggin' In The Wood,4.239130434782608
 55513,Oatmeal Stout,4.0
 55514,De Molen IJsbock,4.0
@@ -35275,7 +35275,7 @@ Beer id, Beer name, Average review
 55578,Atwater Double Down Imperial Amber Ale,4.166666666666667
 55579,Saranac Amber Ale,4.107142857142857
 55580,Tomahawk Single Hop IPA,4.218181818181818
-55581,Hoppy, Hoppy, Joy, Joy,4.214285714285714
+55581,"Hoppy, Hoppy, Joy, Joy",4.214285714285714
 55582,Uncle Billy's Smokestack Lightning,4.5
 55584,Schwarzbier,4.0
 55585,Yunkers Noctornum,4.25
@@ -35347,7 +35347,7 @@ Beer id, Beer name, Average review
 55674,State Beach Blonde,4.0
 55675,Winter Rose Ale,4.0
 55676,Clemente Cream Ale,4.5
-55677,Jai Alai IPA - Juniper Cedar Aged "Twigs And Berries" (Humidor Series),4.25
+55677,"Jai Alai IPA - Juniper Cedar Aged ""Twigs And Berries"" (Humidor Series)",4.25
 55678,Maduro Oatmeal Brown Ale - Belgian Nut Brown,4.25
 55679,Big Money Oak Porter,4.333333333333333
 55680,Harold,4.4375
@@ -35750,7 +35750,7 @@ Beer id, Beer name, Average review
 56221,Mayhem - Belgian-Style Double IPA,4.113636363636363
 56222,Dubbel,4.0
 56224,Pale Tail,4.0
-56225,Biere De Schwartz, Collaboration 2010,4.25
+56225,"Biere De Schwartz, Collaboration 2010",4.25
 56226,Ruby Red,4.0
 56227,Nubia,4.5
 56228,AAA,5.0
@@ -35985,7 +35985,7 @@ Beer id, Beer name, Average review
 56560,Brown Angel,4.171717171717172
 56561,Helles Lager,4.181818181818182
 56563,Hefeweizen,4.428571428571429
-56565,Que Syrah, Syrah!,4.5
+56565,"Que Syrah, Syrah!",4.5
 56567,Old Chicago Amber,4.5
 56568,Indian Boundary Ale,4.3
 56569,Dolomite Oatmeal Stout,4.0
@@ -36025,7 +36025,7 @@ Beer id, Beer name, Average review
 56613,Wilco Tango Foxtrot,4.172768878718536
 56614,Imperial Stout,4.5
 56615,Vertegenwoordigen Voor De Oostkant,4.25
-56616,February 27th, 1832 Mild Ale,4.170731707317073
+56616,"February 27th, 1832 Mild Ale",4.170731707317073
 56617,Cambridge House Bumble Bock,4.0
 56618,Pisgah Helles Lager,5.0
 56619,Pisgah Roasted Chocolate Stout,4.166666666666667
@@ -36076,7 +36076,7 @@ Beer id, Beer name, Average review
 56691,Bracket Buster IPA,4.0
 56693,Bourbon Barrel Imperial Stout,4.5
 56694,Crab Apple Wit,4.0
-56698,American Pale Ale, Cascade Dry-hopped,4.25
+56698,"American Pale Ale, Cascade Dry-hopped",4.25
 56699,Vanilla Porter,4.0
 56700,Hel & Verdoemenis 666,4.361111111111111
 56701,Atlantic Beach Amber,4.0
@@ -36234,7 +36234,7 @@ Beer id, Beer name, Average review
 56927,Thunder Canyon Imperial Porter,4.0
 56928,Wachusett California Style IPA,4.239130434782608
 56930,True South Red Truck Marzen,4.0
-56932,Mischief, Double Dry-Hopped,4.0
+56932,"Mischief, Double Dry-Hopped",4.0
 56935,Duck-Rabbit Cherry Madness,4.333333333333333
 56936,Lambic #1,4.25
 56937,Knott Sour Lambic,4.0
@@ -36283,7 +36283,7 @@ Beer id, Beer name, Average review
 56988,Jules Winnfield,4.0
 56990,Imperial Cream Dream II: Electric Boogaloo,4.5
 56991,Hazard Response,4.0
-56993,Blackbeerd Imperial Stout, Buffalo Trace Barrel Aged,4.25
+56993,"Blackbeerd Imperial Stout, Buffalo Trace Barrel Aged",4.25
 56994,Glazen Toren Finneken,4.0
 56995,De Koninck Gusto 1833 Golden Blond,4.0
 56996,Irish Red,4.0
@@ -36718,7 +36718,7 @@ Beer id, Beer name, Average review
 57639,Tropic Thunder,4.5
 57640,Founders Death,4.15
 57642,Founders Cherry Porter,4.25
-57645,! (Old Ale),4.0
+57645,"! (Old Ale)",4.0
 57646,Milk Stout,4.0
 57647,HopCat Cotton Mouth Stout,4.0
 57648,The Invasion,4.291666666666667
@@ -36785,7 +36785,7 @@ Beer id, Beer name, Average review
 57738,Trapp Vienna Lager,4.25
 57739,ESB,4.25
 57740,Noire Fumée,4.0
-57741,#1 Saison,4.0
+57741,"#1 Saison",4.0
 57742,Highlander,4.166666666666667
 57743,Ich Bin Ein,4.0
 57745,Heartwood (2010 Symposium Ale),4.0
@@ -36966,7 +36966,7 @@ Beer id, Beer name, Average review
 57992,Persimmon Lambic,4.34375
 57993,Alt (Premium Celtic Ale),4.0
 57994,Spike's 2010,4.5
-57996,Stateside Saison (Calendula Flower, Schisandra Berries, And French Oak),4.25
+57996,"Stateside Saison (Calendula Flower, Schisandra Berries, And French Oak)",4.25
 57997,Cascade Frite Galois,4.15
 57998,La Ferme' De Demons,4.125
 57999,McFee Irish Red Ale,4.0
@@ -37060,7 +37060,7 @@ Beer id, Beer name, Average review
 58135,Mike Duggan #04 Kölsch,4.0
 58136,Brombeer (Blackberry),4.5
 58137,Mike Duggan #24 Altbier,4.0
-58141,Mike Duggan #19 Trappist Ale ("Trappist #10"),4.25
+58141,"Mike Duggan #19 Trappist Ale (""Trappist #10"")",4.25
 58142,Water Of Life Kegs Gone Wild Version,4.5
 58143,Blonde 1816,4.0
 58144,Ryevalry,4.296296296296297
@@ -37108,7 +37108,7 @@ Beer id, Beer name, Average review
 58235,Saison De Dottignies,4.260416666666667
 58236,Brugse Zot - Unfiltered,4.5
 58239,Single Batch Series - Milestone Ale,4.166666666666667
-58241,No Guts, No Glory,4.0
+58241,"No Guts, No Glory",4.0
 58242,Big Black Poochie,4.25
 58243,AF23 Pale Ale,4.0
 58245,Mustang Washita Wheat,4.25
@@ -37226,9 +37226,9 @@ Beer id, Beer name, Average review
 58411,Berkshire Sour/Imperial Stout Blend,4.2
 58412,Cherry Woods,4.1875
 58413,Dantalion Dark Wild Ale,4.1891891891891895
-58415,Jeremiah Red L3 (American Oak, Brettanomyces),4.0
+58415,"Jeremiah Red L3 (American Oak, Brettanomyces)",4.0
 58416,Jeremiah Red M8 (American Oak),4.0
-58419,Jeremiah Red L7 (French Oak, Brettanomyces),4.0
+58419,"Jeremiah Red L7 (French Oak, Brettanomyces)",4.0
 58420,Oude Jeremiah,4.0
 58421,Black Rock,4.25
 58422,Ozzobír,4.5
@@ -37433,7 +37433,7 @@ Beer id, Beer name, Average review
 58732,Mystic Wolf Amber,4.0
 58733,Snowriders Ale,4.25
 58734,Belgian Session Ale,4.0
-58735,30th Anniversary- Charlie, Fred And Ken's Bock,4.182403433476395
+58735,"30th Anniversary- Charlie, Fred And Ken's Bock",4.182403433476395
 58737,Silver Creek Hefe-Weiss,4.5
 58741,Guinness (Ghana),4.0
 58743,ChiTown Brown,4.0
@@ -37835,7 +37835,7 @@ Beer id, Beer name, Average review
 59367,WortHog American Wheat,4.0
 59368,Saaz Hopburst,4.5
 59369,Stone 14th Anniversary Emperial IPA,4.196165191740413
-59370,#100,4.0
+59370,"#100",4.0
 59371,Schwarzbier,4.0
 59372,Ivory Tower Endow Mint,4.0
 59373,Ivory Tower Summer Batch #1,4.0
@@ -37937,7 +37937,7 @@ Beer id, Beer name, Average review
 59558,Cask Conditioned ESB,4.5
 59561,Pale Rider,4.0
 59565,Arran Red Squirrel,4.0
-59566,Red, Wheat, And Blue,4.5
+59566,"Red, Wheat, And Blue",4.5
 59567,Funkel Dunkel,4.0
 59568,Willoughby Oak Aged Russian Imperial Stout,4.0
 59570,Noble IPA,4.0
@@ -38038,7 +38038,7 @@ Beer id, Beer name, Average review
 59727,Fischer Hefeweizen,4.5
 59728,Cattail Pale,4.0
 59730,Huckleberry Honey Ale,4.15
-59731,Columbus Hungry, Hungry Hefe,4.4
+59731,"Columbus Hungry, Hungry Hefe",4.4
 59732,Bump's Bitter,4.0
 59733,King Kitty Red,4.5
 59735,True Evel,4.2
@@ -38077,7 +38077,7 @@ Beer id, Beer name, Average review
 59793,Piston Broke,4.0
 59794,Illustration Ale,4.176470588235294
 59795,La Belle En Goguette,4.0
-59796,Spendrups 2,1 Premium Lager,4.0
+59796,"Spendrups 2,1 Premium Lager",4.0
 59798,Bone-A-Fide Pale Ale,4.333333333333333
 59800,German Wheat Ale,4.0
 59801,Scottish Ale,4.0
@@ -38334,7 +38334,7 @@ Beer id, Beer name, Average review
 60165,Bourbon Barrel Aged Wee Heavy,4.416666666666667
 60166,Hipp-O-Lantern,4.15
 60168,Blonde Fatale,4.071428571428571
-60170,Stop, Drop & Roll One,4.0
+60170,"Stop, Drop & Roll One",4.0
 60171,Stone Estate-grown Peach Sour,5.0
 60172,Silverback Porter,4.5
 60173,Beer Geek Breakfast (Speyside Edition),4.125
@@ -38360,7 +38360,7 @@ Beer id, Beer name, Average review
 60203,Brookline Weizen Bock,4.0
 60204,Your Mother,4.9
 60207,Peg's G.O.O.D. Ich Bin Ein Bloody Berliner,4.375
-60208,Jacobsen Saaz Blonde 4,5%,4.0
+60208,"Jacobsen Saaz Blonde 4,5%",4.0
 60209,Whiskey Weisse,4.0
 60211,Explorer ESB,4.0
 60212,In-Toxicated Cherry Ale,5.0
@@ -38498,7 +38498,7 @@ Beer id, Beer name, Average review
 60425,Black Bacon Ryno,4.285714285714286
 60426,Dark Horse Bourbon Barrel Aged Plead The 5th,4.534883720930233
 60427,Short's Bourbon Huma,4.125
-60429,Cape Cod "Christmas In July",4.166666666666667
+60429,"Cape Cod ""Christmas In July""",4.166666666666667
 60430,Hale's Morning Glory Chai Brown,4.0
 60432,Damage Control,4.0
 60435,Amarillo Lambik,4.0
@@ -38579,7 +38579,7 @@ Beer id, Beer name, Average review
 60593,Amber Saison,4.5
 60594,Propeller Kristall Weizen,4.2
 60595,Max Wit,4.0
-60596,"Jessica & Brendan's" Bridal Ale,4.5
+60596,"""Jessica & Brendan's"" Bridal Ale",4.5
 60597,Master Thief,4.333333333333333
 60598,Belgian Blonde,4.0
 60599,Terrapin Hopzilla,4.223076923076923
@@ -38634,7 +38634,7 @@ Beer id, Beer name, Average review
 60668,Tantalizer Cask Ale,4.5
 60669,Ghost River Copperhead Red,4.0
 60670,Super Friends IPA,4.479166666666667
-60672,Brewer's Alley "Live Free" Lager,4.5
+60672,"Brewer's Alley ""Live Free"" Lager",4.5
 60674,Seta,4.0
 60675,Unplugged Abt,4.154867256637168
 60676,Monumental,4.5
@@ -39229,7 +39229,7 @@ Beer id, Beer name, Average review
 61588,Golden Chaos Golden Ale W/Brett,4.0
 61589,Hop Project #33,4.0
 61590,American Pale Ale,4.5
-61591,Columbus Eyr Der, Eyr Der,4.25
+61591,"Columbus Eyr Der, Eyr Der",4.25
 61593,Ghidorah Double IPA - Beer Camp #29,4.265625
 61594,3 Ravens Ale Noir,4.0
 61595,Beelzebub's Jewels 2010,4.0
@@ -39503,7 +39503,7 @@ Beer id, Beer name, Average review
 61999,Harvest Ale,4.0
 62000,Death By Hops,4.190217391304348
 62001,Rivers End Oktoberfest,4.333333333333333
-62002,Session Ale #44: "Weisse This Beer Sour?",4.384615384615385
+62002,"Session Ale #44: ""Weisse This Beer Sour?""",4.384615384615385
 62003,509 Style,4.357142857142857
 62004,The Landlord's Daughter In Black Satin,4.5
 62005,Hop Goddess,5.0
@@ -39549,7 +39549,7 @@ Beer id, Beer name, Average review
 62062,The Black Pearl,4.0
 62063,Loakal Red,4.223076923076923
 62064,Apple Brandy Brown,4.0
-62069,Upright ("Punk Rock" Strong) Lager,4.15
+62069,"Upright (""Punk Rock"" Strong) Lager",4.15
 62070,Ignis Et Flamma,4.257575757575758
 62071,Blond Met Een Pond,4.5
 62072,Allagash Ghoulschip,4.333333333333333
@@ -39866,7 +39866,7 @@ Beer id, Beer name, Average review
 62509,Ol' Pinchfister,4.0
 62510,Queen City Red,4.5
 62513,Murray's Oktoberfest,4.0
-62514,"Requisite" Imperialistic Stout,4.333333333333333
+62514,"""Requisite"" Imperialistic Stout",4.333333333333333
 62516,Barrel Aged Scottish Ale,4.0
 62517,Oyster House Dirty Blonde,4.0
 62518,Dark Horse Whiskey Richard Lambeak,4.25
@@ -39877,7 +39877,7 @@ Beer id, Beer name, Average review
 62527,Autumnal,4.161764705882353
 62528,Cascade Beck Berry,4.1
 62529,Flower Child IPA,4.166666666666667
-62530,November 15th, 1901 KK,4.155172413793103
+62530,"November 15th, 1901 KK",4.155172413793103
 62531,Irish Dry Stout,4.5
 62532,Marv Mans Mild,4.0
 62533,Cardinal Ale,4.125
@@ -40188,7 +40188,7 @@ Beer id, Beer name, Average review
 62964,Ginger Tart,4.0
 62965,Reel Ten,4.0
 62966,Thee Destroyer,4.333333333333333
-62968,Great Lakes Hop Madness ("Quitness"),4.5
+62968,"Great Lakes Hop Madness (""Quitness"")",4.5
 62971,Whambo IPA,4.1875
 62972,Twilight Of The Idols,4.404255319148936
 62973,21st Anniversary Fresh Hop Pale Ale,4.254545454545455
@@ -40320,7 +40320,7 @@ Beer id, Beer name, Average review
 63162,Bonaventure Hop Head Red,4.0
 63163,Blonde De L'Anse,4.5
 63164,Terrapin Big Daddy Vlady's Russian Imperial Stout,4.135416666666667
-63165,Heavy Seas - Thank You, Thank You Very Much,4.166666666666667
+63165,"Heavy Seas - Thank You, Thank You Very Much",4.166666666666667
 63166,Exit 13,4.1911764705882355
 63167,Karl Strauss Parrot In A Palm Tree Holiday Baltic Porter,4.155172413793103
 63169,Saskatchewan Wheat Ale,4.5
@@ -40864,7 +40864,7 @@ Beer id, Beer name, Average review
 64079,Lost In The Trees,4.0
 64080,Procrastinator,4.0
 64081,Dorothy,4.25
-64082,Mighty Tacoma Ale, V2,4.0
+64082,"Mighty Tacoma Ale, V2",4.0
 64083,Sierra Nevada Pro-Am Old Ale,4.0
 64084,Sister Nevada,4.0
 64085,Tett Dopplebock,4.136363636363637
@@ -40884,7 +40884,7 @@ Beer id, Beer name, Average review
 64101,Cherry Baltic Porter,4.25
 64103,Big Bad Wolf,4.5
 64110,Tripel Sec,4.0
-64111,Figgy Pudding, Olde Stock,4.0
+64111,"Figgy Pudding, Olde Stock",4.0
 64112,Querkus Smoked Oaked Porter,4.055555555555555
 64113,Dark Side,4.0
 64114,Blueberry Tripel Vision,4.0
@@ -41002,7 +41002,7 @@ Beer id, Beer name, Average review
 64282,Pompion,4.0
 64284,Witbier,4.3
 64285,Honkaku Karakuchi Mugi,4.0
-64286,Bakumatsu No Beer, Fukkokuban: Koumin Bakushu,4.5
+64286,"Bakumatsu No Beer, Fukkokuban: Koumin Bakushu",4.5
 64288,Black IPA,4.5
 64290,Navigator Doppelbock,4.0
 64291,Kimberton Coffee Porter,4.375
@@ -41024,7 +41024,7 @@ Beer id, Beer name, Average review
 64315,Savage IPA,4.0625
 64316,Grandfather Raven,4.5
 64319,Belgian Style Blond,4.25
-64320,Jive Espresso Stout Infused W/ Banana, Vanilla And Cacoa Nibs,4.0
+64320,"Jive Espresso Stout Infused W/ Banana, Vanilla And Cacoa Nibs",4.0
 64321,Brett Frost,4.0
 64322,Gordon Biersch Doppelbock,4.0
 64323,Sour Pouch,4.0
@@ -41290,11 +41290,11 @@ Beer id, Beer name, Average review
 64748,Festivus MiracALE,4.0
 64749,Blackie's Amber Ale,4.5
 64750,Hoppy Feet 1.5,4.261261261261262
-64751,Evil Twin Before, During And After Christmas Beer,4.104166666666667
+64751,"Evil Twin Before, During And After Christmas Beer",4.104166666666667
 64752,Summertime Ale,4.0
 64754,Imperial Red,4.0
 64756,D'uva Beer,4.0
-64759,Schlafly #20, Volume 1 - Imperial Pilsner,4.083333333333333
+64759,"Schlafly #20, Volume 1 - Imperial Pilsner",4.083333333333333
 64760,BJ's Annual Grand Cru,4.25
 64762,Pale Ale Américaine,4.0
 64763,Dead Tony's,4.0
@@ -41358,7 +41358,7 @@ Beer id, Beer name, Average review
 64849,Pensacola Bay's Extra Special,4.0
 64854,Aigre (Sour) Plead The 5th,4.0
 64855,Russian Winter,4.5
-64857,Ground "N" Pound,4.0
+64857,"Ground ""N"" Pound",4.0
 64858,Double Vision,4.0
 64859,Total Eclipse Stout With Cayenne And Cocoa,4.5
 64860,Belgian Brown Ale,4.0
@@ -41534,7 +41534,7 @@ Beer id, Beer name, Average review
 65117,Columbus Nightstick IPA,4.2
 65118,Vanilla Bean Stout,4.5
 65121,Double Dry-Hopped India Pale Ale,4.5
-65122,Lager 3,5%,4.0
+65122,"Lager 3,5%",4.0
 65125,Cabbage Hill Pilsner,4.25
 65126,Roger & Out,4.5
 65127,Barrel Reserve New Era Barleywine,4.5
@@ -41921,12 +41921,12 @@ Beer id, Beer name, Average review
 65686,Coffee Infused Imperial Stout Trooper,4.857142857142857
 65687,1861 Arnold's Porter,4.0
 65688,Coriander Pale Ale,4.5
-65689,2009 Arquebus, Ch. Boswell Barrel Finish With Brett,4.5
+65689,"2009 Arquebus, Ch. Boswell Barrel Finish With Brett",4.5
 65691,Winter Spiced Ale,4.0
 65692,Millésime 2010,4.0
 65694,Dry Dock Hefeweizen,4.5
 65695,White Birch Night Falls,4.25
-65699,Jefferson Stout - Peaches, Cinnamon, Nutmeg, & Peach Tea,4.5
+65699,"Jefferson Stout - Peaches, Cinnamon, Nutmeg, & Peach Tea",4.5
 65701,Very Special IPA,4.0
 65702,White Birch Harvest Ale,4.0
 65703,Kilikia Tonakan,4.0
@@ -41961,7 +41961,7 @@ Beer id, Beer name, Average review
 65749,Nobility,4.5
 65750,Hoppopotamus,4.5
 65751,Simcoe IPA,4.0
-65752,Berliner Style Weisse, Brettanomyces Lambicus Special Edition,4.34375
+65752,"Berliner Style Weisse, Brettanomyces Lambicus Special Edition",4.34375
 65753,Deckhand Belgian Saison,4.285714285714286
 65754,Gingerbread Man Beer,4.0
 65755,Coconut Porter,4.0
@@ -41976,7 +41976,7 @@ Beer id, Beer name, Average review
 65765,Tell Tale Red Ale,4.0
 65766,Capt. Ivan Drago's Russian Imperial Stout,4.0
 65768,Mariachi,4.0
-65769,Night Train, Bourbon Barrel,4.5
+65769,"Night Train, Bourbon Barrel",4.5
 65770,Citra IPA,4.055555555555555
 65771,Abbaye De Saint Bon-Chien Grand Cru (Aged In San Giovese Barrels),4.5
 65772,Broukot Vlasskapelle,4.25
@@ -42003,7 +42003,7 @@ Beer id, Beer name, Average review
 65814,Bravo Single Hop IPA,4.083333333333333
 65815,Fra Via Til (From Via To) Bourbon Barrel Aged,4.25
 65817,Nigel's ESB,4.0
-65820,Schlafly #20, Volume 2 - Hop Toddy,4.115384615384615
+65820,"Schlafly #20, Volume 2 - Hop Toddy",4.115384615384615
 65822,Patricia Porter,4.5
 65824,Dark Day IPA,4.4
 65826,Flemish Bruin,4.0
@@ -42142,7 +42142,7 @@ Beer id, Beer name, Average review
 66023,RIS,4.0
 66024,Zahre Rossa Vienna,4.0
 66025,Good Grief Brown Ale (with Toasted Coconut),4.75
-66026,Que Onda (with Jalapeño, Mango, And Guava),4.0
+66026,"Que Onda (with Jalapeño, Mango, And Guava)",4.0
 66029,Mornington Peninsula Pale,4.1
 66032,Dark Apparition - Nuts,4.523809523809524
 66033,Snow Ermine Holiday,4.166666666666667
@@ -42209,7 +42209,7 @@ Beer id, Beer name, Average review
 66119,Belgian Dubbel,4.25
 66120,Pipe Organ Pale With Simcoe Hops,4.0
 66121,Abita Select Black IPA,4.2727272727272725
-66122,"The Buk" Pale Ale,4.416666666666667
+66122,"""The Buk"" Pale Ale",4.416666666666667
 66123,Soul Doubt IPA,4.0
 66124,Harvest Ale #3,4.5
 66125,My Bloody Valentine,4.666666666666667
@@ -42259,7 +42259,7 @@ Beer id, Beer name, Average review
 66186,Bourbon Barrel Aged Cowabunga Porter,4.0
 66187,Czech Pilsener,4.0
 66188,Frankenmuth New Year Stout 2011,4.25
-66189,Porter, Hey Porter!,4.25
+66189,"Porter, Hey Porter!",4.25
 66190,21 Rock,4.5
 66193,The Coupler,4.0
 66195,Cafe Racer 15,4.214285714285714
@@ -42401,7 +42401,7 @@ Beer id, Beer name, Average review
 66402,Drakens DIPA,4.357142857142857
 66407,Callow Knife,4.5
 66413,Roggenschnizzle,4.5
-66414,Special "K" Kolsch,4.0
+66414,"Special ""K"" Kolsch",4.0
 66415,Belgian Dubbel,5.0
 66418,Jumbo Love,4.0
 66419,Outta Town Brown - Beer Camp #39,4.25
@@ -42693,7 +42693,7 @@ Beer id, Beer name, Average review
 66826,Nelson Sauvin (IPA Is Dead),4.136363636363637
 66827,2x4 Ale,4.166666666666667
 66829,Wolf Battle Of Britain,4.25
-66831,4'10" Jen Blonde Ale,4.0
+66831,"4'10"" Jen Blonde Ale",4.0
 66833,Jai Alai IPA - Kumquat Orange,4.5
 66835,Short's Pineapple Side-Down,4.0
 66837,Pint-A-Joe,4.5
@@ -42953,7 +42953,7 @@ Beer id, Beer name, Average review
 67196,Winter Solstice Vienna Lager,4.0
 67197,Cerveza Mysterioso,4.363636363636363
 67198,Stuntman Brown,4.0
-67199,Hello, My Name Is Ingrid,4.166666666666667
+67199,"Hello, My Name Is Ingrid",4.166666666666667
 67202,Oasis Amber,4.0
 67203,Hellles Bock,4.0
 67204,Buckeye Roots Hefeweizen,4.0
@@ -42981,7 +42981,7 @@ Beer id, Beer name, Average review
 67242,Abbey De Dunster,4.0
 67244,Thorny Goat,4.333333333333333
 67245,Summit Gold Sovereign Ale,4.196078431372549
-67246,Public "House" Brew - IPA,4.5
+67246,"Public ""House"" Brew - IPA",4.5
 67247,Three Legged Dog,4.25
 67248,Ambrosia,4.166666666666667
 67252,Dempsey's Ugly Dog Stout,4.0
@@ -43470,7 +43470,7 @@ Beer id, Beer name, Average review
 68030,Schlafly Single Hop Citra Pale Ale,4.083333333333333
 68031,Single Star,4.0
 68032,Great Lakes/Andrew Bartle Happy Pils,4.0
-68033,Schlafly "Sofa King" Red Ale,4.0
+68033,"Schlafly ""Sofa King"" Red Ale",4.0
 68034,Arbor Brewing Sodibo Barrel Aged Blond Ale (Sour Series),4.0
 68037,Shredder's Wheat,4.5
 68038,Kilted Pig Wee Heavy Scotch Ale,4.0
@@ -43508,7 +43508,7 @@ Beer id, Beer name, Average review
 68104,Organic Goldeneye Pale Ale,4.0
 68110,Black Cat,4.0
 68123,Irish Red Ale,4.0
-68124,Millstream Sun "Ryes" Helles Doppelbock,4.166666666666667
+68124,"Millstream Sun ""Ryes"" Helles Doppelbock",4.166666666666667
 68125,Growler,4.0
 68126,Liquid Sunshine Ale,4.4375
 68127,Hop Head IPA Version 2.0,4.25
@@ -43518,7 +43518,7 @@ Beer id, Beer name, Average review
 68131,Red Duck Pale Rider,4.0
 68134,Holzrauch,4.0
 68135,Kleinmanneken,4.0
-68136,Southern Pecan - Cherries, Raisins, & Vanilla,4.0
+68136,"Southern Pecan - Cherries, Raisins, & Vanilla",4.0
 68137,Anosteke,4.0
 68138,Amon Amarth - Ragnarok,4.204918032786885
 68141,La Frappiste Grand Cru 2011,4.0
@@ -43834,7 +43834,7 @@ Beer id, Beer name, Average review
 68656,Twilight Road Warrior,4.0
 68657,Raspberry Hefeweizen,4.25
 68658,Wheat Pale/Pale Weisse,4.0
-68662,December 6th, 1855 EIP,4.275
+68662,"December 6th, 1855 EIP",4.275
 68665,Lips Of Faith - Eric's Ale (Bourbon Barrel Aged),5.0
 68670,Siperia Imperial Stout,4.5
 68673,Cambridge House Brown Bomber,4.0
@@ -43854,7 +43854,7 @@ Beer id, Beer name, Average review
 68701,Roundabout Chocolate Oatmeal Stout,4.0
 68702,Murray's Easter Ale,4.0
 68705,Jose The Gose,4.0
-68706,Nice Guy, Dud Root,4.0
+68706,"Nice Guy, Dud Root",4.0
 68710,Love (Apple Whiskey Barrel Aged),4.4
 68712,5 Vulture,4.166666666666667
 68713,5 Lizard,4.0
@@ -44133,8 +44133,8 @@ Beer id, Beer name, Average review
 69163,Cupcake's Revenge,4.5
 69165,Wee Muckle,4.3
 69166,Honey Storm,4.2
-69167,Cayenne, Chipotle, And Chili Pepper Rauchbier,4.5
-69169,Roasted Garlic, Date, And Fig Rauchbier,4.0
+69167,"Cayenne, Chipotle, And Chili Pepper Rauchbier",4.5
+69169,"Roasted Garlic, Date, And Fig Rauchbier",4.0
 69170,2011 Grand Crüe,4.5
 69171,2010 Barleywine,4.5
 69172,Dan Dyer And The Hoppy Homunculus,4.125
@@ -44739,7 +44739,7 @@ Beer id, Beer name, Average review
 70120,Brick Row Red,4.25
 70121,White Chocolate Cream Ale,4.166666666666667
 70124,Barley's Wit's End,4.0
-70125,Double Coulter IPA "Dos Cone Es",4.0
+70125,"Double Coulter IPA ""Dos Cone Es""",4.0
 70126,Blackberry Wheat Ale,4.0
 70127,Shandy,4.0
 70128,Double Take IPA,4.0
@@ -44861,7 +44861,7 @@ Beer id, Beer name, Average review
 70341,Barefoot Buddha,4.25
 70342,White Tail Hefeweizen,4.083333333333333
 70343,Great Lakes Etobichoker,4.25
-70344,Great Lakes Chinook, Line And Sinker,4.0
+70344,"Great Lakes Chinook, Line And Sinker",4.0
 70346,Coffee Infused Edmund Fitzgerald Porter,4.5
 70347,Figaro,4.25
 70348,SMaSH IPA,4.0
@@ -44874,7 +44874,7 @@ Beer id, Beer name, Average review
 70360,Zombie Apocalypse Red Lager,4.0
 70363,Pharaoh,4.2
 70364,House Ales/Spearhead Heart Of Darkness,4.25
-70367,Oscar "Red" Dragon,4.166666666666667
+70367,"Oscar ""Red"" Dragon",4.166666666666667
 70368,Saison Nouveau,4.5
 70369,Double Dry Hopped Matriarch,4.8
 70370,横須賀ビアサケ (Yokosuka Biasake),4.0
@@ -44886,7 +44886,7 @@ Beer id, Beer name, Average review
 70378,Eichbaum Pilsener,5.0
 70379,Anniversary Ale XV,4.090909090909091
 70380,Bourbon Barrel Aged Dark Lord (Pappy Van Winkle),4.5227272727272725
-70381,Oude Gueuze "Selectie C",4.5
+70381,"Oude Gueuze ""Selectie C""",4.5
 70382,Liopard Oir,4.1
 70384,Imperial Porter,4.25
 70385,Firewatcher Chipotle Stout Cask Ale,4.5
@@ -44995,7 +44995,7 @@ Beer id, Beer name, Average review
 70561,Dripping Saison,4.083333333333333
 70562,Conscious Sedaison,4.0
 70563,Pilsener Elite,4.5
-70564,Hop, Skip And Go Natural  (organic),4.0
+70564,"Hop, Skip And Go Natural  (organic)",4.0
 70565,Ottoblon,4.0
 70566,Matrimoniale,4.25
 70567,Prickly Moses Black Panther IBA,4.0
@@ -45034,7 +45034,7 @@ Beer id, Beer name, Average review
 70618,Double Dry-Hopped Hop Wrangler,4.25
 70620,Black Lager,4.0
 70621,Lemongrass White Ale,4.0
-70622,Blackbeerd Imperial Stout, 2011 Barrel Aged,4.25
+70622,"Blackbeerd Imperial Stout, 2011 Barrel Aged",4.25
 70623,Lubrication,4.104166666666667
 70624,Flying Monkeys Orangemungeous,4.0
 70625,English IPA,4.5
@@ -45132,7 +45132,7 @@ Beer id, Beer name, Average review
 70791,Wittekerke Framboise,4.0
 70795,Founders 10K IPA,4.2727272727272725
 70796,Wild Ale #7 (Surf Mountain Sour),4.125
-70800,Barrel-Aged "The General",4.4
+70800,"Barrel-Aged ""The General""",4.4
 70801,Tripel,4.0
 70802,Wheat Wacker,4.0
 70803,The Revolution,4.0
@@ -45203,7 +45203,7 @@ Beer id, Beer name, Average review
 70916,Midwest Farmer's Daughter,4.0
 70919,Pitchfork,4.0
 70920,Echo St. IPA,4.25
-70921,Drake's Drew "Berry"more,4.25
+70921,"Drake's Drew ""Berry""more",4.25
 70922,Summer Cycle,4.25
 70923,Single Batch Series - Fool's Gold Ale,4.0
 70924,Abbey Normal,4.0
@@ -45451,7 +45451,7 @@ Beer id, Beer name, Average review
 71327,Grayton Pale Ale,5.0
 71328,Pinot Noir Barrel Aged Buffalo Gold,4.0
 71329,The Chronic,4.5
-71331,Batch "X" IPA,4.125
+71331,"Batch ""X"" IPA",4.125
 71332,Sessie,4.25
 71333,Cantus Caeli,4.5
 71336,Great Lakes Black Jacques Shallack,4.0
@@ -45494,13 +45494,13 @@ Beer id, Beer name, Average review
 71396,Sour Grapes,4.0
 71397,Double Bubble DIPA With Bubblegum,5.0
 71398,Summer Solstice,4.4
-71402,Zaison "Super" Saison,4.5
+71402,"Zaison ""Super"" Saison",4.5
 71403,White Birch 2 Anniversary Ale,4.083333333333333
 71404,Son Of A Preacher Man,4.5
 71405,Jason Fields & Kevin Sheppard / Tröegs / Stone Cherry Chocolate Stout,4.114035087719298
 71406,The Preacher Man's Daughter,4.0
 71407,Red Duck Canute The Gruit,4.0
-71408,Schlafly #20, Volume 3: Citrus Witbier,4.090909090909091
+71408,"Schlafly #20, Volume 3: Citrus Witbier",4.090909090909091
 71410,Short's Saison,4.0
 71411,Belgian Saison,4.0
 71412,Old Sultan,4.25
@@ -45547,7 +45547,7 @@ Beer id, Beer name, Average review
 71480,Zitrone Kolsch,4.0
 71481,Quad,4.0
 71483,Evil Twin Ashtray Heart,4.15
-71484,"Woosta" Weizenbock,4.333333333333333
+71484,"""Woosta"" Weizenbock",4.333333333333333
 71485,Pale Ale,4.0
 71486,Due,4.0
 71488,Western Rider,4.0
@@ -45615,7 +45615,7 @@ Beer id, Beer name, Average review
 71598,Johnny Utah Session IPA,4.0
 71600,Hadley's Blonde,4.0
 71601,Antipodal Dark IPA,4.25
-71602,"Just One More" Scotch Ale,4.0
+71602,"""Just One More"" Scotch Ale",4.0
 71603,Sour Owl,4.0
 71604,Thørsth Bonanza,4.25
 71606,Heavy Seas Winking Wit,4.166666666666667
@@ -45629,12 +45629,12 @@ Beer id, Beer name, Average review
 71619,Stimulator,4.0
 71620,Cache La Porter,4.25
 71621,Car 21,4.25
-71622,Alpha Pale ("XPA"),5.0
+71622,"Alpha Pale (""XPA"")",5.0
 71624,Green Flash Sugar Smack,4.0
 71625,Bubonic Chronic,4.0
 71626,Crooked Stave Good Glory,4.0
 71627,Crooked Stave Pure Guava Petite Sour,4.0
-71628,Crooked Stave Wild Wild Brett "Rouge",4.115384615384615
+71628,"Crooked Stave Wild Wild Brett ""Rouge""",4.115384615384615
 71630,Calypso Pilsner,4.0
 71631,Mr. Woodcock,4.0
 71632,SHIPA - Citra,4.5
@@ -45661,7 +45661,7 @@ Beer id, Beer name, Average review
 71667,3 Rivers Scottish Ale,4.0
 71669,Slow-Vannah Pale Ale Cask With Citra Hops,4.0
 71674,Jamarillo,4.5
-71678,Melchior "The Oak Melchior",4.333333333333333
+71678,"Melchior ""The Oak Melchior""",4.333333333333333
 71680,Bison Saison De Wench,4.25
 71684,Island Pale ALe,4.0
 71686,Brew Eyed Blond,4.0
@@ -45865,7 +45865,7 @@ Beer id, Beer name, Average review
 71988,White Birch Apprentice Series Deviant Monk Oak Aged Ale,4.0
 71989,White Birch Colonial Ale,4.0
 71992,Tuff Session Ale,4.0
-71996,IPA With Black Lemon, Coriander And Pink Peppercorns,4.0
+71996,"IPA With Black Lemon, Coriander And Pink Peppercorns",4.0
 72000,Au Brasseur Blanche,4.5
 72001,Yulewine,4.25
 72003,Barefoot Wit,4.0
@@ -45922,7 +45922,7 @@ Beer id, Beer name, Average review
 72090,Squatters Big Cottonwood,4.0
 72094,Thrillseeker IPA,4.142857142857143
 72095,Black HOPs,4.0
-72096,Pinglehead, Hungarian Oak Aged,4.5
+72096,"Pinglehead, Hungarian Oak Aged",4.5
 72100,Civil Disobedience #1,4.5
 72101,Single Brew Stout,4.0
 72102,Murray's Heart Of Darkness Oak Aged,4.0
@@ -46019,7 +46019,7 @@ Beer id, Beer name, Average review
 72262,Zarzamora Wit,4.0
 72263,Heavy Nettle,4.0
 72267,Twenty Pounder,4.214285714285714
-72268,Bestway IPA, IPA Aged On Oak,4.0
+72268,"Bestway IPA, IPA Aged On Oak",4.0
 72269,Galactic Double Daisy Cutter,4.233870967741935
 72270,Gonzie,4.2
 72271,Hummocky Lick Sumac Sensation,4.5
@@ -46431,7 +46431,7 @@ Beer id, Beer name, Average review
 72933,Barrel-Aged Institutionalized,4.166666666666667
 72934,Fresh Hop Inversion IPA,4.5
 72936,South Swell Double Ipa,4.375
-72938,"M",4.0
+72938,"""M""",4.0
 72939,Kill Your Darlings,4.166666666666667
 72940,Mondo Calypso,4.0
 72941,Hopadillo IPA,4.0
@@ -46586,7 +46586,7 @@ Beer id, Beer name, Average review
 73171,Tire Au Poignet,4.0
 73172,Double Cuvee De Tomme,4.0
 73173,Zee Lander,4.333333333333333
-73174,Great Lakes In A Galaxy Far, IPA,4.0
+73174,"Great Lakes In A Galaxy Far, IPA",4.0
 73176,Belgian Witbier,4.0
 73177,Alien Abduction,4.5
 73178,Frankenstein Oktoberfest,4.0
@@ -46703,7 +46703,7 @@ Beer id, Beer name, Average review
 73346,Afterschool Special,4.0
 73347,Fresh Hop Chainbreaker,4.0
 73348,Southern Cross Hopped Kaimai Pale Ale,4.5
-73354,Mongrel "Wet Hopped" Local Red IPA,4.0
+73354,"Mongrel ""Wet Hopped"" Local Red IPA",4.0
 73355,Misty Brook Harvest Double Pale Ale,4.5
 73356,Hoppin' Cretin IPA,4.5
 73358,Robles Roja,4.5
@@ -46904,7 +46904,7 @@ Beer id, Beer name, Average review
 73638,Nickel Brook Woodstock Headstock IPA,4.0
 73639,House Ales Swag Out Stout,4.0
 73640,Fresh Hop Full Moon,4.357142857142857
-73642,Autumn Sunset "Rot Weizen",4.0
+73642,"Autumn Sunset ""Rot Weizen""",4.0
 73645,Revival Saison,4.0
 73647,Stryker,4.25
 73651,Green's Amber Ale,4.0
@@ -47159,7 +47159,7 @@ Beer id, Beer name, Average review
 74054,De Smet Harvest Ale,4.5
 74055,Otto Ale,4.0476190476190474
 74057,Dry Hop ESB ('11 C-Hops),4.0
-74059,Heavy Seas - Peg Leg W/ Smoked Vanilla, Coffee And Birch,4.0
+74059,"Heavy Seas - Peg Leg W/ Smoked Vanilla, Coffee And Birch",4.0
 74060,American Saison,4.0
 74061,Chocolate Java Porter,4.5
 74064,Jean Chris Nomad 2011,4.333333333333333
@@ -47214,7 +47214,7 @@ Beer id, Beer name, Average review
 74141,Big Caboose Red Ale,4.0
 74142,Hochzeit Pilsner,4.0
 74143,Slippery Slope Ale,4.0
-74144,Collaboration Series: Faster, Bigger, Better, Bolder,4.09375
+74144,"Collaboration Series: Faster, Bigger, Better, Bolder",4.09375
 74146,Cleopatra,4.0
 74147,Playa Pale Ale,4.0
 74148,Two Tortugas,4.1
@@ -47524,7 +47524,7 @@ Beer id, Beer name, Average review
 74615,Tempranillo Barrel Aged Cherry La Bestia,4.0
 74617,Minster Ale,4.0
 74623,Frosty Knuckle Sea Spray IPA,4.0
-74624,Cherry, Oatmeal Stout,4.0
+74624,"Cherry, Oatmeal Stout",4.0
 74625,Schneider Weisse Tap X Mein Nelson Sauvin,4.291666666666667
 74626,Moat Scottie's IPA,4.25
 74627,London Porter,4.0
@@ -47650,7 +47650,7 @@ Beer id, Beer name, Average review
 74814,Kitchen Sink Stout,4.0
 74815,Slumbrew Flagraiser IPA,4.147058823529412
 74817,Fall Down Brown,4.0
-74819,Crooked Stave Wild Wild Brett "Orange",4.083333333333333
+74819,"Crooked Stave Wild Wild Brett ""Orange""",4.083333333333333
 74820,Pumpkin Spice Ale,4.0
 74821,Crooked Stave Surette,4.0
 74822,Scottish -Style- Heavy Ale,4.5
@@ -47869,7 +47869,7 @@ Beer id, Beer name, Average review
 75152,Brettanolocator,4.25
 75156,Farmhouse Ale,4.5
 75157,Punkunhead,5.0
-75158,Pale Ale S.C.A.G. (Simcoe, Columbus, Amarillo & Galaxy),5.0
+75158,"Pale Ale S.C.A.G. (Simcoe, Columbus, Amarillo & Galaxy)",5.0
 75159,Mild End,4.0
 75160,Sweetwater Dank Tank Fresh Sticky Nugs,4.275862068965517
 75162,Evil Twin 9th Symphony,4.4
@@ -47993,7 +47993,7 @@ Beer id, Beer name, Average review
 75354,Porter,4.125
 75355,Unity (2011),4.0
 75356,Horns Up,4.0
-75357,Sculpin - With Ginger, Lime, And Szechuan Peppercorn,4.0
+75357,"Sculpin - With Ginger, Lime, And Szechuan Peppercorn",4.0
 75358,Blue Moon Spiced Amber Ale,4.166666666666667
 75364,Pearl Necklace Oyster Stout,4.166666666666667
 75365,Bed And Breakfast,4.0
@@ -48295,7 +48295,7 @@ Beer id, Beer name, Average review
 75871,Tovarish,4.625
 75873,Foursome,4.0
 75875,Anniversary IPA,4.0
-75877,Tovarish With Cacao, Toasted Almond & Coconut,4.5
+75877,"Tovarish With Cacao, Toasted Almond & Coconut",4.5
 75879,Jubilation Winter Warmer 2011,4.0
 75881,Saint Arnold Donleavy Porter,4.0
 75883,Mr. Scrooge’s Humbug Bitter,4.0
@@ -48304,14 +48304,14 @@ Beer id, Beer name, Average review
 75894,Harpoon Vermont Spruce Tip Ale (100 Barrel Series #39),4.038461538461538
 75895,Bourbon Barrel Imperial Stout,5.0
 75897,Krøkkebic,4.083333333333333
-75898,Hop, Drop ‘n Roll,4.75
+75898,"Hop, Drop ‘n Roll",4.75
 75899,Amsterdam Hulkamania Kolsch,4.0
 75900,Vanilla Milk Stout,4.0
-75901,StoneHammer "Two-Lumps" Imperial Coffee Stout,4.0
+75901,"StoneHammer ""Two-Lumps"" Imperial Coffee Stout",4.0
 75902,Costa Rica (Coffee Porter),4.333333333333333
 75903,Amsterdam Selleck's Reserve 4 Barrel Blend,4.5
 75904,Bohemian Dark Lager,4.25
-75905,Nickel Brook Sir, Your Moustache Tastes Sour,4.5
+75905,"Nickel Brook Sir, Your Moustache Tastes Sour",4.5
 75906,Roland The Headless Assistant Brewer,4.0
 75907,Digital IPA,4.2272727272727275
 75913,Cask Aged Maraschino Dubbel,4.0
@@ -48430,7 +48430,7 @@ Beer id, Beer name, Average review
 76103,Imperial Eclipse Stout - Brewmaster’s Grand Cru Blend,4.25
 76105,Three Sheets - Rum Barrel Aged,4.5
 76106,Stone's Throw Scottish Ale,4.0
-76107,Three Sheets - Syrah, Brandy, And Bourbon Barrel Aged,4.25
+76107,"Three Sheets - Syrah, Brandy, And Bourbon Barrel Aged",4.25
 76108,Sweet Southern Kiss,4.5
 76109,Morning Wood,4.0
 76111,Black Betsy Imperial Black Belgian IPA,4.0
@@ -48485,7 +48485,7 @@ Beer id, Beer name, Average review
 76182,Shart Pants: Another Tribute,4.0
 76183,Gingerbread Brown,4.0
 76184,Andy's Ale,4.75
-76186,Victory At "Candy Cane Cove",4.333333333333333
+76186,"Victory At ""Candy Cane Cove""",4.333333333333333
 76187,TB8 Lager,4.0
 76188,No Ka 'Oi IPA,4.0
 76190,Otoño Bienvenido,4.0
@@ -48644,7 +48644,7 @@ Beer id, Beer name, Average review
 76440,2X Stout,4.0
 76445,Saison D'Automne,4.0
 76447,Pioneer Imperial American Brown Ale,4.0
-76448,Heaven, Maybe?!,4.0
+76448,"Heaven, Maybe?!",4.0
 76449,Winter Bock,4.0
 76450,7 Springs Mountain Ale,4.25
 76451,Schwartz Stout,4.0
@@ -48754,7 +48754,7 @@ Beer id, Beer name, Average review
 76638,Secret Weapon Oak Aged,4.0
 76641,HopCat Apparition,4.0
 76643,Dunkle Punch,4.0
-76644,Barrel-Aged "BA" Baracus,4.375
+76644,"Barrel-Aged ""BA"" Baracus",4.375
 76645,Vanilla Porter,4.0
 76646,Double Overhead,4.0
 76647,Candy Cane Bourbon Russian Imperial Stout,4.5
@@ -48762,13 +48762,13 @@ Beer id, Beer name, Average review
 76650,Oppigårds Humlelager,5.0
 76651,Chunder Chocolate Stout,4.0
 76652,Winter's Folly,4.0
-76653,"The Camp" Barleywine,4.0
+76653,"""The Camp"" Barleywine",4.0
 76657,Petite Syrah Aged Strong Dark,4.0
 76658,Lillehammer Brewery Wit,4.5
 76660,Galactic Winter Turtle,4.0
 76661,Wild Wild Brett Yellow,4.0
 76662,Helter Spelter,4.0
-76663,Schlafly #20, Volume 4: Southern Hemisphere IPA,4.125
+76663,"Schlafly #20, Volume 4: Southern Hemisphere IPA",4.125
 76665,Kentucky Oats,4.0
 76666,Smoked Goose (Barrel Aged),4.0
 76668,Santa Baby,4.0
@@ -48929,8 +48929,8 @@ Beer id, Beer name, Average review
 76949,Scottish Ale,4.0
 76952,Thanks Allen,4.5
 76954,Festivus,4.0
-76958,Crooked Stave Wild Wild Brett "Yellow",4.333333333333333
-76959,Crooked Stave Wild Wild Brett "Green",4.125
+76958,"Crooked Stave Wild Wild Brett ""Yellow""",4.333333333333333
+76959,"Crooked Stave Wild Wild Brett ""Green""",4.125
 76960,Aureus,4.0
 76962,Hoppopotamus IPA,4.0
 76963,Coconut Porter,4.0
