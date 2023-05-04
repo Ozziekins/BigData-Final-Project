@@ -33,6 +33,9 @@ cat /root/q10/* >> output/q10.csv
 echo "Beer palate, Count" > output/q11.csv
 cat /root/q11/* >> output/q11.csv
 
+echo "Beer name, Reviewers" > output/q12.csv
+cat /root/q12/* >> output/q12.csv
+
 echo "Profile name, Year, Number of reviews" > output/q14.csv
 cat /root/q14/* >> output/q14.csv
 
