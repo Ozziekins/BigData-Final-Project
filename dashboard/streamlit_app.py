@@ -4,12 +4,12 @@ import pandas as pd
 import numpy as np
 import time
 
-beers = pd.read_csv("../data/beer.csv")
-brewers = pd.read_csv("../data/brewer.csv")
-reviews = pd.read_csv("../data/review.csv")
-persons = pd.read_csv("../data/person.csv")
-q1 = pd.read_csv("../output/q1.csv")
-q2 = pd.read_csv("../output/q2.csv")
+beers = pd.read_csv("./data/beer.csv")
+brewers = pd.read_csv("./data/brewer.csv")
+reviews = pd.read_csv("./data/review.csv")
+persons = pd.read_csv("./data/person.csv")
+q1 = pd.read_csv("./output/q1.csv")
+q2 = pd.read_csv("./output/q2.csv")
 # q3 = pd.read_csv("../output/q3.csv")
 # q4 = pd.read_csv("../output/q4.csv")
 # q5 = pd.read_csv("../output/q5.csv")
@@ -24,7 +24,8 @@ q2 = pd.read_csv("../output/q2.csv")
 # q14 = pd.read_csv("../output/q14.csv")
 # q15 = pd.read_csv("../output/q15.csv")
 
-eda_beer_snippets = st.button('Snippet of beers')
+if 'toView' not in st.session_state:
+    st.session_state.toView = ''
 
 def displayRecommender():
     action = st.selectbox(
@@ -66,26 +67,32 @@ def displayRecommender():
     if st.button('Submit'):
         runData()
 
+def OnClick(key):
+    print(key)
+    st.session_state.toView = key
+    print(st.session_state.toView)
+
 def displayEDA():
     if st.button('Snippets'):
-        st.write(eda_beer_snippets)
-        st.button('Snippet of brewers')
+        st.button('Snippet of beers', on_click=lambda : OnClick('beerSnippet'))
+        st.button('Snippet of brewers', on_click=lambda : OnClick('brewerSnippet'))
         st.button('Snippet of reviews')
         st.button('Snippet of reviewers')
 
     if st.button('Queries'):
         st.button('Q1')
         st.button('Q2')
-
-    st.subheader('Some samples from the data')
-    st.markdown('`beers` table')
-    st.write(beers.head(5))
-    st.markdown("`brewers` table")
-    st.write(brewers.head(5))
-    st.markdown("`reviews` table")
-    st.write(reviews.head(5))
-    st.markdown("`persons` table")
-    st.write(persons.head(5))
+    
+    # print(st.session_state.beerSnippet)
+    # st.subheader('Some samples from the data')
+    # st.markdown('`beers` table')
+    # st.write(beers.head(5))
+    # st.markdown("`brewers` table")
+    # st.write(brewers.head(5))
+    # st.markdown("`reviews` table")
+    # st.write(reviews.head(5))
+    # st.markdown("`persons` table")
+    # st.write(persons.head(5))
 
     st.markdown('---')
     st.header("Exploratory Data Analysis")
@@ -139,18 +146,22 @@ def showMain():
     st.subheader('Data Characteristics')
     beers_dda = pd.DataFrame(data = [["Beers", beers.shape[0]-1, beers.shape[1]], ["Reviews", reviews.shape[0], reviews.shape[1]]], columns = ["Tables", "Features", "Instances"])
     st.write(beers_dda)
-    st.markdown('`beers` table')
-    st.write(beers.describe())
-    st.markdown('`brewers` table')
-    st.write(brewers.describe())
-    st.markdown('`reviews` table')
-    st.write(reviews.describe())
-    st.markdown('`persons` table')
-    st.write(persons.describe())
-
-    if eda_beer_snippets:
+    # st.markdown('`beers` table')
+    # st.write(beers.describe())
+    # st.markdown('`brewers` table')
+    # st.write(brewers.describe())
+    # st.markdown('`reviews` table')
+    # st.write(reviews.describe())
+    # st.markdown('`persons` table')
+    # st.write(persons.describe())
+    
+    if st.session_state.toView == "beerSnippet":
         st.subheader('Some samples from the data')
         st.markdown('`beers` table')
         st.write(beers.head(5))
+    elif st.session_state.toView == "brewerSnippet":
+        st.subheader('Some samples from the data')
+        st.markdown('`brewers` table')
+        st.write(brewers.head(5))
 
 showMain()
