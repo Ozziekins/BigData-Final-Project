@@ -234,5 +234,93 @@ def showMain():
         st.text('The beers that have the highest abv')
         st.bar_chart(data=q5, x=' Beer name', y=' Beer abv')
         st.write(q5)
+    elif st.session_state.toView == "Query 6":
+        st.markdown('---')
+        st.header("Exploratory Data Analysis")
+        st.subheader('Q6')
+        with st.spinner("Fetching Data"):
+            time.sleep(10)
+        st.text('The styles of top 10 highest reviewed beers')
+        st.bar_chart(data=q6, x=' Beer name', y=' Average total review')
+        st.write(q6)
+    elif st.session_state.toView == "Query 7":
+        st.markdown('---')
+        st.header("Exploratory Data Analysis")
+        st.subheader('Q7')
+        with st.spinner("Fetching Data"):
+            time.sleep(10)
+        st.text('The number of beers for each appearance score')
+        st.bar_chart(data=q7, x='Beer appearance', y=' Count')
+        st.write(q7)
+    elif st.session_state.toView == "Query 8":
+        st.markdown('---')
+        st.header("Exploratory Data Analysis")
+        st.subheader('Q8')
+        with st.spinner("Fetching Data"):
+            time.sleep(10)
+        st.text('The number of beers for each aroma score')
+        st.bar_chart(data=q8, x='Beer aroma', y=' Count')
+        st.write(q8)
+    elif st.session_state.toView == "Query 9":
+        st.markdown('---')
+        st.header("Exploratory Data Analysis")
+        st.subheader('Q9')
+        with st.spinner("Fetching Data"):
+            time.sleep(10)
+        st.text('The number of beers for each total score')
+        st.bar_chart(data=q9, x='Beer total', y=' Count')
+        st.write(q9)
+    elif st.session_state.toView == "Query 10":
+        st.markdown('---')
+        st.header("Exploratory Data Analysis")
+        st.subheader('Q10')
+        with st.spinner("Fetching Data"):
+            time.sleep(10)
+        st.text('The number of beers for each taste score')
+        st.bar_chart(data=q10, x='Beer taste', y=' Count')
+        st.write(q10)
+    elif st.session_state.toView == "Query 11":
+        st.markdown('---')
+        st.header("Exploratory Data Analysis")
+        st.subheader('Q11')
+        with st.spinner("Fetching Data"):
+            time.sleep(10)
+        st.text('The number of beers for each palate score')
+        st.bar_chart(data=q11, x='Beer palate', y=' Count')
+        st.write(q11)
+    elif st.session_state.toView == "Query 12":
+        st.markdown('---')
+        st.header("Exploratory Data Analysis")
+        st.subheader('Q12')
+        with st.spinner("Fetching Data"):
+            time.sleep(10)
+        st.text('The users that reviewed a particular beer')
+        st.table(data=q12)
+        # st.bar_chart(data=q12, x='Beer name', y=' Reviewers')
+        # st.write(q12)
+    elif st.session_state.toView == "Query 13":
+        st.markdown('---')
+        st.header("Exploratory Data Analysis")
+        st.subheader('Q13')
+        with st.spinner("Fetching Data"):
+            time.sleep(10)
+        st.text('The timestamp over overall time of top 5 users with most activity')
+        st.table(data=q13)
+    elif st.session_state.toView == "Query 14":
+        st.markdown('---')
+        st.header("Exploratory Data Analysis")
+        st.subheader('Q14')
+        with st.spinner("Fetching Data"):
+            time.sleep(10)
+        st.text('The number of reviews per year of top 5 active users')
+        st.table(data=q14)
+    elif st.session_state.toView == "Query 15":
+        st.markdown('---')
+        st.header("Exploratory Data Analysis")
+        st.subheader('Q15')
+        with st.spinner("Fetching Data"):
+            time.sleep(10)
+        st.text('The beer reviews over time for a particular beer')
+        st.table(data=q15)
 
 showMain()
