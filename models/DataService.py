@@ -9,7 +9,9 @@ class DataService(object):
         return cls.instance
     
     def __init__(self):
-        spark = SparkService()
+        spark = SparkService()  
+        print(spark.spark.catalog.listTables("projectdb"))
+
         beer = spark.spark.read.format("avro").table('projectdb.beer_buck')
         beer.createOrReplaceTempView('beer_buck')
 
@@ -38,6 +40,6 @@ class DataService(object):
         .withColumn('month', month('time'))
 
         self.beer = beer
-        self.review =  review
+        self.review = review
         self.person = person
         self.brewer = brewer

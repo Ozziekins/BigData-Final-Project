@@ -12,30 +12,34 @@ import matplotlib.dates as mdates
 
 import plotly.figure_factory as ff
 
-beers = pd.read_csv("./data/beer.csv")
-brewers = pd.read_csv("./data/brewer.csv")
-reviews = pd.read_csv("./data/review.csv")
-persons = pd.read_csv("./data/person.csv")
+from models.DataService import DataService
 
-q1 = pd.read_csv("./output/q1.csv")
-q2 = pd.read_csv("./output/q2.csv")
-q3 = pd.read_csv("./output/q3.csv")
-q4 = pd.read_csv("./output/q4.csv")
-q5 = pd.read_csv("./output/q5.csv")
-q6 = pd.read_csv("./output/q6.csv")
-q7 = pd.read_csv("./output/q7.csv")
-q8 = pd.read_csv("./output/q8.csv")
-q9 = pd.read_csv("./output/q9.csv")
-q10 = pd.read_csv("./output/q10.csv")
-q11 = pd.read_csv("./output/q11.csv")
-q12 = pd.read_csv("./output/q12.csv")
-q13 = pd.read_csv("./output/q13.csv")
-q14 = pd.read_csv("./output/q14.csv")
-q15 = pd.read_csv("./output/q15.csv")
-q16 = pd.read_csv("./output/q16.csv")
-q17 = pd.read_csv("./output/q17.csv")
-q18 = pd.read_csv("./output/q18.csv")
-q19 = pd.read_csv("./output/q19.csv")
+dataService = DataService()
+
+beers = dataService.beer
+brewers = dataService.brewer
+reviews = dataService.review
+persons = dataService.person
+
+q1 = pd.read_csv("./clean_output/q1.csv")
+q2 = pd.read_csv("./clean_output/q2.csv")
+q3 = pd.read_csv("./clean_output/q3.csv")
+q4 = pd.read_csv("./clean_output/q4.csv")
+q5 = pd.read_csv("./clean_output/q5.csv")
+q6 = pd.read_csv("./clean_output/q6.csv")
+q7 = pd.read_csv("./clean_output/q7.csv")
+q8 = pd.read_csv("./clean_output/q8.csv")
+q9 = pd.read_csv("./clean_output/q9.csv")
+q10 = pd.read_csv("./clean_output/q10.csv")
+q11 = pd.read_csv("./clean_output/q11.csv")
+q12 = pd.read_csv("./clean_output/q12.csv")
+q13 = pd.read_csv("./clean_output/q13.csv")
+q14 = pd.read_csv("./clean_output/q14.csv")
+q15 = pd.read_csv("./clean_output/q15.csv")
+q16 = pd.read_csv("./clean_output/q16.csv")
+q17 = pd.read_csv("./clean_output/q17.csv")
+q18 = pd.read_csv("./clean_output/q18.csv")
+q19 = pd.read_csv("./clean_output/q19.csv")
 
 # Rename the Count column in each dataframe to be unique
 q7 = q7.rename(columns={' Count': 'Count appearance'})
@@ -87,7 +91,7 @@ def displayRecommender():
             ['beer 1', 'beer 2', 'beer 3', 'beer 4'],None)    
         count = st.number_input('How many beers will you like to be recommended', step=1)
 
-    st.button('Submit', on_click=lambda : OnClick(f'Submit', num=0))
+    st.button('Submit', on_click=lambda : OnClick('Submit', num=0))
 
 def OnClick(key, num):
     st.session_state.toView = key
@@ -127,7 +131,7 @@ def displayEDA():
         
         num_rows = 0
 
-    st.button('Show', on_click=lambda : OnClick(f'{value}', num=num_rows))
+    st.button('Show', on_click=lambda : OnClick('{}'.format(value), num=num_rows))
 
 
 def runData():
@@ -440,9 +444,9 @@ def showMain():
         chart_data = pivot_df.loc[selected_users].T
         st.line_chart(chart_data)
 
-        st.markdown(f"**X-axis Label:** Year")
-        st.markdown(f"**Y-axis Label:** Number of Reviews")
-        st.markdown(f"**Title:** Number of Reviews per Year")
+        st.markdown("**X-axis Label:** Year")
+        st.markdown("**Y-axis Label:** Number of Reviews")
+        st.markdown("**Title:** Number of Reviews per Year")
     elif st.session_state.toView == "Query 15":
         st.markdown('---')
         st.header("Exploratory Data Analysis")
@@ -458,9 +462,9 @@ def showMain():
         chart_data = pivot_df.loc[selected_beers].T
         st.line_chart(chart_data)
 
-        st.markdown(f"**X-axis Label:** Date")
-        st.markdown(f"**Y-axis Label:** Number of Reviews")
-        st.markdown(f"**Title:** Number of Reviews per Date")
+        st.markdown("**X-axis Label:** Date")
+        st.markdown("**Y-axis Label:** Number of Reviews")
+        st.markdown("**Title:** Number of Reviews per Date")
     elif st.session_state.toView == "Query 16":
         st.markdown('---')
         st.header("Exploratory Data Analysis")
@@ -521,9 +525,9 @@ def showMain():
             # chart_data = pivot_df.loc[selected_breweries].T
             st.bar_chart(breweries_df, x="Brewery name", y=" Number of mentions")
 
-            st.markdown(f"**X-axis Label:** Breweries")
-            st.markdown(f"**Y-axis Label:** Number of Mentions")
-            st.markdown(f"**Title:** Number of Reviews per Brewery")
+            st.markdown("**X-axis Label:** Breweries")
+            st.markdown("**Y-axis Label:** Number of Mentions")
+            st.markdown("**Title:** Number of Reviews per Brewery")
     elif st.session_state.toView == "Query 19":
         st.markdown('---')
         st.header("Exploratory Data Analysis")
@@ -539,9 +543,9 @@ def showMain():
         chart_data = pivot_df.loc[selected_styles].T
         st.line_chart(chart_data)
 
-        st.markdown(f"**X-axis Label:** Year")
-        st.markdown(f"**Y-axis Label:** Average rating")
-        st.markdown(f"**Title:** Average rating per Year")
+        st.markdown("**X-axis Label:** Year")
+        st.markdown("**Y-axis Label:** Average rating")
+        st.markdown("**Title:** Average rating per Year")
     elif st.session_state.toView == "Submit":
         runData()
 
