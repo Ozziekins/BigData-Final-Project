@@ -6,7 +6,7 @@ cat /root/q1/* >> output/q1.csv
 echo "Brewers with 1 beer" > output/q2.csv
 cat /root/q2/* >> output/q2.csv
 
-echo "Beer id, Beer name, Average review" > output/q3.csv
+echo "Beer id, Beer name, Average review, Brewery id, Brewery name" > output/q3.csv
 cat /root/q3/* >> output/q3.csv
 
 echo "Beer id, Beer name, Beer abv, Beer style, Brewer id" > output/q4.csv
@@ -44,3 +44,15 @@ cat /root/q14/* >> output/q14.csv
 
 echo "Beer name, Date, Number of reviews" > output/q15.csv
 cat /root/q15/* >> output/q15.csv
+
+echo "Beer abv, Average rating" > output/q16.csv
+cat /root/q16/* >> output/q16.csv
+
+echo "Beer style, Beer name, Total rating" > output/q17.csv
+cat /root/q17/* >> output/q17.csv
+
+echo "Brewery name, Number of mentions" > output/q18.csv
+cat /root/q18/* >> output/q18.csv
+
+echo "Beer style, Year, Avergae rating" > output/q19.csv
+cat /root/q19/* >> output/q19.csv

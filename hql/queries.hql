@@ -17,20 +17,32 @@ FROM (SELECT brewerId FROM beer
 GROUP BY brewerId
 HAVING COUNT(*) = 1) t1;
 
+-- Get the average total review
+SELECT AVG(r.total) AS avg_total
+FROM review r;
+
 -- Get the beers that have above average overall review
 INSERT OVERWRITE LOCAL DIRECTORY '/root/q3' ROW FORMAT DELIMITED 
 FIELDS TERMINATED BY ','
-SELECT b.id AS beerid, b.name, AVG(r.total) AS avg_total
+SELECT b.id AS beerid, b.name, AVG(r.total) AS avg_total, br.id, br.brewery_name
 FROM beer b
+JOIN brewer br on b.brewerId = br.id
 JOIN review r ON b.id = r.beerId
 JOIN (
   SELECT AVG(total) AS avg_total
   FROM review
 ) t1
 WHERE r.total > t1.avg_total
-GROUP BY b.id, b.name;
+GROUP BY b.id, b.name, br.id, br.brewery_name
+ORDER BY avg_total DESC;
 
--- Get beer with highest abv; Get beer with least abv
+-- min abv
+SELECT MIN(b1.abv) AS min_abv FROM beer AS b1;
+
+-- max abv
+SELECT MAX(b1.abv) AS max_abv FROM beer AS b1;
+
+-- Get beer with least abv; Get beer with highest abv
 INSERT OVERWRITE LOCAL DIRECTORY '/root/q4' ROW FORMAT DELIMITED 
 FIELDS TERMINATED BY ','
 SELECT * FROM beer WHERE abv IN (SELECT MIN(b1.abv) FROM beer AS b1);
@@ -127,3 +139,42 @@ GROUP BY
   date_format(from_unixtime(CAST((r.time / 1000) AS BIGINT)), 'yyyy-MM')
 ORDER BY
   num_reviews DESC;
+
+-- Get the average rating of beers by abv
+INSERT OVERWRITE LOCAL DIRECTORY '/root/q16' ROW FORMAT DELIMITED 
+FIELDS TERMINATED BY ','
+SELECT b.abv, AVG(r.total) AS avg_rating
+FROM Beer b
+JOIN Review r ON b.id = r.beerId
+GROUP BY b.abv;
+
+-- Get the top-rated beers by style
+INSERT OVERWRITE LOCAL DIRECTORY '/root/q17' ROW FORMAT DELIMITED 
+FIELDS TERMINATED BY ','
+SELECT style, name, total
+FROM (
+  SELECT b.style, b.name, r.total,
+         ROW_NUMBER() OVER (PARTITION BY b.style ORDER BY r.total DESC) AS rank
+  FROM Beer b
+  JOIN Review r ON b.id = r.beerId
+) ranked
+WHERE rank = 1;
+
+-- Get the breweries which are mentioned most often in positive reviews (aka >4)
+INSERT OVERWRITE LOCAL DIRECTORY '/root/q18' ROW FORMAT DELIMITED 
+FIELDS TERMINATED BY ','
+SELECT br.brewery_name, COUNT(*) AS num_mentions
+FROM Brewer br
+JOIN Beer b ON br.id = b.brewerId
+JOIN Review r ON b.id = r.beerId
+WHERE r.total > 4.0
+GROUP BY br.brewery_name
+ORDER BY num_mentions DESC;
+
+-- Get how the popularity of different beer styles changed over years
+INSERT OVERWRITE LOCAL DIRECTORY '/root/q19' ROW FORMAT DELIMITED 
+FIELDS TERMINATED BY ','
+SELECT b.style, date_format(from_unixtime(CAST((r.time / 1000) AS BIGINT)), 'yyyy') AS year, AVG(r.total) AS avg_rating
+FROM Beer b
+JOIN Review r ON b.id = r.beerId
+GROUP BY b.style, date_format(from_unixtime(CAST((r.time / 1000) AS BIGINT)), 'yyyy');
