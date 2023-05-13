@@ -2,21 +2,21 @@ SET hive.execution.engine=mr;
 
 USE projectdb;
 
-DROP TABLE IF EXISTS review_buck;
-DROP TABLE IF EXISTS beer_buck;
-DROP TABLE IF EXISTS brewer_buck;
-DROP TABLE IF EXISTS person_buck;
+DROP TABLE IF EXISTS review_buck purge;
+DROP TABLE IF EXISTS beer_buck purge;
+DROP TABLE IF EXISTS brewer_buck purge;
+DROP TABLE IF EXISTS person_buck purge;
 
 SET hive.enforce.bucketing=true;
 
 CREATE EXTERNAL TABLE review_buck(
     id int,
-    appearance decimal(2,2), 
-    aroma decimal(2,2), 
-    palate decimal(2,2), 
-    taste decimal(2,2), 
+    appearance decimal(5,2), 
+    aroma decimal(5,2), 
+    palate decimal(5,2), 
+    taste decimal(5,2), 
     time timestamp, 
-    total decimal(2,2), 
+    total decimal(5,2), 
     beerId int,
     reviewerId int
     ) 
@@ -24,7 +24,9 @@ CREATE EXTERNAL TABLE review_buck(
     STORED AS AVRO LOCATION '/project/review_buck' 
     TBLPROPERTIES ('AVRO.COMPRESS'='SNAPPY');
 
-INSERT INTO review_buck SELECT * FROM review;
+INSERT INTO review_buck SELECT id, cast(appearance as decimal(5, 2)), 
+cast(aroma as decimal(5, 2)),cast(palate as decimal(5, 2)),
+cast(taste as decimal(5, 2)), time,cast(total as decimal(5, 2)), beerId, reviewerId FROM review;
 
 CREATE EXTERNAL TABLE beer_buck(
     id int, 

@@ -14,15 +14,14 @@ def loadModel(filename='alsmodel'):
    else:
        return None
 
-def predictItems(df, numitems, filename):
-    model = loadModel(filename)
+def predictItems(df, numitems, model):
     if(model is not None):
-    # df = spark.createDataFrame(data=users, schema = ["reviewerid"])
         return model.recommendForUserSubset(df, numitems)['beerid']
     else:
         raise Exception("Model not available")
 
-def predictUsers(df, numusers, filename):
-    model = loadModel(filename)
-    # df = spark.createDataFrame(data=beers, schema = ["beerid"])
-    return model.recommendForItemSubset(df, numusers)['reviewerid']
+def predictUsers(df, numusers, model):
+    if(model is not None):
+        return model.recommendForItemSubset(df, numusers)['reviewerid']
+    else:
+        raise Exception("Model not available")

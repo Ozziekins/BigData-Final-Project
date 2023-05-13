@@ -48,7 +48,7 @@ def train(train_df, overwrite=False, pipelinefilename="pipeline_brph", modelfile
     brp_model = brp.fit(train_transformed)
     if(overwrite):
         brp_model.save(modelfilename)
-    return brp_model
+    return model, brp_model
 
 def load_model(modelfilename, pipelinefilename):
     model, pipeline = None, None
@@ -58,11 +58,10 @@ def load_model(modelfilename, pipelinefilename):
         pipeline = Pipeline.load(pipelinefilename)
     return model, pipeline
 
-def findNearestNeighbour(source_dataset, predict_dataset,modelfilename, pipelinefilename, count = 5):
-    model, pipeline = load_model(modelfilename, pipelinefilename)
+def findNearestNeighbour(source_dataset, predict_dataset,model, pipeline, count = 5):
     if model is not None and pipeline is not None:
         train_transformed = pipeline.transform(source_dataset)
         test_transformed = pipeline.transform(predict_dataset)
         return model.approxNearestNeighbors(train_transformed, test_transformed.first()['scaled_features'], count)
     else:
-        raise Exception("Model Not available")
+        raise Exception("Model or Pipeline Not available")
