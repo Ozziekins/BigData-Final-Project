@@ -2,6 +2,8 @@ from alsmodel import loadModel as loadALSModel, predictItems, predictUsers, trai
 from BRPLKNN import findNearestNeighbour, load_model as loadBRPModel, train as BRPtrain
 from DataService import DataService
 from SparkService import SparkService
+from pyspark.sql.types import StructType,StructField, IntegerType
+
 
 class ModelService:
     def __new__(cls):
@@ -11,14 +13,16 @@ class ModelService:
     
     def __init__(self):
         self.als = loadALSModel()
+        print(self.als)
         self.brpModel, self.brpPipeline = loadBRPModel()
-        self.dataService = DataService()
 
     def retrainALS(self):
+        self.dataService = DataService()
         train_df, test_df = self.dataService.review.randomSplit([0.8, 0.2], 42)
         self.als = ALSTrain(train_df)    
     
     def retrainBRP(self):
+        self.dataService = DataService()
         beer = self.dataService.beer.na.drop()
         agg_dataset = beer.join(self.dataService.brewer,beer.brewerid ==  self.dataService.brewer.id,"inner")
         train_df, test_df = agg_dataset.randomSplit([0.8, 0.2], 42)
@@ -33,12 +37,12 @@ class ModelService:
     
     def predictItems(self, users, numitems):
         spark = SparkService()
-        df = spark.spark.createDataFrame(data=users, schema = ["reviewerid"])
+        df = spark.spark.createDataFrame(data=users, schema =  StructType([StructField("reviewerid", IntegerType(), True)]))
         return predictItems(df, numitems,self.als)
 
     def predictUsers(self, beers, numusers):
         spark = SparkService()
-        df = spark.spark.createDataFrame(data=beers, schema = ["beerid"])
+        df = spark.spark.createDataFrame(data=beers, schema = StructType([StructField("beerid", IntegerType(), True)]))
         return predictUsers(df, numusers, self.als)
 
 

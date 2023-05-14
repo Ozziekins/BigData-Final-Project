@@ -2,6 +2,7 @@ from pyspark.ml.feature import Word2Vec, Tokenizer,StopWordsRemover, StandardSca
 from pyspark.ml import Pipeline
 from pyspark.ml.feature import VectorAssembler, BucketedRandomProjectionLSH
 import os
+from definitions import ROOT_DIR
 
 
 def init_pipeline():
@@ -34,7 +35,7 @@ def init_pipeline():
     return pipeline
 
 
-def train(train_df, overwrite=False, pipelinefilename="pipeline_brph", modelfilename='model_brph'):
+def train(train_df, overwrite=True, pipelinefilename="pipeline_brph", modelfilename='model_brph'):
     # beer = beer.na.drop()
     # agg_dataset = beer.join(brewer,beer.brewerid ==  brewer.id,"inner")
     # train_df, test_df = agg_dataset.randomSplit([0.8, 0.2])
@@ -50,7 +51,7 @@ def train(train_df, overwrite=False, pipelinefilename="pipeline_brph", modelfile
         brp_model.save(modelfilename)
     return model, brp_model
 
-def load_model(modelfilename, pipelinefilename):
+def load_model(modelfilename='model_brph', pipelinefilename="pipeline_brph"):
     model, pipeline = None, None
     if os.path.exists(modelfilename):
         model = BucketedRandomProjectionLSH.load(modelfilename)

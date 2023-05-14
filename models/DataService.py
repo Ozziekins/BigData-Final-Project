@@ -9,19 +9,19 @@ class DataService(object):
         return cls.instance
     
     def __init__(self):
-        spark = SparkService()  
-        print(spark.spark.catalog.listTables("projectdb"))
+        spark = SparkService() 
 
-        beer = spark.spark.read.format("avro").table('projectdb.beer_buck')
+        beer = spark.spark.read.format("avro").table('projectdb.beer_buck').cache()
         beer.createOrReplaceTempView('beer_buck')
+        
 
-        brewer = spark.spark.read.format("avro").table('projectdb.brewer_buck')
+        brewer = spark.spark.read.format("avro").table('projectdb.brewer_buck').cache()
         brewer.createOrReplaceTempView('brewer_buck')
 
-        person = spark.spark.read.format("avro").table('projectdb.person_buck')
+        person = spark.spark.read.format("avro").table('projectdb.person_buck').cache()
         person.createOrReplaceTempView('person_buck')
 
-        review = spark.spark.read.format("avro").table('projectdb.review_buck')
+        review = spark.spark.read.format("avro").table('projectdb.review_buck').cache()
         review.createOrReplaceTempView('review_buck')
 
         beer = beer.withColumn('name', translate("name","'",""))\

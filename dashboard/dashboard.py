@@ -6,6 +6,9 @@ import time
 from datetime import datetime
 import plotly.express as px
 import matplotlib
+from models.ModelService import ModelService
+
+from models.SparkService import SparkService
 matplotlib.use('agg')
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
@@ -13,8 +16,10 @@ import matplotlib.dates as mdates
 import plotly.figure_factory as ff
 
 from models.DataService import DataService
-
+spark = SparkService()
+        
 dataService = DataService()
+service = ModelService()
 
 beers = dataService.beer
 brewers = dataService.brewer
@@ -48,54 +53,45 @@ q9 = q9.rename(columns={' Count': 'Count total'})
 q10 = q10.rename(columns={' Count': 'Count taste'})
 q11 = q11.rename(columns={' Count': 'Count palate'})
 
-if 'toView' not in st.session_state:
-    st.session_state.toView = ''
+session_state = {}
+if 'toView' not in session_state:
+    session_state['toView'] = ''
 
-if 'headNum' not in st.session_state:
-    st.session_state.headNum = 0
+if 'headNum' not in session_state:
+    session_state['headNum'] = 0
 
 def displayRecommender():
     action = st.selectbox(
         'What action will you like to perform?',
         ('Predict Beers a user will like', 'Predict Users that will like a particular beer', 'Get Beers similar to a particular beer'))
     
-    if action  == 'Predict Beers a user will like':
-        model = st.selectbox(
-            'Which model will you like to use?',
-            ('Best Model', 'ALS', 'Gradient Descent'))
-
-
-        users =  st.multiselect(
+    if action  == 'Predict Beers a user will like': 
+        selected_users =  st.multiselect(
             'What users will you like to make predictions for',
-            ['User 1', 'User 2', 'User 3', 'User 4'],None)
-
-
-        count = st.number_input('How many beers will you like to be recommended', step=1)
-
+            persons.collect(),None)
+        count = int(st.number_input('How many beers will you like to be recommended', step=1, min_value=1, max_value=10))
+        if(st.button('Submit')):
+            session_state['toView'] = 'Submit'
+            session_state['headNum'] = 0
+            with st.spinner("Fetching Data"):
+                user_ids = [[int(user.id)] for user in selected_users]
+                print(user_ids)
+                result = service.predictItems(user_ids,count)
+                st.title("Recommendation")
+                st.table(result)
     elif action  == 'Predict Users that will like a particular beer':
-        model = st.selectbox(
-            'Which model will you like to use?',
-            ('Best Model', 'ALS', 'Gradient Descent'))
-
-
-        users =  st.multiselect(
+        selected_beers =  st.multiselect(
             'What beers will you like to make predictions for',
-            ['beer 1', 'beer 2', 'beer 3', 'beer 4'],None)
+            beers.collect(),None)
 
-
-        count = st.number_input('How many beers will you like to be recommended', step=1)
+        count = st.number_input('How many beers will you like to be recommended', step=1, min_value=1, max_value=10)
 
     elif action  == 'Get Beers similar to a particular beer':
-        beers =  st.multiselect(
+        selected_beers =  st.multiselect(
             'What beers will you like to make predictions for',
-            ['beer 1', 'beer 2', 'beer 3', 'beer 4'],None)    
-        count = st.number_input('How many beers will you like to be recommended', step=1)
+            beers.collect(),None)    
+        count = st.number_input('How many beers will you like to be recommended', step=1, min_value=1, max_value=10)
 
-    st.button('Submit', on_click=lambda : OnClick('Submit', num=0))
-
-def OnClick(key, num):
-    st.session_state.toView = key
-    st.session_state.headNum = num
 
 def displayEDA():
     action = st.selectbox(
@@ -113,7 +109,7 @@ def displayEDA():
             ('Beers', 'Brewers', 'Reviews', 'Persons'))
         
         
-        num_rows = st.number_input('How many rows will you like to be shown', step=1)
+        session_state['headNum'] = int(st.number_input('How many rows will you like to be shown', step=1, min_value=1, max_value=10,value=1))
 
 
     elif action  == 'View the results of queries':
@@ -129,12 +125,15 @@ def displayEDA():
              'Query 7 - 11', 'Query 12', 'Query 13', 'Query 14', 'Query 15', 
              'Query 16', 'Query 17', 'Query 18', 'Query 19'))
         
-        num_rows = 0
 
-    st.button('Show', on_click=lambda : OnClick('{}'.format(value), num=num_rows))
+    if(st.button('Show')):
+        session_state['toView'] = value
 
 
 def runData():
+    user_ids = [user.id for user in users]
+    result = service.predictItems([[11130],[3711]],5)
+    print(user_ids)
     df = pd.DataFrame(
     np.random.randn(10, 20),
     columns=('col %d' % i for i in range(20)))
@@ -144,14 +143,10 @@ def runData():
         time.sleep(5)
     st.dataframe(df.style.highlight_max(axis=0))
 
-with st.sidebar:
-    with st.expander("Exploratory data analysis"):
-        st.write("Here, we list different exploratory data analysis actions")
-        displayEDA()
-    with st.expander("Recommendation System"):
-        st.write("Different Recommendation tasks")
-        displayRecommender()
-
+st.write("Here, we list different exploratory data analysis actions")
+displayEDA()
+st.write("Different Recommendation tasks")
+displayRecommender()
 def showMain():
     st.markdown('---')
     st.title("Big Data Project **2023**")
@@ -169,65 +164,66 @@ def showMain():
     # https://img.freepik.com/premium-vector/craft-beer-illustration_132292-126.jpg?w=2000
     # st.markdown("<p style='text-align: center; color: grey;'>Beer Reviews</p>", unsafe_allow_html=True)
     
-    if st.session_state.toView == "dda":
+    if session_state['toView'] == "dda":
         st.markdown('---')
         st.header('Descriptive Data Analysis')
         st.subheader('Data Characteristics')
         with st.spinner("Fetching Data"):
             time.sleep(5)
-        dda = pd.DataFrame(data = [["Beers", beers.shape[0], beers.shape[1]], ["Brewers", brewers.shape[0], brewers.shape[1]],  
-                                         ["Reviews", reviews.shape[0], reviews.shape[1]],  ["Persons", persons.shape[0], persons.shape[1]]], 
-                                         columns = ["Tables", "Features", "Instances"])
+        
+        dda = pd.DataFrame(data = [["Beers", beers.count(), len(beers.columns)], ["Brewers", brewers.count(), len(brewers.columns)],  
+                                         ["Reviews", reviews.count(), len(reviews.columns)],  ["Persons", persons.count(), len(persons.columns)]], 
+                                         columns = ["Tables", "Instances", "Features"])
         st.write(dda)
 
         st.markdown('`beers` table')
-        st.write(beers.describe())
+        st.write(pd.DataFrame(beers.describe().collect(), columns=['summary']+beers.columns))
         st.markdown('`brewers` table')
-        st.write(brewers.describe())
-        st.markdown('`reviews` table')
-        st.write(reviews.describe())
+        st.write(pd.DataFrame(brewers.describe().collect(), columns=['summary']+brewers.columns))
+        st.markdown('`reviews` table')      
+        st.write(pd.DataFrame(reviews.describe().collect(), columns=['summary']+[i for i in reviews.columns if i != "time"]))
         st.markdown('`persons` table')
-        st.write(persons.describe())
+        st.write(pd.DataFrame(persons.describe().collect(), columns=['summary']+persons.columns))
 
-    elif st.session_state.toView == "Beers":
+    elif session_state['toView'] == "Beers":
         st.markdown('---')
         st.header('Some samples from the data')
         with st.spinner("Fetching Data"):
             time.sleep(5)
         st.subheader('`beers` table')
-        st.write(beers.head(st.session_state.headNum))
-    elif st.session_state.toView == "Brewers":
+        st.table(pd.DataFrame(beers.take(session_state['headNum']), columns=beers.columns))
+    elif session_state['toView'] == "Brewers":
         st.markdown('---')
         st.header('Some samples from the data')
         with st.spinner("Fetching Data"):
             time.sleep(5)
         st.subheader('`brewers` table')
-        st.write(brewers.head(st.session_state.headNum))
-    elif st.session_state.toView == "Reviews":
+        st.table(pd.DataFrame(brewers.take(session_state['headNum']), columns=brewers.columns))
+    elif session_state['toView'] == "Reviews":
         st.markdown('---')
         st.header('Some samples from the data')
         with st.spinner("Fetching Data"):
             time.sleep(5)
         st.subheader('`reviews` table')
-        st.write(reviews.head(st.session_state.headNum))
-    elif st.session_state.toView == "Persons":
+        st.table(pd.DataFrame(reviews.take(session_state['headNum']), columns=reviews.columns))
+    elif session_state['toView'] == "Persons":
         st.markdown('---')
         st.header('Some samples from the data')
         with st.spinner("Fetching Data"):
             time.sleep(5)
         st.subheader('`persons` table')
-        st.write(persons.head(st.session_state.headNum))
+        st.table(pd.DataFrame(persons.take(session_state['headNum']), columns=persons.columns))
 
-    elif st.session_state.toView == "Query 1":
+    elif session_state['toView'] == "Query 1":
         st.markdown('---')
         st.header("Exploratory Data Analysis")
         st.subheader('Q1')
         with st.spinner("Fetching Data"):
             time.sleep(5)
-        st.text('The number of beers for top 10 brewers')
-        st.bar_chart(data=q1, x=' Brewery name')
+        st.text('The number of beers for top 10 brewers') 
+        st.bar_chart(data=q1.set_index(" Brewery name"), height=500)
         st.write(q1)
-    elif st.session_state.toView == "Query 2":
+    elif session_state['toView'] == "Query 2":
         st.markdown('---')
         st.header("Exploratory Data Analysis")
         st.subheader('Q2')
@@ -236,7 +232,7 @@ def showMain():
         st.text('The number of brewers that produced only 1 beer')
         st.table(q2)
         st.bar_chart(q2)
-    elif st.session_state.toView == "Query 3":
+    elif session_state['toView'] == "Query 3":
         st.markdown('---')
         st.header("Exploratory Data Analysis")
         st.subheader('Q3')
@@ -245,7 +241,7 @@ def showMain():
         st.text('The beers that have above average overall review')
         st.line_chart(data=q3, x=' Beer name', y=' Average review')
         st.write(q3)
-    elif st.session_state.toView == "Query 4":
+    elif session_state['toView'] == "Query 4":
         st.markdown('---')
         st.header("Exploratory Data Analysis")
         st.subheader('Q4')
@@ -254,7 +250,7 @@ def showMain():
         st.text('The beers that have the least abv')
         st.bar_chart(data=q4, x=' Beer name', y=' Beer abv')
         st.write(q4)
-    elif st.session_state.toView == "Query 5":
+    elif session_state['toView'] == "Query 5":
         st.markdown('---')
         st.header("Exploratory Data Analysis")
         st.subheader('Q5')
@@ -263,7 +259,7 @@ def showMain():
         st.text('The beers that have the highest abv')
         st.bar_chart(data=q5, x=' Beer name', y=' Beer abv')
         st.write(q5)
-    elif st.session_state.toView == "Query 6":
+    elif session_state['toView'] == "Query 6":
         st.markdown('---')
         st.header("Exploratory Data Analysis")
         st.subheader('Q6')
@@ -272,7 +268,7 @@ def showMain():
         st.text('The styles of top 10 highest reviewed beers')
         st.bar_chart(data=q6, x=' Beer name', y=' Average total review')
         st.write(q6)
-    elif st.session_state.toView == "Query 7 - 11":
+    elif session_state['toView'] == "Query 7 - 11":
         st.markdown('---')
         st.header("Exploratory Data Analysis")
         st.subheader('Q7')
@@ -331,7 +327,7 @@ def showMain():
             ax.pie(q11['Count palate'], labels=q11['Beer palate'], autopct='%1.1f%%', textprops={'fontsize': font_size})
             st.pyplot(fig)
 
-    # elif st.session_state.toView == "Query 8":
+    # elif session_state.toView == "Query 8":
     #     st.markdown('---')
     #     st.header("Exploratory Data Analysis")
     #     st.subheader('Q8')
@@ -340,7 +336,7 @@ def showMain():
     #     st.text('The number of beers for each aroma score')
     #     st.bar_chart(data=q8, x='Beer aroma', y=' Count')
     #     st.write(q8)
-    # elif st.session_state.toView == "Query 9":
+    # elif session_state.toView == "Query 9":
     #     st.markdown('---')
     #     st.header("Exploratory Data Analysis")
     #     st.subheader('Q9')
@@ -349,7 +345,7 @@ def showMain():
     #     st.text('The number of beers for each total score')
     #     st.bar_chart(data=q9, x='Beer total', y=' Count')
     #     st.write(q9)
-    # elif st.session_state.toView == "Query 10":
+    # elif session_state.toView == "Query 10":
     #     st.markdown('---')
     #     st.header("Exploratory Data Analysis")
     #     st.subheader('Q10')
@@ -358,7 +354,7 @@ def showMain():
     #     st.text('The number of beers for each taste score')
     #     st.bar_chart(data=q10, x='Beer taste', y=' Count')
     #     st.write(q10)
-    # elif st.session_state.toView == "Query 11":
+    # elif session_state.toView == "Query 11":
     #     st.markdown('---')
     #     st.header("Exploratory Data Analysis")
     #     st.subheader('Q11')
@@ -367,7 +363,7 @@ def showMain():
     #     st.text('The number of beers for each palate score')
     #     st.bar_chart(data=q11, x='Beer palate', y=' Count')
     #     st.write(q11)
-    elif st.session_state.toView == "Query 12":
+    elif session_state['toView'] == "Query 12":
         st.markdown('---')
         st.header("Exploratory Data Analysis")
         st.subheader('Q12')
@@ -378,7 +374,7 @@ def showMain():
         if beer_name:
             data = q12[q12["Beer name"] == beer_name]
             st.table(data=data)
-    elif st.session_state.toView == "Query 13":
+    elif session_state['toView'] == "Query 13":
         st.markdown('---')
         st.header("Exploratory Data Analysis")
         st.subheader('Q13')
@@ -429,7 +425,7 @@ def showMain():
             # Display the plot
             st.pyplot(fig)
 
-    elif st.session_state.toView == "Query 14":
+    elif session_state['toView'] == "Query 14":
         st.markdown('---')
         st.header("Exploratory Data Analysis")
         st.subheader('Q14')
@@ -447,7 +443,7 @@ def showMain():
         st.markdown("**X-axis Label:** Year")
         st.markdown("**Y-axis Label:** Number of Reviews")
         st.markdown("**Title:** Number of Reviews per Year")
-    elif st.session_state.toView == "Query 15":
+    elif session_state['toView'] == "Query 15":
         st.markdown('---')
         st.header("Exploratory Data Analysis")
         st.subheader('Q15')
@@ -465,7 +461,7 @@ def showMain():
         st.markdown("**X-axis Label:** Date")
         st.markdown("**Y-axis Label:** Number of Reviews")
         st.markdown("**Title:** Number of Reviews per Date")
-    elif st.session_state.toView == "Query 16":
+    elif session_state['toView'] == "Query 16":
         st.markdown('---')
         st.header("Exploratory Data Analysis")
         st.subheader('Q16')
@@ -485,7 +481,7 @@ def showMain():
         )
         st.plotly_chart(fig, theme="streamlit", use_container_width=True)
         # st.table(data=q16)
-    elif st.session_state.toView == "Query 17":
+    elif session_state['toView'] == "Query 17":
         st.markdown('---')
         st.header("Exploratory Data Analysis")
         st.subheader('Q17')
@@ -497,7 +493,7 @@ def showMain():
 
         chart_data = q17.groupby('Beer style')[' Total rating'].sum()
         st.line_chart(chart_data)
-    elif st.session_state.toView == "Query 18":
+    elif session_state['toView'] == "Query 18":
         st.markdown('---')
         st.header("Exploratory Data Analysis")
         st.subheader('Q18')
@@ -528,7 +524,7 @@ def showMain():
             st.markdown("**X-axis Label:** Breweries")
             st.markdown("**Y-axis Label:** Number of Mentions")
             st.markdown("**Title:** Number of Reviews per Brewery")
-    elif st.session_state.toView == "Query 19":
+    elif session_state['toView'] == "Query 19":
         st.markdown('---')
         st.header("Exploratory Data Analysis")
         st.subheader('Q19')
@@ -546,7 +542,7 @@ def showMain():
         st.markdown("**X-axis Label:** Year")
         st.markdown("**Y-axis Label:** Average rating")
         st.markdown("**Title:** Average rating per Year")
-    elif st.session_state.toView == "Submit":
+    elif session_state['toView'] == "Submit":
         runData()
 
 showMain()
