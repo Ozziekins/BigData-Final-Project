@@ -30,7 +30,7 @@ To get started with the project, follow the instructions in the main README file
 - `requirements.txt`: This file lists the required Python packages and their versions for running the project.
 
 ## Collaborative Effort
-This project is a collaborative effort from @CodeSmith and @Ozziekins to put the practice all we have learnt in our Big Data Course and make use of big data technologies to gain valuable insights from beer review data.
+This project is a collaborative effort from [@CodeSmith](https://github.com/AbdulmueezEmiola) and [@Ozziekins](https://github.com/Ozziekins) to put the practice all we have learnt in our Big Data Course and make use of big data technologies to gain valuable insights from beer review data.
 
 **Important Note:** You cannot change the content of the script `main.sh` since it will be used for assessment purposes.
 
