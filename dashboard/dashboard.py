@@ -357,6 +357,8 @@ def displayEDA():
         value = "dda"
 
         num_rows = 0
+        if(st.button('Show')): 
+            session_state['toView'] = value
     
     elif action  == 'Show some snippets from the tables':
         value = st.selectbox(
@@ -366,6 +368,8 @@ def displayEDA():
         
         session_state['headNum'] = int(st.number_input('How many rows will you like to be shown', step=1, min_value=1, max_value=10,value=1))
 
+        if(st.button('Show')): 
+            session_state['toView'] = value
 
     elif action  == 'View the results of queries':
         value =  st.selectbox(
