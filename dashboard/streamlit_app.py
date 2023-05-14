@@ -239,7 +239,10 @@ def showMain():
         with st.spinner("Fetching Data"):
             time.sleep(5)
         st.text('The beers that have above average overall review')
-        st.line_chart(data=q3, x=' Beer name', y=' Average review')
+        
+        num_beers = st.number_input("Enter the number of beers you want to show", step=1)
+        if num_beers:
+            st.line_chart(data=q3.sample(n=num_beers), x=' Beer name', y=' Average review')
         st.write(q3)
     elif st.session_state.toView == "Query 4":
         st.markdown('---')
@@ -271,7 +274,7 @@ def showMain():
     elif st.session_state.toView == "Query 7 - 11":
         st.markdown('---')
         st.header("Exploratory Data Analysis")
-        st.subheader('Q7')
+        st.subheader('Q7 - 11')
         with st.spinner("Fetching Data"):
             time.sleep(5)
 

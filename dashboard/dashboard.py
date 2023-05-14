@@ -239,7 +239,10 @@ def showMain():
         with st.spinner("Fetching Data"):
             time.sleep(5)
         st.text('The beers that have above average overall review')
-        st.line_chart(data=q3, x=' Beer name', y=' Average review')
+
+        num_beers = st.number_input('How many samples will you like to show', step=1, min_value=1, max_value=25, value=10)
+        if num_beers:
+            st.line_chart(data=q3.set_index(" Beer name").sample(n=num_beers)[" Average review"], height=500)
         st.write(q3)
     elif session_state['toView'] == "Query 4":
         st.markdown('---')
@@ -248,7 +251,7 @@ def showMain():
         with st.spinner("Fetching Data"):
             time.sleep(5)
         st.text('The beers that have the least abv')
-        st.bar_chart(data=q4, x=' Beer name', y=' Beer abv')
+        st.bar_chart(data=q4.set_index(' Beer name')[" Beer abv"], height=500)
         st.write(q4)
     elif session_state['toView'] == "Query 5":
         st.markdown('---')
@@ -257,7 +260,7 @@ def showMain():
         with st.spinner("Fetching Data"):
             time.sleep(5)
         st.text('The beers that have the highest abv')
-        st.bar_chart(data=q5, x=' Beer name', y=' Beer abv')
+        st.bar_chart(data=q5.set_index(' Beer name')[" Beer abv"], height=500)
         st.write(q5)
     elif session_state['toView'] == "Query 6":
         st.markdown('---')
@@ -266,66 +269,35 @@ def showMain():
         with st.spinner("Fetching Data"):
             time.sleep(5)
         st.text('The styles of top 10 highest reviewed beers')
-        st.bar_chart(data=q6, x=' Beer name', y=' Average total review')
+        st.bar_chart(data=q6.set_index(' Beer name')[" Average total review"], height=500)
         st.write(q6)
     elif session_state['toView'] == "Query 7 - 11":
         st.markdown('---')
         st.header("Exploratory Data Analysis")
-        st.subheader('Q7')
+        st.subheader('Q7 - 11')
         with st.spinner("Fetching Data"):
             time.sleep(5)
 
-        tab1, tab2 = st.tabs(['Bars', 'Pies'])
+        
+        st.text('The number of beers for each appearance score')
+        st.bar_chart(data=q7.set_index('Beer appearance')["Count appearance"], height=500)
+        st.write(q7)
 
-        with tab1:
+        st.text('The number of beers for each aroma score')
+        st.bar_chart(data=q8.set_index('Beer aroma')["Count aroma"], height=500)
+        st.write(q8)
 
-            st.text('The number of beers for each appearance score')
-            st.bar_chart(data=q7, x='Beer appearance', y='Count appearance')
-            # st.write(q7)
+        st.text('The number of beers for each total score')
+        st.bar_chart(data=q9.set_index('Beer total')["Count total"], height=500)
+        st.write(q9)
 
-            st.text('The number of beers for each aroma score')
-            st.bar_chart(data=q8, x='Beer aroma', y='Count aroma')
-            # st.write(q8)
+        st.text('The number of beers for each taste score')
+        st.bar_chart(data=q10.set_index('Beer taste')["Count taste"], height=500)
+        st.write(q10)
 
-            st.text('The number of beers for each total score')
-            st.bar_chart(data=q9, x='Beer total', y='Count total')
-            # st.write(q9)
-
-            st.text('The number of beers for each taste score')
-            st.bar_chart(data=q10, x='Beer taste', y='Count taste')
-            # st.write(q10)
-
-            st.text('The number of beers for each palate score')
-            st.bar_chart(data=q11, x='Beer palate', y='Count palate')
-            # st.write(q11)
-
-        with tab2:
-            font_size = 6
-
-            st.text('The number of beers for each appearance score')
-            fig, ax = plt.subplots()
-            ax.pie(q7['Count appearance'], labels=q7['Beer appearance'], autopct='%1.1f%%', textprops={'fontsize': font_size})
-            st.pyplot(fig)
-
-            st.text('The number of beers for each aroma score')
-            fig, ax = plt.subplots()
-            ax.pie(q8['Count aroma'], labels=q8['Beer aroma'], autopct='%1.1f%%', textprops={'fontsize': font_size})
-            st.pyplot(fig)
-
-            st.text('The number of beers for each total score')
-            fig, ax = plt.subplots()
-            ax.pie(q9['Count total'], labels=q9['Beer total'], autopct='%1.1f%%', textprops={'fontsize': font_size})
-            st.pyplot(fig)
-
-            st.text('The number of beers for each taste score')
-            fig, ax = plt.subplots()
-            ax.pie(q10['Count taste'], labels=q10['Beer taste'], autopct='%1.1f%%', textprops={'fontsize': font_size})
-            st.pyplot(fig)
-
-            st.text('The number of beers for each palate score')
-            fig, ax = plt.subplots()
-            ax.pie(q11['Count palate'], labels=q11['Beer palate'], autopct='%1.1f%%', textprops={'fontsize': font_size})
-            st.pyplot(fig)
+        st.text('The number of beers for each palate score')
+        st.bar_chart(data=q11.set_index('Beer palate')["Count palate"], height=500)
+        st.write(q11)
 
     # elif session_state.toView == "Query 8":
     #     st.markdown('---')
@@ -387,9 +359,9 @@ def showMain():
              'Show for particular reviewer'))
         
         if opt == "Randomly":
-            num_reviewers = st.number_input("Enter the number of reviewers you want to compare", step=1)
+            num_reviewers = st.number_input("Enter the number of reviewers you want to compare", step=1, min_value=1, max_value=25, value=10)
             if num_reviewers:
-                st.bar_chart(data=q13.sample(n=num_reviewers), x="Profile name", y=" Number of reviews")
+                st.bar_chart(data=q13.set_index("Profile name").sample(n=num_reviewers)[" Number of reviews"], height=500)
         elif opt == "Show for particular reviewer":
 
             reviewer_name = st.selectbox("Select User", q13["Profile name"])
@@ -438,7 +410,7 @@ def showMain():
         pivot_df = users_df.pivot(index="Profile name", columns=" Year", values=" Number of reviews")
 
         chart_data = pivot_df.loc[selected_users].T
-        st.line_chart(chart_data)
+        st.line_chart(chart_data, height=500)
 
         st.markdown("**X-axis Label:** Year")
         st.markdown("**Y-axis Label:** Number of Reviews")
@@ -456,7 +428,7 @@ def showMain():
         pivot_df = users_df.pivot(index="Beer name", columns=" Date", values=" Number of reviews")
 
         chart_data = pivot_df.loc[selected_beers].T
-        st.line_chart(chart_data)
+        st.line_chart(chart_data, height=500)
 
         st.markdown("**X-axis Label:** Date")
         st.markdown("**Y-axis Label:** Number of Reviews")
@@ -492,7 +464,7 @@ def showMain():
         st.table(data=q17)
 
         chart_data = q17.groupby('Beer style')[' Total rating'].sum()
-        st.line_chart(chart_data)
+        st.line_chart(chart_data, height=500)
     elif session_state['toView'] == "Query 18":
         st.markdown('---')
         st.header("Exploratory Data Analysis")
@@ -508,18 +480,18 @@ def showMain():
              'Show for particular breweries'))
         
         if opt == "Top five":
-             st.bar_chart(data=q18.head(5), x="Brewery name", y=" Number of mentions")
+             st.bar_chart(data=q18.set_index("Brewery name").head(5)[" Number of mentions"], height=500)
         elif opt == "Randomly":
             num_brewers = st.number_input("Enter the number of brewers you want to display", step=1)
             if num_brewers:
-                st.bar_chart(data=q18.sample(n=num_brewers), x="Brewery name", y=" Number of mentions")
+                st.bar_chart(data=q18.set_index("Brewery name").sample(n=num_brewers)[" Number of mentions"], height=500)
         elif opt == "Show for particular breweries":
             selected_breweries = st.multiselect("Select Users", q18["Brewery name"])
             breweries_df = q18[q18["Brewery name"].isin(selected_breweries)]
             # pivot_df = breweries_df.pivot(index="Brewery name", columns=" Brewery name", values=" Number of mentions")
 
             # chart_data = pivot_df.loc[selected_breweries].T
-            st.bar_chart(breweries_df, x="Brewery name", y=" Number of mentions")
+            st.bar_chart(breweries_df.set_index("Brewer name")[" Number of mentions"], height=500)
 
             st.markdown("**X-axis Label:** Breweries")
             st.markdown("**Y-axis Label:** Number of Mentions")
@@ -537,7 +509,7 @@ def showMain():
         pivot_df = styles_df.pivot(index="Beer style", columns=" Year", values=" Average rating")
 
         chart_data = pivot_df.loc[selected_styles].T
-        st.line_chart(chart_data)
+        st.line_chart(chart_data, height=500)
 
         st.markdown("**X-axis Label:** Year")
         st.markdown("**Y-axis Label:** Average rating")
