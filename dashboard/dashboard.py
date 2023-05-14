@@ -67,7 +67,7 @@ if 'headNum' not in session_state:
 def displayRecommender():
     action = st.selectbox(
         'What action will you like to perform?',
-        ('Predict Beers a user will like', 'Predict Users that will like a particular beer', 'Get Beers similar to a particular beer', 'Predict rating for a particular beer'))
+        ('Predict Beers a user will like', 'Predict Users that will like a particular beer', 'Get Beers similar to a particular beer'))
     
     if action  == 'Predict Beers a user will like': 
         selected_users =  st.selectbox(
@@ -105,17 +105,6 @@ def displayRecommender():
                 st.title("Recommendation")
                 st.table(pd.DataFrame(result, columns=['id','name','abv','style','brewery_name']))
                 # st.table(pd.DataFrame(result[0]['recommendations'], columns=['User Id', 'Predicted Rating']))
-    elif action == 'Predict rating for a particular beer':
-        selected_beers =  st.selectbox(
-            'What beers will you like to make predictions for',
-            beers.collect())    
-        if(st.button('Submit')):
-            with st.spinner("Fetching Data"):
-                beer_ids = [selected_beers['id']]
-                result = service.rateBeers(beer_ids)
-                st.title("Recommendation")
-                st.table(pd.DataFrame(result['predictions']))
-
 
 def showQuery(value):
     if value == "Persons":
