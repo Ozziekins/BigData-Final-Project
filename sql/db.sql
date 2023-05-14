@@ -52,7 +52,7 @@ CREATE TEMP TABLE temp(
     beer_beerid text
 );
 
-\COPY temp FROM '/data/beer_reviews.csv' DELIMITER ',' CSV HEADER NULL AS 'null';
+\COPY temp FROM '../data/beer_reviews.csv' DELIMITER ',' CSV HEADER NULL AS 'null';
 
 INSERT INTO Brewer (id, brewery_name)
 SELECT DISTINCT (brewery_id)::integer, brewery_name

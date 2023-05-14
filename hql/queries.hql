@@ -45,11 +45,11 @@ SELECT MAX(b1.abv) AS max_abv FROM beer AS b1;
 -- Get beer with least abv; Get beer with highest abv
 INSERT OVERWRITE LOCAL DIRECTORY '/root/q4' ROW FORMAT DELIMITED 
 FIELDS TERMINATED BY ','
-SELECT * FROM beer WHERE abv IN (SELECT MIN(b1.abv) FROM beer AS b1);
+SELECT * FROM beer WHERE abv IN (SELECT MIN(CAST(b1.abv AS DECIMAL(5, 2))) FROM beer AS b1);
 
 INSERT OVERWRITE LOCAL DIRECTORY '/root/q5' ROW FORMAT DELIMITED 
 FIELDS TERMINATED BY ','
-SELECT * FROM beer WHERE abv IN (SELECT MAX(b1.abv) FROM beer AS b1);
+SELECT * FROM beer WHERE abv IN (SELECT MAX(CAST(b1.abv AS DECIMAL(5, 2))) FROM beer AS b1);
 
 --  Get styles of top 10 highest reviewed beers
 INSERT OVERWRITE LOCAL DIRECTORY '/root/q6' ROW FORMAT DELIMITED 

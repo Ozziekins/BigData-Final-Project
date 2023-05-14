@@ -178,12 +178,23 @@ def showMain():
 
         st.markdown('`beers` table')
         st.write(beers.describe())
+        beer_box = beers.boxplot(meanline=True, showmeans=True)
+        st.pyplot(beer_box.figure)
+
         st.markdown('`brewers` table')
         st.write(brewers.describe())
+        brewer_box = brewers.boxplot(meanline=True, showmeans=True)
+        st.pyplot(brewer_box.figure)
+
         st.markdown('`reviews` table')
         st.write(reviews.describe())
+        review_box = reviews[["review.id"]].boxplot(meanline=True, showmeans=True)
+        st.pyplot(review_box.figure)
+
         st.markdown('`persons` table')
         st.write(persons.describe())
+        person_box = persons.boxplot(meanline=True, showmeans=True)
+        st.pyplot(person_box.figure)
 
     elif st.session_state.toView == "Beers":
         st.markdown('---')
@@ -454,7 +465,9 @@ def showMain():
             time.sleep(5)
         st.text('The beer reviews over time for a particular beer')
 
-        selected_beers = st.multiselect("Select Beers", q15["Beer name"])
+        num_beers = st.number_input("Enter the number of beers you want to display", step=1)
+
+        selected_beers = q15["Beer name"].sample(n=num_beers)
         users_df = q15[q15["Beer name"].isin(selected_beers)]
         pivot_df = users_df.pivot(index="Beer name", columns=" Date", values=" Number of reviews")
 

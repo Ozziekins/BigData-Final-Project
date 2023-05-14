@@ -27,6 +27,8 @@ To get started with the project, follow the instructions in the main README file
 - `sql`: The SQL folder includes the db.sql file, which contains SQL statements for creating the database and importing the dataset CSV files into it.
 - `.gitignore`: This file specifies which files and directories should be ignored by Git version control.
 - `main.sh`: The main shell script provides a convenient way to execute different stages of the project pipeline.
+- `presentation.pdf`: This file contains the slides for the video presentation to be made.
+- `report.pdf`: This file contains the full report of the project.
 - `requirements.txt`: This file lists the required Python packages and their versions for running the project.
 
 ## Collaborative Effort

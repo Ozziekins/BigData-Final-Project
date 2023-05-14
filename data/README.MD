@@ -3,6 +3,7 @@
 This folder contains the dataset files used in the project. The dataset comprises four files: beer.csv, brewer.csv, person.csv, and review.csv. These files contain relevant information about beers, brewers, persons, and reviews, respectively.
 
 ### Dataset Files
+- `beer_reviews.csv`: This file contains the original dataset retrieved from [kaggle](https://www.kaggle.com/datasets/rdoume/beerreviews)
 - `beer.csv`: This file contains details about different beers, including their ID, name, ABV (Alcohol By Volume), and style.
 - `brewer.csv`: This file provides information about brewers, such as their ID and brewery name.
 - `person.csv`: This file includes data related to persons, including their ID and profile name.
