@@ -1,4 +1,5 @@
 #!/bin/bash
+
 psql -U postgres -d project -f ../sql/db.sql
 
 wget https://jdbc.postgresql.org/download/postgresql-42.6.0.jar --no-check-certificate

@@ -8,7 +8,9 @@ This folder contains various scripts and modules related to the models used in o
 - `DataService.py`: This module defines the DataService class, which handles data-related operations and provides access to the datasets used in the project. It includes functions for loading and preprocessing the data, as well as creating Spark views for easy querying.
 definitions.py: This module defines the ROOT_DIR constant, which represents the root directory of the project. It is used to specify file paths and ensure portability across different environments.
 - `ModelService.py`: This module implements the ModelService class, which acts as a central service for managing and utilizing the trained models. It provides functions for retraining the models, making predictions, and finding similar items or users based on the trained models.
+- `regressionmodel.py`: This module contains the implementation of the ALinear Regression model for predictive purposes. It includes functions for training the model, saving and loading the trained model, and making predictions based on the trained model.
 - `SparkService.py`: This module defines the SparkService class, which handles the initialization of the SparkSession and provides the Spark context for the project. It ensures the proper configuration and setup of Spark for data processing and model training.
+- `train.py`: This module contains the implementation of all model trainings.
 
 ### Usage
 To use the modules and scripts in this folder effectively, follow these steps:
