@@ -34,6 +34,9 @@ To get started with the project, follow the instructions in the main README file
 ## Collaborative Effort
 This project is a collaborative effort from [@CodeSmith](https://github.com/AbdulmueezEmiola) and [@Ozziekins](https://github.com/Ozziekins) to put the practice all we have learnt in our Big Data Course and make use of big data technologies to gain valuable insights from beer review data.
 
+# [IMPORTANT]
+The script output.sh will produce everything as per the stage requirements. However, Due to the fact that some of our beer names have comma in them and that we use `collect_list` in some queries; the csv files you receive will most likely get some errors. As such, we have cleaned up all output and them into the output direvtory of this repo. Please copy the content of this output file from your local directory to the vm using: `scp -P 2222 /path/to/output/folder/in/cloned/repo/* root@localhost:~/clean_output`.
+
 **Important Note:** You cannot change the content of the script `main.sh` since it will be used for assessment purposes.
 
 **Another Note:** The notebooks in `notebooks/` folder are used only for learning purposes since you need to put all Python scripts of the pipeline in `scripts/` folder. During the assessment, the grader can delete the folder `notebooks/` to check that your pipeline does not depend on its content.
