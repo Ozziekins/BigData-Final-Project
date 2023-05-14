@@ -13,26 +13,28 @@ class ModelService:
     
     def __init__(self):
         self.als = loadALSModel()
-        print(self.als)
         self.brpModel, self.brpPipeline = loadBRPModel()
-
+        
     def retrainALS(self):
-        self.dataService = DataService()
-        train_df, test_df = self.dataService.review.randomSplit([0.8, 0.2], 42)
+        dataService = DataService()
+        train_df, test_df = dataService.review.randomSplit([0.8, 0.2], 42)
         self.als = ALSTrain(train_df)    
     
     def retrainBRP(self):
-        self.dataService = DataService()
-        beer = self.dataService.beer.na.drop()
-        agg_dataset = beer.join(self.dataService.brewer,beer.brewerid ==  self.dataService.brewer.id,"inner")
+        dataService = DataService()
+        beer = dataService.beer.na.drop()
+        agg_dataset = beer.join(dataService.brewer,beer.brewerid ==  dataService.brewer.id,"inner")
         train_df, test_df = agg_dataset.randomSplit([0.8, 0.2], 42)
         self.brpPipeline, self.brpModel = BRPtrain(train_df)
     
     def similarItems(self, items, count):
-        beer = self.dataService.beer.na.drop()
-        agg_dataset = beer.join(self.dataService.brewer,beer.brewerid ==  self.dataService.brewer.id,"inner")
-        source_dataset = agg_dataset[~agg_dataset['beer.id'].isin(items)].count()
-        items_dataset = agg_dataset[agg_dataset['beer.id'].isin(items)].count()
+        spark = SparkService()
+
+        dataService = DataService()
+        beer_to_search = dataService.beer[dataService.beer['id'].isin(items)]
+        beer_to_search_from = dataService.beer[dataService.beer['id'].isin(items) == False].na.drop()
+        items_dataset = beer_to_search.join(dataService.brewer,beer_to_search.brewerid ==  dataService.brewer.id,"inner")
+        source_dataset = beer_to_search_from.join(dataService.brewer,beer_to_search_from.brewerid ==  dataService.brewer.id,"inner")
         return findNearestNeighbour(source_dataset,items_dataset,self.brpModel,self.brpPipeline, count)
     
     def predictItems(self, users, numitems):

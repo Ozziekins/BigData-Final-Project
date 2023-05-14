@@ -17,7 +17,6 @@ def loadModel(filename=file):
        model = ALSModel.load(filename)
        return model
     except Exception as ex:
-        print(ex)
         return None
 
 def predictItems(df, numitems, model):

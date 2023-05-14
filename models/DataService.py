@@ -13,16 +13,19 @@ class DataService(object):
 
         beer = spark.spark.read.format("avro").table('projectdb.beer_buck').cache()
         beer.createOrReplaceTempView('beer_buck')
-        
+        beer.alias('beer')    
 
         brewer = spark.spark.read.format("avro").table('projectdb.brewer_buck').cache()
         brewer.createOrReplaceTempView('brewer_buck')
+        brewer.alias('brewer')
 
         person = spark.spark.read.format("avro").table('projectdb.person_buck').cache()
         person.createOrReplaceTempView('person_buck')
+        person.alias('person')
 
         review = spark.spark.read.format("avro").table('projectdb.review_buck').cache()
         review.createOrReplaceTempView('review_buck')
+        review.alias('review')
 
         beer = beer.withColumn('name', translate("name","'",""))\
         .withColumn('style', translate("style","'",""))\
